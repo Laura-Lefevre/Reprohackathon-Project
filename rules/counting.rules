@@ -1,0 +1,18 @@
+#!/bin/bash
+
+rule featureCounts:
+    input: 
+        bam= expand("sample/{{sample}}.bam", sample=SAMPLES)
+        gtf = "ref/*.gtf"
+
+    Output:
+        counts="output/featureCounts/{sample}_counts.txt"
+    threads: 4
+    #container:  a complete/path/to/container.sif
+    shell:
+        """
+        featureCounts -t gene -g ID -s 1\
+        -a {input.gtf} \
+        -o {output.counts} \
+        {input.bam}
+        """
