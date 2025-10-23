@@ -1,0 +1,40 @@
+#!/bin/bash
+
+sudo apt install -y sra-toolkit
+
+# List of SRRs to download
+# automatiser ensuite ?
+SRR_LIST=(
+    SRR10510434
+    SRR10510435
+    SRR10510436
+    SRR10510437
+    SRR10510438
+    SRR10510439
+)
+
+# Output folder
+OUTDIR=~/data/mydatalocal
+
+# Number of threads to use
+THREADS=4
+
+# Loop on each SRR
+for SRR in "${SRR_LIST[@]}"; do
+    echo "Downloading $SRR"
+    
+    # Delete the existing file if there is one
+    if [ -f "$OUTDIR/$SRR.fastq" ]; then
+        echo "Existing file detected: deleting $OUTDIR/$SRR.fastq"
+        rm "$OUTDIR/$SRR.fastq"
+    fi
+
+    # Start download
+    fasterq-dump --threads $THREADS --progress --outdir "$OUTDIR" "$SRR"
+
+done
+
+# Delete the temporary folder created by fasterq-dump for downloading
+rm -r $OUTDIR/fasterq.tmp.machinef7b19aa3-da1f-4854-a4d1-25706f6a9c72.2566
+
+echo "Fastq file download complete"
