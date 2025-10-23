@@ -1,0 +1,26 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt install -y trim-galore
+
+# Input directory
+INDIR=~/data/mydatalocal
+
+# Output directory (for trimmed fastq)
+OUTDIR=~/data/mydatalocal/trimmed
+mkdir -p "$OUTDIR"
+
+# Trimming parameters
+QUALITY=20
+PHRED=33
+MINLEN=25
+
+# Loop on each SRR
+for FASTQ in "$INDIR"/*.fastq; do
+    if [ -f "$FASTQ" ]; then
+        BASENAME=$(basename "$FASTQ" .fastq)
+        
+        trim_galore -q $QUALITY --phred$PHRED --length $MINLEN \
+            -o "$OUTDIR" "$FASTQ"
+    fi
+done
