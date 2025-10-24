@@ -1,0 +1,44 @@
+# Type de base pour construire l’image Apptainer. Ici on part d’une image Docker existante
+Bootstrap: docker
+# Image de base
+From: ubuntu:22.04
+
+# Section métadonnées intégrées à l’image.
+%labels
+    Author "Saïda Moussaeva"
+    Description "Minimal R + DESeq2 environment built from scratch"
+
+# Bloc exécuté au moment du build : installation et configuration
+%post
+    apt-get update && \
+    # installation du système de base
+    apt-get install -y --no-install-recommends \
+        wget curl ca-certificates gnupg software-properties-common \
+        libxml2-dev libcurl4-openssl-dev libssl-dev \
+        libpng-dev libjpeg-dev libtiff5-dev libfontconfig1-dev \
+        libblas-dev liblapack-dev gfortran build-essential \ #librairies pour gérer graphiques
+        locales && \ #support langues et encodage
+    locale-gen en_US.UTF-8 && \
+    # ajout du dépôt CRAN et installation de R
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 51716619E084DAB9 && \
+    add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" && \
+    apt-get update && \ #mise à jour paquets mtn que le dépôt a été ajouté
+    apt-get install -y r-base && \ #pour exécution R
+  # installation des packages R
+    R -e "install.packages('BiocManager'); \
+    BiocManager::install(c('DESeq2','tximport','apeglm','AnnotationDbi','org.Hs.eg.db','biomaRt',
+    'clusterProfiler','enrichplot','ComplexHeatmap')); \
+    install.packages(c('ggplot2','pheatmap','RColorBrewer','dplyr','tibble','ggrepel','ggpubr',
+    'readr','tidyr','reshape2','cowplot'))" && \
+    apt-get clean && rm -rf /var/lib/apt/lists/* #suppression de fichiers temporaires pour alléger le sif
+
+
+#Variables d’environnement au runtime (chaque exécution du conteneur)
+%environment
+    export LC_ALL=en_US.UTF-8 # utilisation econdage UTF-8
+    export LANG=en_US.UTF-8 # langue système anglais
+    export R_LIBS_USER=/usr/local/lib/R/site-library #indique à R où trouver ses bibliothèques installées
+
+# Entrypoint du conteneur à l’exécution.
+%runscript
+    exec Rscript "$@"
