@@ -5,7 +5,7 @@ sudo apt install -y sra-toolkit
 SRR_FILE=SRR10510434
 
 # Output folder
-OUTDIR=~
+OUTDIR=~/data/mydatalocal
 #OUTDIR=~/data/mydatalocal
 
 
