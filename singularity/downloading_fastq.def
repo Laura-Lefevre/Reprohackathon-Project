@@ -1,0 +1,19 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%labels
+    Author Camille Le Corre
+    Version v1.0
+    Description "Image Singularity pour télécharger des fichiers FASTQ avec sra-tools"
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/local/bin:$PATH
+
+%post
+    apt-get update && apt-get install -y \
+        wget \
+        curl \
+        ca-certificates \
+        sra-toolkit \
+        && apt-get clean && rm -rf /var/lib/apt/lists/*

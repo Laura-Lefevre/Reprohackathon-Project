@@ -1,26 +1,49 @@
-#!/bin/bash
+# #!/bin/bash
 
-sudo apt update
-sudo apt install -y trim-galore
+# sudo apt update
+# sudo apt install -y trim-galore
 
-# Input directory
-INDIR=~/data/mydatalocal
+# # Input directory
+# INDIR=~/data/mydatalocal
 
-# Output directory (for trimmed fastq)
-OUTDIR=~/data/mydatalocal/trimmed
-mkdir -p "$OUTDIR"
+# # Output directory (for trimmed fastq)
+# OUTDIR=~/data/mydatalocal/trimmed
+# mkdir -p "$OUTDIR"
 
-# Trimming parameters
-QUALITY=20
-PHRED=33
-MINLEN=25
 
-# Loop on each SRR
-for FASTQ in "$INDIR"/*.fastq; do
-    if [ -f "$FASTQ" ]; then
-        BASENAME=$(basename "$FASTQ" .fastq)
+
+# # Loop on each SRR
+# for FASTQ in "$INDIR"/*.fastq; do
+#     if [ -f "$FASTQ" ]; then
+#         BASENAME=$(basename "$FASTQ" .fastq)
         
-        trim_galore -q $QUALITY --phred$PHRED --length $MINLEN \
-            -o "$OUTDIR" "$FASTQ"
-    fi
-done
+#         trim_galore -q $QUALITY --phred$PHRED --length $MINLEN \
+#             -o "$OUTDIR" "$FASTQ"
+#     fi
+# done
+
+
+rule trimming:
+    input:
+        fastq="output/fastq/{srr}.fastq"
+    output:
+        trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
+    threads: THREADS
+    params:
+        outdir="output/trimmed",
+        quality=20,       # par exemple
+        phred=33,         # 33 ou 64 selon ton jeu de données
+        minlen=30         # longueur minimale des reads
+    shell:
+        """
+        mkdir -p {params.outdir}
+        
+        echo "Trimming {input.fastq}..."
+        
+        trim_galore -q {params.quality} --phred{params.phred} --length {params.minlen} \
+            -o {params.outdir} {input.fastq}
+        
+        # rename output to match expected output filename
+        mv {params.outdir}/{wildcards.srr}_trimmed.fq {output.trimmed_fastq}
+        echo "Trimming complete for {wildcards.srr}"
+        """

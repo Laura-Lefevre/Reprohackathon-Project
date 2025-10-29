@@ -1,40 +1,29 @@
-#!/bin/bash
+import os
 
-sudo apt install -y sra-toolkit
+THREADS = config["THREADS"]
+OUTDIR = config["OUTDIR"]
 
-# List of SRRs to download
-# automatiser ensuite ?
-SRR_LIST=(
-    SRR10510434
-    SRR10510435
-    SRR10510436
-    SRR10510437
-    SRR10510438
-    SRR10510439
-)
+rule download_fastq:
+    output:
+        f"{OUTDIR}/{{srr}}.fastq"
+    threads: THREADS
+    shell:
+        """
+        echo "Downloading {wildcards.srr}..."
+        mkdir -p {OUTDIR}
 
-# Output folder
-OUTDIR=~/data/mydatalocal
+        if [ -f {output} ]; then
+            echo "Existing file detected: deleting {output}"
+            rm {output}
+        fi
 
-# Number of threads to use
-THREADS=4
+        fasterq-dump --threads {threads} --progress --outdir {OUTDIR} {wildcards.srr}
 
-# Loop on each SRR
-for SRR in "${SRR_LIST[@]}"; do
-    echo "Downloading $SRR"
-    
-    # Delete the existing file if there is one
-    if [ -f "$OUTDIR/$SRR.fastq" ]; then
-        echo "Existing file detected: deleting $OUTDIR/$SRR.fastq"
-        rm "$OUTDIR/$SRR.fastq"
-    fi
+        TMPDIR=$(find {OUTDIR} -maxdepth 1 -type d -name "fasterq.tmp.*" | head -n 1)
+        if [ -n "$TMPDIR" ]; then
+            echo "Deleting temporary folder: $TMPDIR"
+            rm -rf "$TMPDIR"
+        fi
 
-    # Start download
-    fasterq-dump --threads $THREADS --progress --outdir "$OUTDIR" "$SRR"
-
-done
-
-# Delete the temporary folder created by fasterq-dump for downloading
-rm -r $OUTDIR/fasterq.tmp.machinef7b19aa3-da1f-4854-a4d1-25706f6a9c72.2566
-
-echo "Fastq file download complete"
+        echo "Download complete for {wildcards.srr}"
+        """

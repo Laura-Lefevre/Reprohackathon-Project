@@ -1,0 +1,7 @@
+# Number of threads to use
+THREADS: 4
+
+# Trimming parameters
+QUALITY: 20
+PHRED: 33
+MINLEN: 25
