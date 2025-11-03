@@ -21,6 +21,8 @@ rule download_fastq:
     output:
         "output/fastq/{srr}.fastq"
     threads: THREADS
+    container:
+        "sra-tools.sif"
     shell:
         """
         echo "Downloading {wildcards.srr}..."
