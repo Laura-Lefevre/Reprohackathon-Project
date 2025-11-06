@@ -5,3 +5,11 @@ THREADS: 4
 QUALITY: 20
 PHRED: 33
 MINLEN: 25
+
+# DEF
+def_download_fastq: "containers/downloading_fastq.def"
+
+# SIF
+sif_download_fastq: "downloading_fastq.sif"
+
+build_cmd: "sudo apptainer build"

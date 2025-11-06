@@ -8,7 +8,9 @@ configfile: "config.yaml"
 THREADS = config["THREADS"]
 
 SRR_LIST=["SRR10510434", "SRR10510435", "SRR10510436", "SRR10510437", "SRR10510438", "SRR10510439"]
+
 OUTDIR = "output/fastq"
+IMAGEDIR = "output/images"
 
 #include: "rules/downloading_fastq.rules"
 
@@ -17,32 +19,46 @@ OUTDIR = "output/fastq"
 # RULE 1 — Download FASTQ
 ###############################################
 
+rule build_sif_download_fastq:
+    input:
+        definition = config["def_download_fastq"]
+    output:
+        image = f"{IMAGEDIR}/downloading_fastq.sif"
+    params:
+        build_cmd = config.get("build_cmd", "apptainer build")
+    shell:
+        """
+        mkdir -p {IMAGEDIR}
+        {params.build_cmd} {output.image} {input.definition}
+        """
+
 rule download_fastq:
+    input:
+        sif="output/images/downloading_fastq.sif"
     output:
         "output/fastq/{srr}.fastq"
-    threads: THREADS
+    threads: 4
     container:
-        "sra-tools.sif"
+        "output/images/downloading_fastq.sif"  # <-- important !
     shell:
         """
         echo "Downloading {wildcards.srr}..."
-        mkdir -p {OUTDIR}
+        mkdir -p output/fastq
 
-        if [ -f {output} ]; then
-            echo "Existing file detected: deleting {output}"
-            rm {output}
+        if [ -f output/fastq/{wildcards.srr}.fastq ]; then
+            rm output/fastq/{wildcards.srr}.fastq
         fi
 
-        fasterq-dump --threads {threads} --progress --outdir {OUTDIR} {wildcards.srr}
+        fasterq-dump --threads 4 --progress --outdir output/fastq {wildcards.srr}
 
-        TMPDIR=$(find {OUTDIR} -maxdepth 1 -type d -name "fasterq.tmp.*" | head -n 1)
+        TMPDIR=$(find output/fastq -maxdepth 1 -type d -name "fasterq.tmp.*" | head -n 1)
         if [ -n "$TMPDIR" ]; then
-            echo "Deleting temporary folder: $TMPDIR"
             rm -rf "$TMPDIR"
         fi
 
         echo "Download complete for {wildcards.srr}"
         """
+
 
 rule download_all_fastq:
     input:

@@ -10,3 +10,6 @@ From: ubuntu:22.04
 %post
     apt-get update && apt-get install -y sra-toolkit
     apt-get clean && rm -rf /var/lib/apt/lists/*
+
+%environment
+    export PATH=/usr/bin:$PATH
