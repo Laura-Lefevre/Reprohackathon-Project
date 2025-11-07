@@ -7,7 +7,7 @@ configfile: "config.yaml"
 
 THREADS = config["THREADS"]
 
-SRR_LIST=["SRR10510434", "SRR10510435", "SRR10510436", "SRR10510437", "SRR10510438", "SRR10510439"]
+SRR_LIST=["SRR10379721", "SRR10379722", "SRR10379723", "SRR10379724", "SRR10379725", "SRR10379726"]
 
 OUTDIR = "output/fastq"
 IMAGEDIR = "output/images"
@@ -143,6 +143,3 @@ rule deseq2_test:
         "containers/DESeq2.sif"
     shell:
         "Rscript scripts/DESeq2R"
-
-
-
