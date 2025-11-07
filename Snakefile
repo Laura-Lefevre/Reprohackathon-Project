@@ -37,9 +37,9 @@ rule download_fastq:
         sif="output/images/downloading_fastq.sif"
     output:
         "output/fastq/{srr}.fastq"
-    threads: 4
+    threads: THREADS
     container:
-        "output/images/downloading_fastq.sif"  # <-- important !
+        "output/images/downloading_fastq.sif"
     shell:
         """
         echo "Downloading {wildcards.srr}..."
@@ -64,23 +64,39 @@ rule download_all_fastq:
     input:
         expand(f"{OUTDIR}/{{srr}}.fastq", srr=SRR_LIST)
 
-# Pour lancer jusqu'à cette partie : snakemake --cores 4 download_all_fastq
+# Pour lancer jusqu'à cette partie : snakemake --use-singularity --singularity-args "-B $(pwd)" --cores 4 download_all_fastq
 
 ###############################################
 # RULE 2 — Trimming
 ###############################################
 
+rule build_sif_trimming:
+    input:
+        definition = config["def_trimming"]
+    output:
+        image = f"{IMAGEDIR}/trimming.sif"
+    params:
+        build_cmd = config.get("build_cmd", "apptainer build")
+    shell:
+        """
+        mkdir -p {IMAGEDIR}
+        {params.build_cmd} {output.image} {input.definition}
+        """
+
 rule trimming:
     input:
+        sif="output/images/trimming.sif",
         fastq="output/fastq/{srr}.fastq"
     output:
         trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
     threads: THREADS
+    container:
+        "output/images/trimming.sif"
     params:
         outdir="output/trimmed",
-        quality=20,       # par exemple
-        phred=33,         # 33 ou 64 selon ton jeu de données
-        minlen=25         # longueur minimale des reads
+        quality=20,
+        phred=33,
+        minlen=25
     shell:
         """
         mkdir -p {params.outdir}
@@ -97,7 +113,8 @@ rule trimming_all:
         expand("output/trimmed/{srr}_trimmed.fq", srr=SRR_LIST)
 
 
-# Pour lancer jusqu'à cette partie : snakemake --cores 4 trimming_all
+# Pour lancer jusqu'à cette partie : snakemake --use-singularity --singularity-args "-B $(pwd)" --cores 4 trimming_all
+
 
 
 ###############################################
