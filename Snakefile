@@ -131,15 +131,51 @@ rule trimming_all:
 
 
 
+
 ###############################################
 # RULE 5 — Statistical Analysis (DESeq2)
 ###############################################
-rule deseq2_test:
+
+# Build SIF for DESeq2
+rule build_sif_deseq2:
     input:
-        "output/counts.tsv",
+        definition = config["def_deseq2"]  # ex: containers/DESeq2.def
     output:
-        "results/deseq2_results.csv"
+        image = "containers/DESeq2.sif"
+    params:
+        build_cmd = config.get("build_cmd", "apptainer build")
+    shell:
+        """
+        mkdir -p containers
+        {params.build_cmd} {output.image} {input.definition}
+        """
+
+# Differential expression with DESeq2
+# Attend un tableau de comptes issu de featureCounts (gènes en lignes, samples en colonnes),
+# et une table d'échantillons (colonnes: sample, condition).
+rule deseq2:
+    input:
+        sif     = "containers/DESeq2.sif",
+        counts  = "output/counts/featureCounts.tsv",   # output rule 4
+        samples = "metadata/samples.tsv",              # mapping sample->condition
+        script  = "scripts/deseq2.R"                   # ton script R
+    output:
+        results = "results/deseq2/deseq2_results.csv",
+        rds     = "results/deseq2/dds.rds"
     container:
         "containers/DESeq2.sif"
+    params:
+        outdir  = "results/deseq2"
+    threads: 1
     shell:
-        "Rscript scripts/DESeq2R"
+        """
+        mkdir -p {params.outdir}
+        Rscript {input.script} \
+            --counts  {input.counts} \
+            --samples {input.samples} \
+            --outdir  {params.outdir}
+        """
+
+# include : "rules/DESeq2.rules"
+
+

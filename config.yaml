@@ -9,16 +9,15 @@ MINLEN: 25
 # DEF
 def_download_fastq: "containers/downloading_fastq.def"
 def_trimming: "containers/trimming.def"
-def_mapping: "containers/mappin.def"
+def_mapping: "containers/mapping.def"
 def_counting: "containers/counting.def"
-def_stat_analysis: "containers/stat_analysis.def"
-
+def_deseq2: "containers/DESeq2.def"
 # SIF
 sif_download_fastq: "downloading_fastq.sif"
 sif_trimming: "trimming.sif"
 sif_mapping: "mapping.sif"
 sif_counting: "counting.sif"
-sif_stat_analysis: "stat_analysis.sif"
+sif_stat_analysis: "DESeq2.sif"
 
 # Pour eviter les repetitions : on pourrait plutot mettre en variable le nom des etapes et ensuite aller chercher les def et sif en fonction
 
