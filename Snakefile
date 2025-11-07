@@ -176,6 +176,6 @@ rule deseq2:
             --outdir  {params.outdir}
         """
 
-
+# include : "rules/DESeq2.rules"
 
 
