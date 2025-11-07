@@ -1,0 +1,21 @@
+DEFDIR   = "containers"
+IMAGEDIR = "containers"
+
+DEFS = sorted(glob_wildcards(f"{DEFDIR}/{{name}}.def").name)
+SIFS = expand(f"{IMAGEDIR}/{{name}}.sif", name=DEFS)
+
+rule build_sif:
+    input:
+        def_file = f"{DEFDIR}/{{name}}.def"
+    output:
+        sif_file = f"{IMAGEDIR}/{{name}}.sif"
+    params:
+        build_cmd = config.get("build_cmd", "apptainer build")
+    shell:
+        """
+        mkdir -p {IMAGEDIR}
+        {params.build_cmd} {output.sif_file} {input.def_file}
+        """
+
+rule all_sif:
+    input: SIFS

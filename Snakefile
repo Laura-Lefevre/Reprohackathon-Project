@@ -2,6 +2,10 @@
 # Snakefile — Reprohackathon Project (version monolithique)
 ###############################################
 
+
+include : rules/sif_images.rules
+
+
 # Chargement du fichier de configuration
 configfile: "config.yaml"
 
