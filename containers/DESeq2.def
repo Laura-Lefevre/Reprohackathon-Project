@@ -3,7 +3,7 @@ From: ubuntu:22.04
 
 %labels
     Author "Saïda Moussaeva"
-    Description "R + DESeq2 environment (versions figées via Bioconductor et snapshot CRAN)"
+    Description "R + DESeq2 environment"
 
 %post
     set -e
