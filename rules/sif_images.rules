@@ -1,5 +1,5 @@
 DEFDIR   = "containers"
-IMAGEDIR = "containers"
+IMAGEDIR = "output/images"
 
 DEFS = sorted(glob_wildcards(f"{DEFDIR}/{{name}}.def").name)
 SIFS = expand(f"{IMAGEDIR}/{{name}}.sif", name=DEFS)
