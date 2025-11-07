@@ -1,0 +1,71 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%labels
+    Author "Saïda Moussaeva"
+    Description "R + DESeq2 environment (versions figées via Bioconductor et snapshot CRAN)"
+
+%post
+    set -e
+    export DEBIAN_FRONTEND=noninteractive
+
+    apt-get update
+    apt-get install -y --no-install-recommends \
+        wget \
+        curl \
+        ca-certificates \
+        gnupg \
+        software-properties-common \
+        locales \
+        libxml2-dev \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        libpng-dev \
+        libjpeg-dev \
+        libtiff5-dev \
+        libfontconfig1-dev \
+        libblas-dev \
+        liblapack-dev \
+        gfortran \
+        build-essential
+    locale-gen en_US.UTF-8
+
+    # Depot CRAN
+    curl -fsSL https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
+      | gpg --dearmor -o /etc/apt/trusted.gpg.d/cran_ubuntu_key.gpg
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/cran_ubuntu_key.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" \
+      > /etc/apt/sources.list.d/cran.list
+
+    apt-get update
+    apt-get install -y --no-install-recommends r-base
+
+    # ==== R side: figer CRAN + Bioconductor ====
+    SNAPSHOT="2024-10-01"
+    BIOC_VERSION="3.20"
+
+    R -q -e "options(repos=c(CRAN=sprintf('https://packagemanager.posit.co/cran/__linux__/jammy/%s', '${SNAPSHOT}'))); \
+             install.packages(c('BiocManager','remotes')); \
+             BiocManager::install(version='${BIOC_VERSION}'); \
+             BiocManager::install(c('DESeq2','tximport','apeglm','AnnotationDbi','org.Hs.eg.db','biomaRt','clusterProfiler','enrichplot','ComplexHeatmap'), ask=FALSE, update=FALSE); \
+             install.packages(c('ggplot2','pheatmap','RColorBrewer','dplyr','tibble','ggrepel','ggpubr','readr','tidyr','reshape2','cowplot'), dependencies=TRUE); \
+             pkgs <- c('DESeq2','tximport','apeglm','AnnotationDbi','org.Hs.eg.db','biomaRt','clusterProfiler','enrichplot','ComplexHeatmap','ggplot2','pheatmap','RColorBrewer','dplyr','tibble','ggrepel','ggpubr','readr','tidyr','reshape2','cowplot'); \
+             sink('/opt/R_pkg_versions.txt'); \
+             cat('R.version:\\n'); print(R.version.string); \
+             cat('\\nBioconductor version:\\n'); print(BiocManager::version()); \
+             cat('\\nPackage versions:\\n'); print(setNames(sapply(pkgs, function(p) as.character(packageVersion(p))), pkgs)); \
+             sink(); \
+             sessionInfo()"
+
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+%environment
+    export LC_ALL=en_US.UTF-8
+    export LANG=en_US.UTF-8
+    export R_LIBS_USER=/usr/local/lib/R/site-library
+    export BIOC_VERSION=3.20
+    export CRAN_SNAPSHOT=2024-10-01
+
+%runscript
+    exec Rscript "$@"
+
