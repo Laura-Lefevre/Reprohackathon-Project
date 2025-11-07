@@ -41,7 +41,7 @@ From: ubuntu:22.04
 
     # ==== R side: figer CRAN + Bioconductor ====
     SNAPSHOT="2024-10-01"
-    BIOC_VERSION="3.20"
+    BIOC_VERSION="3.22"
 
     R -q -e "options(repos=c(CRAN=sprintf('https://packagemanager.posit.co/cran/__linux__/jammy/%s', '${SNAPSHOT}'))); \
              install.packages(c('BiocManager','remotes')); \
@@ -63,7 +63,7 @@ From: ubuntu:22.04
     export LC_ALL=en_US.UTF-8
     export LANG=en_US.UTF-8
     export R_LIBS_USER=/usr/local/lib/R/site-library
-    export BIOC_VERSION=3.20
+    export BIOC_VERSION=3.22
     export CRAN_SNAPSHOT=2024-10-01
 
 %runscript
