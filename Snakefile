@@ -2,16 +2,15 @@
 # Snakefile — Reprohackathon Project (version monolithique)
 ###############################################
 
-
-include : rules/sif_images.rules
-
-
 # Chargement du fichier de configuration
 configfile: "config.yaml"
 
+#include : rules/sif_images.rules 
+
 THREADS = config["THREADS"]
 
-SRR_LIST=["SRR10379721", "SRR10379722", "SRR10379723", "SRR10379724", "SRR10379725", "SRR10379726"]
+#SRR_LIST=["SRR10379721", "SRR10379722", "SRR10379723", "SRR10379724", "SRR10379725", "SRR10379726"]
+SRR_LIST=["SRR10379721"]
 
 OUTDIR = "output/fastq"
 IMAGEDIR = "output/images"
@@ -120,13 +119,90 @@ rule trimming_all:
 # Pour lancer jusqu'à cette partie : snakemake --use-singularity --singularity-args "-B $(pwd)" --cores 4 trimming_all
 
 
-
 ###############################################
 # RULE 3 — Mapping
 ###############################################
 
+rule build_sif_mapping:
+    input:
+        definition = config["def_mapping"]
+    output:
+        image = f"{IMAGEDIR}/mapping.sif"
+    params:
+        build_cmd = config.get("build_cmd", "apptainer build")
+    shell:
+        """
+        mkdir -p {IMAGEDIR}
+        {params.build_cmd} {output.image} {input.definition}
+        """
 
+# Règle pour télécharger le génome de référence
+rule download_ref_genome:
+    input:
+        sif = "output/images/mapping.sif"
+    output:
+        "output/genome/reference.fasta"
+    container:
+        "output/images/mapping.sif"
+    shell:
+        "wget -q -O {output} 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=CP000253.1&rettype=fasta'"
 
+# Règle pour télécharger les annotations
+rule download_ref_annot:
+    input:
+        sif = "output/images/mapping.sif"
+    output:
+        "output/genome/reference.gff"
+    container:
+        "output/images/mapping.sif"
+    shell:
+        "wget -O {output} 'https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&report=gff3&id=CP000253.1'"
+
+# Règle pour créer l'index Bowtie
+rule bowtie_build_index:
+    input:
+        sif = "output/images/mapping.sif",
+        fasta = "output/genome/reference.fasta"
+    output:
+        touch("output/genome/index.done")
+    params:
+        prefix="output/genome/reference_index"
+    container:
+        "output/images/mapping.sif"
+    shell:
+        "bowtie-build {input.fasta} {params.prefix} && touch {output}"
+
+# Règle pour le mapping
+rule bowtie_map:
+    input:
+        sif = "output/images/mapping.sif",
+        fastq="output/trimmed/{srr}_trimmed.fq",
+        index_done="output/genome/index.done"
+    output:
+        bam="output/mapping/{srr}.bam",
+        bai="output/mapping/{srr}.bam.bai"
+    log:
+        "logs/mapping/{srr}.log"
+    params:
+        index_prefix="output/genome/reference_index",
+        outdir="output/mapping"
+    threads: THREADS
+    container:
+        "output/images/mapping.sif"
+    shell:
+        """
+        mkdir -p {params.outdir}
+        bowtie -S -p {threads} {params.index_prefix} {input.fastq} 2> {log} |
+        samtools sort -@ {threads} > {output.bam}
+        samtools index {output.bam}
+        """
+
+rule mapping_all:
+    input:
+        expand("output/mapping/{srr}.bam", srr=SRR_LIST),
+        expand("output/mapping/{srr}.bam.bai", srr=SRR_LIST)
+
+#Pour lancer jusqu'à cette partie : snakemake --use-singularity --cores 4 mapping_all
 
 ###############################################
 # RULE 4 — Counting
