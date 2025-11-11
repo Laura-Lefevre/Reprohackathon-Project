@@ -29,5 +29,5 @@ exec featureCounts "$@"
 %help
 This container provides featureCounts from Subread version 1.4.6-p3.
 Example:
-    singularity exec featurecounts.img featureCounts -a genes.gtf -o counts.txt sample.bam
-    singularity run featureCounts.img -a genes.gtf -o counts.txt sample.bam
+    singularity exec counting.sif featureCounts -a genes.gtf -o counts.txt sample.bam
+    singularity run counting.sif -a genes.gtf -o counts.txt sample.bam
