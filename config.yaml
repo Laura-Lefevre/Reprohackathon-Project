@@ -10,7 +10,7 @@ MINLEN: 25
 def_download_fastq: "containers/downloading_fastq.def"
 def_trimming: "containers/trimming.def"
 def_mapping: "containers/mapping.def"
-def_counting: "containers/counting.def"
+def_counting: "containers/featurecounts.def"
 def_deseq2: "containers/DESeq2.def"
 # SIF
 sif_download_fastq: "downloading_fastq.sif"

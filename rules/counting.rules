@@ -17,23 +17,26 @@ rule download_gtf:
 
 
 
-rule featureCounts:
-    input: 
-        bam= expand("sample/{{sample}}.bam", sample=SAMPLES)
-        gtf = "ref/*.gtf"
-
-    Output:
-        counts="output/featureCounts/{sample}_counts.txt"
-    threads: 4
-    #container:  a complete/path/to/container.sif
+rule counting_all:
+    input:
+        sif  = "output/images/featurecounts.sif",
+        bams = expand("output/mapping/{srr}.bam", srr=SRR_LIST),
+        gff  = "output/genome/reference.gff"
+    output:
+        "output/counts/all_samples_counts.txt"
+    container:
+        "output/images/featurecounts.sif"
+    params:
+        outdir = "output/counts"
+    threads: THREADS
     shell:
         """
-        echo "Running featureCounts"
-
-        featureCounts -t gene -g ID -s 1\
-        -a {input.gtf} \
-        -o {output.counts} \
-        {input.bam}
-
-        echo "featureCounts completed"
+        echo "Running featureCounts for all samples..."
+        mkdir -p {params.outdir}
+        featureCounts -T {threads} -t gene -g ID -s 1 \
+                      -a {input.gff} \
+                      -o {output} \
+                      {input.bams}
+        echo "Combined featureCounts results saved to {output}"
         """
+

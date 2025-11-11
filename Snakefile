@@ -207,8 +207,49 @@ rule mapping_all:
 ###############################################
 # RULE 4 — Counting
 ###############################################
+# Build SIF for featureCounts
+rule build_sif_counting:
+    input:
+        definition = config["def_counting"]  # ex: containers/featurecounts.def
+    output:
+        image = "containers/featureCounts.sif"
+    params:
+        build_cmd = config.get("build_cmd", "apptainer build")
+    shell:
+        """
+        mkdir -p containers
+        {params.build_cmd} {output.image} {input.definition}
+        """
 
+# Counting with featureCounts
+rule counting:
+    input:
+        sif  = "output/images/featurecounts.sif",
+        bams = expand("output/mapping/{srr}.bam", srr=SRR_LIST),
+        gff  = "output/genome/reference.gff"
+    output:
+        "output/counts/all_samples_counts.txt"
+    container:
+        "output/images/featurecounts.sif"
+    params:
+        outdir = "output/counts"
+    threads: THREADS
+    shell:
+        """
+        echo "Running featureCounts for all samples..."
+        mkdir -p {params.outdir}
+        featureCounts -t gene -g ID -s 1 \
+                      -a {input.gff} \
+                      -o {output} \
+                      {input.bams}
+        echo "Combined featureCounts results saved to {output}"
+        """
 
+rule counting_all:
+    input:
+        "output/counts/all_samples_counts.txt"
+
+# Pour lancer jusqu'à cette partie : snakemake --use-singularity --singularity-args "-B $(pwd)" --cores 4 counting_all
 
 
 
