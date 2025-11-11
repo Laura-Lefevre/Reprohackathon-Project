@@ -7,15 +7,16 @@ From: ubuntu:22.04
     Version "1.4.6-p3"
     BuildDate "2025-10-28"
 
-apt-get update && \
-apt-get install -y wget ca-certificates tar && \
-cd /opt && \
-# Downloads Subread 1.4.6-p3 
-wget -q https://downloads.sourceforge.net/project/subread/subread-1.4.6-p3/subread-1.4.6-p3-Linux-x86_64.tar.gz &&\
-tar -xzf subread-1.4.6-p3-Linux-x86_64.tar.gz && \
-ln -s /opt/subread-1.4.6-p3-Linux-x86_64/bin/featureCounts /usr/local/bin/featureCounts && \
-chmod +x /usr/local/bin/featureCounts && \
-apt-get clean && rm -rf /var/lib/apt/lists/*
+%post
+    apt-get update && \
+    apt-get install -y wget ca-certificates tar && \
+    cd /opt && \
+    # Downloads Subread 1.4.6-p3 
+    wget -q https://downloads.sourceforge.net/project/subread/subread-1.4.6-p3/subread-1.4.6-p3-Linux-x86_64.tar.gz &&\
+    tar -xzf subread-1.4.6-p3-Linux-x86_64.tar.gz && \
+    ln -s /opt/subread-1.4.6-p3-Linux-x86_64/bin/featureCounts /usr/local/bin/featureCounts && \
+    chmod +x /usr/local/bin/featureCounts && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 %environment
 export PATH=/usr/local/bin:$PATH
