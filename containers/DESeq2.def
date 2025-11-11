@@ -1,10 +1,14 @@
+# Type de base pour construire l’image Apptainer. Ici on part d’une image Docker existante
 Bootstrap: docker
+# Image de base
 From: ubuntu:22.04
 
+# Section métadonnées intégrées à l’image.
 %labels
     Author "Saïda Moussaeva"
-    Description "R + DESeq2 environment"
+    Description "Minimal R + DESeq2 environment built from scratch"
 
+# Bloc exécuté au moment du build : installation et configuration
 %post
     set -e
     export DEBIAN_FRONTEND=noninteractive
@@ -28,9 +32,10 @@ From: ubuntu:22.04
         liblapack-dev \
         gfortran \
         build-essential
+
     locale-gen en_US.UTF-8
 
-    # Depot CRAN
+    # Clé CRAN propre (apt-key déprécié)
     curl -fsSL https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
       | gpg --dearmor -o /etc/apt/trusted.gpg.d/cran_ubuntu_key.gpg
     echo "deb [signed-by=/etc/apt/trusted.gpg.d/cran_ubuntu_key.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" \
@@ -39,33 +44,20 @@ From: ubuntu:22.04
     apt-get update
     apt-get install -y --no-install-recommends r-base
 
-    # ==== R side: figer CRAN + Bioconductor ====
-    SNAPSHOT="2024-10-01"
-    BIOC_VERSION="3.22"
-
-    R -q -e "options(repos=c(CRAN=sprintf('https://packagemanager.posit.co/cran/__linux__/jammy/%s', '${SNAPSHOT}'))); \
-             install.packages(c('BiocManager','remotes')); \
-             BiocManager::install(version='${BIOC_VERSION}'); \
-             BiocManager::install(c('DESeq2','tximport','apeglm','AnnotationDbi','org.Hs.eg.db','biomaRt','clusterProfiler','enrichplot','ComplexHeatmap'), ask=FALSE, update=FALSE); \
-             install.packages(c('ggplot2','pheatmap','RColorBrewer','dplyr','tibble','ggrepel','ggpubr','readr','tidyr','reshape2','cowplot'), dependencies=TRUE); \
-             pkgs <- c('DESeq2','tximport','apeglm','AnnotationDbi','org.Hs.eg.db','biomaRt','clusterProfiler','enrichplot','ComplexHeatmap','ggplot2','pheatmap','RColorBrewer','dplyr','tibble','ggrepel','ggpubr','readr','tidyr','reshape2','cowplot'); \
-             sink('/opt/R_pkg_versions.txt'); \
-             cat('R.version:\\n'); print(R.version.string); \
-             cat('\\nBioconductor version:\\n'); print(BiocManager::version()); \
-             cat('\\nPackage versions:\\n'); print(setNames(sapply(pkgs, function(p) as.character(packageVersion(p))), pkgs)); \
-             sink(); \
-             sessionInfo()"
+    R -e "options(repos='https://cloud.r-project.org'); install.packages('BiocManager'); \
+          BiocManager::install(c('DESeq2','tximport','apeglm','AnnotationDbi','org.Hs.eg.db','biomaRt','clusterProfiler','enrichplot','ComplexHeatmap'), ask=FALSE, update=FALSE); \
+          install.packages(c('ggplot2','pheatmap','RColorBrewer','dplyr','tibble','ggrepel','ggpubr','readr','tidyr','reshape2','cowplot'), dependencies=TRUE)"
 
     apt-get clean
     rm -rf /var/lib/apt/lists/*
 
-%environment
-    export LC_ALL=en_US.UTF-8
-    export LANG=en_US.UTF-8
-    export R_LIBS_USER=/usr/local/lib/R/site-library
-    export BIOC_VERSION=3.22
-    export CRAN_SNAPSHOT=2024-10-01
 
+#Variables d’environnement au runtime (chaque exécution du conteneur)
+%environment
+    export LC_ALL=en_US.UTF-8 # utilisation econdage UTF-8
+    export LANG=en_US.UTF-8 # langue système anglais
+    export R_LIBS_USER=/usr/local/lib/R/site-library #indique à R où trouver ses bibliothèques installées
+
+# Entrypoint du conteneur à l’exécution.
 %runscript
     exec Rscript "$@"
-
