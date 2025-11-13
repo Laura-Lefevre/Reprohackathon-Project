@@ -245,11 +245,15 @@ rule counting:
         echo "Combined featureCounts results saved to {output}"
         """
 
-rule counting_all:
-    input:
-        "output/counts/all_samples_counts.txt"
+#rule counting_all:
+#    input:
+ #       "output/counts/all_samples_counts.txt"
 
-# Pour lancer jusqu'à cette partie : snakemake --use-singularity --singularity-args "-B $(pwd)" --cores 4 counting_all
+# Pour lancer jusqu'à cette partie : 
+# snakemake --use-singularity --cores 4 mapping_all
+# snakemake --cores 4 build_sif_counting   # si l'image n'est pas encore construite
+# snakemake --use-singularity --cores 4 counting
+
 
 
 
