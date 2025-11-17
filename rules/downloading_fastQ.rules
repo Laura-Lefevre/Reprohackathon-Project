@@ -1,27 +1,21 @@
-import os
-
-THREADS = config["THREADS"]
-OUTDIR = config["OUTDIR"]
-
-rule download_fastq:
+rule downloading_fastq:
     output:
-        f"{OUTDIR}/{{srr}}.fastq"
+        "output/fastq/{srr}.fastq"
     threads: THREADS
+    container:
+        f"{ZENODO_URL}{SIF_LIST[0]}"
     shell:
         """
         echo "Downloading {wildcards.srr}..."
-        mkdir -p {OUTDIR}
 
-        if [ -f {output} ]; then
-            echo "Existing file detected: deleting {output}"
-            rm {output}
+        if [ -f output/fastq/{wildcards.srr}.fastq ]; then
+            rm output/fastq/{wildcards.srr}.fastq
         fi
 
-        fasterq-dump --threads {threads} --progress --outdir {OUTDIR} {wildcards.srr}
+        fasterq-dump --threads {threads}  --progress --outdir output/fastq {wildcards.srr}
 
-        TMPDIR=$(find {OUTDIR} -maxdepth 1 -type d -name "fasterq.tmp.*" | head -n 1)
+        TMPDIR=$(find output/fastq -maxdepth 1 -type d -name "fasterq.tmp.*" | head -n 1)
         if [ -n "$TMPDIR" ]; then
-            echo "Deleting temporary folder: $TMPDIR"
             rm -rf "$TMPDIR"
         fi
 

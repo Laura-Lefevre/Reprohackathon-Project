@@ -1,49 +1,21 @@
-# #!/bin/bash
-
-# sudo apt update
-# sudo apt install -y trim-galore
-
-# # Input directory
-# INDIR=~/data/mydatalocal
-
-# # Output directory (for trimmed fastq)
-# OUTDIR=~/data/mydatalocal/trimmed
-# mkdir -p "$OUTDIR"
-
-
-
-# # Loop on each SRR
-# for FASTQ in "$INDIR"/*.fastq; do
-#     if [ -f "$FASTQ" ]; then
-#         BASENAME=$(basename "$FASTQ" .fastq)
-        
-#         trim_galore -q $QUALITY --phred$PHRED --length $MINLEN \
-#             -o "$OUTDIR" "$FASTQ"
-#     fi
-# done
-
-
 rule trimming:
     input:
         fastq="output/fastq/{srr}.fastq"
     output:
         trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
     threads: THREADS
+    container:
+        f"{ZENODO_URL}{SIF_LIST[1]}"
     params:
         outdir="output/trimmed",
-        quality=20,       # par exemple
-        phred=33,         # 33 ou 64 selon ton jeu de données
-        minlen=30         # longueur minimale des reads
+        quality=20,
+        phred=33,
+        minlen=25
     shell:
         """
-        mkdir -p {params.outdir}
+        echo "Trimming {input.fastq} with cutadapt..."
         
-        echo "Trimming {input.fastq}..."
+        cutadapt -j {threads} -m 25 -q {params.quality} -o {output.trimmed_fastq} {input.fastq}
         
-        trim_galore -q {params.quality} --phred{params.phred} --length {params.minlen} \
-            -o {params.outdir} {input.fastq}
-        
-        # rename output to match expected output filename
-        mv {params.outdir}/{wildcards.srr}_trimmed.fq {output.trimmed_fastq}
         echo "Trimming complete for {wildcards.srr}"
         """

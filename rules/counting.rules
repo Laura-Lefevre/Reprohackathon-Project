@@ -1,42 +1,21 @@
-#!/bin/bash
-rule download_gtf:
-    output:
-        "SRR_annotated_gene.gtf"
-    shell:
-        """
-        echo "Downloading GTF annotation file..."
-        wget -O {output}.gz ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/013/425/GCF_000013425.1_ASM1342v1/GCF_000013425.1_ASM1342v1_genomic.gtf.gz
-
-        echo "Decompressing GTF file..."
-       
-        gunzip -f {output}.gz
-        
-        echo "GTF file downloaded and decompressed."
-        """
-    # Last motification of GCF_000013425.1_ASM1342v1_genomic.gtf.gz: 2025-03-31
-
-
-
-rule counting_all:
+# Counting with featureCounts
+rule counting:
     input:
-        sif  = "output/images/featurecounts.sif",
         bams = expand("output/mapping/{srr}.bam", srr=SRR_LIST),
         gff  = "output/genome/reference.gff"
     output:
         "output/counts/all_samples_counts.txt"
     container:
-        "output/images/featurecounts.sif"
+        f"{ZENODO_URL}{SIF_LIST[3]}"
     params:
         outdir = "output/counts"
     threads: THREADS
     shell:
         """
         echo "Running featureCounts for all samples..."
-        mkdir -p {params.outdir}
-        featureCounts -T {threads} -t gene -g ID -s 1 \
+        featureCounts -t gene -g ID -s 1 \
                       -a {input.gff} \
                       -o {output} \
                       {input.bams}
         echo "Combined featureCounts results saved to {output}"
         """
-

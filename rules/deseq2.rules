@@ -1,0 +1,24 @@
+# Differential expression with DESeq2
+# Attend un tableau de comptes issu de featureCounts (gènes en lignes, samples en colonnes),
+# et une table d'échantillons (colonnes: sample, condition).
+rule deseq2:
+    input:
+        counts  = "output/counts/all_samples_counts.txt",   #
+        output rule 4
+        samples = "metadata/samples.tsv",              # mapping sample->condition
+        script  = "scripts/deseq2.R"                   # ton script R
+    output:
+        results = "results/deseq2/deseq2_results.csv",
+        rds     = "results/deseq2/dds.rds"
+    container:
+        f"{ZENODO_URL}{SIF_LIST[4]}"
+    params:
+        outdir  = "results/deseq2"
+    threads: 1
+    shell:
+        """
+        Rscript {input.script} \
+            --counts  {input.counts} \
+            --samples {input.samples} \
+            --outdir  {params.outdir}
+        """

@@ -1,0 +1,12 @@
+# Règle pour créer l'index Bowtie
+rule bowtie_build_index:
+    input:
+        fasta = "output/genome/reference.fasta"
+    output:
+        touch("output/genome/index.done")
+    params:
+        prefix="output/genome/reference_index"
+    container:
+        f"{ZENODO_URL}{SIF_LIST[2]}"
+    shell:
+        "bowtie-build {input.fasta} {params.prefix} && touch {output}"

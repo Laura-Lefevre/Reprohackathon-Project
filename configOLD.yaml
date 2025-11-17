@@ -1,0 +1,24 @@
+# Number of threads to use
+THREADS: 4
+
+# Trimming parameters
+QUALITY: 20
+PHRED: 33
+MINLEN: 25
+
+# DEF
+def_download_fastq: "containers/downloading_fastq.def"
+def_trimming: "containers/trimming.def"
+def_mapping: "containers/mapping.def"
+def_counting: "containers/featurecounts.def"
+def_deseq2: "containers/DESeq2.def"
+# SIF
+sif_download_fastq: "downloading_fastq.sif"
+sif_trimming: "trimming.sif"
+sif_mapping: "mapping.sif"
+sif_counting: "counting.sif"
+sif_stat_analysis: "DESeq2.sif"
+
+# Pour eviter les repetitions : on pourrait plutot mettre en variable le nom des etapes et ensuite aller chercher les def et sif en fonction
+
+build_cmd: "sudo apptainer build"

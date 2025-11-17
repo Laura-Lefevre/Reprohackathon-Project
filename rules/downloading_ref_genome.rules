@@ -1,0 +1,8 @@
+# Règle pour télécharger le génome de référence
+rule downloading_ref_genome:
+    output:
+        "output/genome/reference.fasta"
+    container:
+        f"{ZENODO_URL}{SIF_LIST[2]}"
+    shell:
+        "wget -q -O {output} 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=CP000253.1&rettype=fasta'"

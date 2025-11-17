@@ -1,24 +1,21 @@
+# Base URL for Zenodo files
+ZENODO_URL: "https://zenodo.org/records/17582711/files/"
+
+# List of Singularity image files (on Zenodo)
+SIF_LIST: [
+    "downloading_fastq.sif",
+    "featurecounts.sif",
+    "mapping.sif",
+    "trimming.sif"
+]
+
 # Number of threads to use
 THREADS: 4
+
+# List of SRR identifiers
+SRR_LIST: ["SRR10379721", "SRR10379722", "SRR10379723", "SRR10379724", "SRR10379725", "SRR10379726"]
 
 # Trimming parameters
 QUALITY: 20
 PHRED: 33
 MINLEN: 25
-
-# DEF
-def_download_fastq: "containers/downloading_fastq.def"
-def_trimming: "containers/trimming.def"
-def_mapping: "containers/mapping.def"
-def_counting: "containers/featurecounts.def"
-def_deseq2: "containers/DESeq2.def"
-# SIF
-sif_download_fastq: "downloading_fastq.sif"
-sif_trimming: "trimming.sif"
-sif_mapping: "mapping.sif"
-sif_counting: "counting.sif"
-sif_stat_analysis: "DESeq2.sif"
-
-# Pour eviter les repetitions : on pourrait plutot mettre en variable le nom des etapes et ensuite aller chercher les def et sif en fonction
-
-build_cmd: "sudo apptainer build"

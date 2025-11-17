@@ -1,0 +1,22 @@
+# Règle pour le mapping
+rule bowtie_map:
+    input:
+        fastq="output/trimmed/{srr}_trimmed.fq",
+        index_done="output/genome/index.done"
+    output:
+        bam="output/mapping/{srr}.bam",
+        bai="output/mapping/{srr}.bam.bai"
+    log:
+        "logs/mapping/{srr}.log"
+    params:
+        index_prefix="output/genome/reference_index",
+        outdir="output/mapping"
+    threads: THREADS
+    container:
+        f"{ZENODO_URL}{SIF_LIST[2]}"
+    shell:
+        """
+        bowtie -S -p {threads} {params.index_prefix} {input.fastq} 2> {log} |
+        samtools sort -@ {threads} > {output.bam}
+        samtools index {output.bam}
+        """
