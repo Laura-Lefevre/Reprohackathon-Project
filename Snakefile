@@ -14,7 +14,7 @@ SIF_LIST = config["SIF_LIST"]
 ZENODO_URL = config["ZENODO_URL"]
 
 # Including rules from separate files for modularity
-include: "rules/downloading_fastq.rules"
+include: "rules/downloading_fastQ.rules"
 include: "rules/trimming.rules"
 include: "rules/downloading_ref_genome.rules"
 include: "rules/downloading_ref_annot.rules"
