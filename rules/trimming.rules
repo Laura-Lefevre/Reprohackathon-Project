@@ -15,7 +15,7 @@ rule trimming:
         """
         echo "Trimming {input.fastq} with cutadapt..."
         
-        cutadapt -j {threads} -m 25 -q {params.quality} -o {output.trimmed_fastq} {input.fastq}
+        cutadapt -m {params.minlen} -q {params.quality} -o {output.trimmed_fastq} {input.fastq}
         
         echo "Trimming complete for {wildcards.srr}"
         """
