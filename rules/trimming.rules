@@ -5,7 +5,7 @@ rule trimming:
         trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
     threads: THREADS
     container:
-        f"{ZENODO_URL}{SIF_LIST[1]}"
+        f"{ZENODO_URL}{SIF_LIST[3]}"
     params:
         outdir="output/trimmed",
         quality=20,
