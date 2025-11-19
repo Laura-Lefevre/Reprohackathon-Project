@@ -24,9 +24,11 @@ include: "rules/mapping.rules"
 include: "rules/counting.rules"
 include: "rules/deseq2.rules"
 
+
 rule all:
     input:
-        expand(f"{OUTDIR}/{{srr}}.fastq", srr=SRR_LIST)
+        "output/counts/all_samples_counts.txt"
+
 
 ###############################################
 # 0 — Download images from Zenodo
