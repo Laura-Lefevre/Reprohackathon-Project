@@ -6,7 +6,7 @@ rule counting:
     output:
         "output/counts/all_samples_counts.txt"
     container:
-        f"{ZENODO_URL}{SIF_LIST[3]}"
+        f"{ZENODO_URL}{SIF_LIST[1]}"
     params:
         outdir = "output/counts"
     threads: THREADS
