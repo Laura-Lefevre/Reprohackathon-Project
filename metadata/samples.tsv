@@ -1,0 +1,7 @@
+sample	condition
+output.mapping.SRR10379721.bam	Persistent
+output.mapping.SRR10379722.bam	Persistent
+output.mapping.SRR10379723.bam	Persistent
+output.mapping.SRR10379724.bam	Normal
+output.mapping.SRR10379725.bam	Normal
+output.mapping.SRR10379726.bam	Normal
