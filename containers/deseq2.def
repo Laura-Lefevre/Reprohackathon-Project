@@ -1,0 +1,51 @@
+Bootstrap: docker
+From: rocker/r-ver:4.3.2
+
+%labels
+    Author "Saïda Moussaeva"
+    Description "RNA-Seq DESeq2 analysis"
+
+%environment
+    export LANG=en_US.UTF-8
+    export LC_ALL=en_US.UTF-8
+
+%post
+    set -e
+    export DEBIAN_FRONTEND=noninteractive
+
+    apt-get update
+    apt-get install -y --no-install-recommends \
+        locales \
+        libxml2-dev \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        libpng-dev \
+        libjpeg-dev \
+        libtiff5-dev \
+        libfontconfig1-dev \
+        libblas-dev \
+        liblapack-dev \
+        gfortran \
+        make \
+        gcc \
+        g++ \
+        zlib1g-dev \
+        liblzma-dev \
+        libbz2-dev \
+        libpcre2-dev \
+        libxt-dev \
+        libfreetype6-dev \
+        pkg-config \
+        && apt-get clean \
+        && rm -rf /var/lib/apt/lists/*
+
+    locale-gen en_US.UTF-8
+
+    Rscript -e 'install.packages("BiocManager", repos="https://cloud.r-project.org")'
+
+    Rscript -e 'install.packages(c("ggplot2","pheatmap","dplyr","tidyr","forcats","ggrepel","rentrez"), repos="https://cloud.r-project.org")'
+
+    Rscript -e 'BiocManager::install(c("DESeq2","EnrichmentBrowser"), update=FALSE, ask=FALSE)'
+
+%runscript
+    exec R "$@"
