@@ -101,3 +101,8 @@ res <- results(dds)
 res_df <- as.data.frame(res)
 res_df$Geneid <- rownames(res_df)
 res_df$signif <- !is.na(res_df$padj) & res_df$padj < 0.05
+
+
+write.csv(res_df, file.path(outdir,"deseq2_results.csv"), row.names=FALSE)
+saveRDS(dds,       file.path(outdir,"dds.rds"))
+
