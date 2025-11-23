@@ -1,0 +1,29 @@
+###############################################
+# ENRICHMENT RULES
+###############################################
+
+ENRICH_DIR = "output/enrichment"
+DESEQ_DIR  = "output/deseq2"
+
+###############################################
+# RULE: enrichment
+###############################################
+
+rule enrichment:
+    input:
+        resdf = f"{DESEQ_DIR}/res_df.csv"
+    output:
+        gene_ids      = f"{ENRICH_DIR}/gene_ids.csv",
+        gene_pathways = f"{ENRICH_DIR}/gene_pathways.csv",
+        annot_long    = f"{ENRICH_DIR}/annot_long.csv",
+        enrich        = f"{ENRICH_DIR}/df_enrich.csv",
+        top25         = f"{ENRICH_DIR}/df_enrich_top25.csv"
+    params:
+        outdir = ENRICH_DIR
+    container:
+        config["SIF_LIST"][5]     
+    shell:
+        """
+        mkdir -p {params.outdir}
+        Rscript enrichment.R {input.resdf} {params.outdir}
+        """
