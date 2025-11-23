@@ -6,7 +6,8 @@ SIF_LIST: [
     "downloading_fastq.sif",
     "featurecounts.sif",
     "mapping.sif",
-    "trimming.sif"
+    "trimming.sif",
+    "deseq2.sif"
 ]
 
 # Number of threads to use
