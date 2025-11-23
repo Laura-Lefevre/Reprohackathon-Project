@@ -1,24 +1,34 @@
 # Differential expression with DESeq2
-# Attend un tableau de comptes issu de featureCounts (gènes en lignes, samples en colonnes),
-# et une table d'échantillons (colonnes: sample, condition).
+########################################
+# RULE: DESeq2
+########################################
+
+COUNTS  = "output/counts/all_samples_counts.txt"
+SAMPLES = "samples.tsv"
+OUTDIR  = "results/deseq2"
+
 rule deseq2:
     input:
-        counts  = "output/counts/all_samples_counts.txt",   #
-        output rule 4
-        samples = "metadata/samples.tsv",              # mapping sample->condition
-        script  = "scripts/deseq2.R"                   # ton script R
+        counts  = COUNTS,
+        samples = SAMPLES
     output:
-        results = "results/deseq2/deseq2_results.csv",
-        rds     = "results/deseq2/dds.rds"
-    container:
-        f"{ZENODO_URL}{SIF_LIST[4]}"
+        resdf = f"{OUTDIR}/res_df.csv",
+        deg   = f"{OUTDIR}/deg.csv",
+        up    = f"{OUTDIR}/deg_up.csv",
+        down  = f"{OUTDIR}/deg_down.csv",
+        vsd   = "results/vsd.rds"
     params:
-        outdir  = "results/deseq2"
-    threads: 1
+        outdir = OUTDIR,
+        vsd    = "results/vsd.rds"
+    container:
+        f"{ZENODO_URL}{SIF_LIST[5]}"
     shell:
         """
-        Rscript {input.script} \
-            --counts  {input.counts} \
-            --samples {input.samples} \
-            --outdir  {params.outdir}
+        mkdir -p {params.outdir}
+        Rscript deseq2.R \
+            {input.counts} \
+            {input.samples} \
+            {params.outdir} \
+            {params.vsd}
         """
+
