@@ -35,6 +35,7 @@ library(DESeq2)
 # Load counts
 ###############
 counts <- read.delim(counts_file, comment.char="#", check.names = FALSE)
+
 cts <- as.matrix(counts[,7:ncol(counts)])
 rownames(cts) <- counts$Geneid
 
@@ -62,18 +63,11 @@ res <- results(dds)
 ###############
 res_df <- as.data.frame(res)
 res_df$Geneid <- rownames(res_df)
-rownames(res_df) <- res_df$Geneid
 res_df$signif <- !is.na(res_df$padj) & res_df$padj < 0.05
 
-deg_df <- res_df[res_df$signif, ]
+deg_df      <- res_df[res_df$signif, ]
 deg_up_df   <- deg_df[deg_df$log2FoldChange > 0, ]
 deg_down_df <- deg_df[deg_df$log2FoldChange < 0, ]
-
-
-rownames(deg_df)      <- deg_df$Geneid
-rownames(deg_up_df)   <- deg_up_df$Geneid
-rownames(deg_down_df) <- deg_down_df$Geneid
-
 
 ###############
 # VST
@@ -81,11 +75,14 @@ rownames(deg_down_df) <- deg_down_df$Geneid
 vsd <- vst(dds, blind = FALSE)
 
 ###############
-# Write outputs
+# Write outputs — ALWAYS row.names = FALSE
 ###############
-write.csv(res_df,      file.path(outdir, "res_df.csv"),   row.names = TRUE)
-write.csv(deg_df,      file.path(outdir, "deg.csv"),      row.names = TRUE)
-write.csv(deg_up_df,   file.path(outdir, "deg_up.csv"),   row.names = TRUE)
-write.csv(deg_down_df, file.path(outdir, "deg_down.csv"), row.names = TRUE)
+write.csv(res_df,      file.path(outdir, "res_df.csv"),      row.names = FALSE)
+write.csv(deg_df,      file.path(outdir, "deg.csv"),         row.names = FALSE)
+write.csv(deg_up_df,   file.path(outdir, "deg_up.csv"),      row.names = FALSE)
+write.csv(deg_down_df, file.path(outdir, "deg_down.csv"),    row.names = FALSE)
 
 saveRDS(vsd, vsd_file)
+
+
+
