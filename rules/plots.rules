@@ -1,0 +1,47 @@
+###############################################
+# PLOT RULES
+###############################################
+
+DESEQ_DIR  = "output/deseq2"
+ENRICH_DIR = "output/enrichment"
+PLOT_DIR   = "output/plots"
+
+###############################################
+# RULE: plots
+###############################################
+
+rule plots:
+    input:
+        resdf      = f"{DESEQ_DIR}/res_df.csv",
+        deg        = f"{DESEQ_DIR}/deg.csv",
+        up         = f"{DESEQ_DIR}/deg_up.csv",
+        down       = f"{DESEQ_DIR}/deg_down.csv",
+        vsd        = "output/vsd.rds",
+        pathways   = f"{ENRICH_DIR}/gene_pathways.csv",
+        annot_long = f"{ENRICH_DIR}/annot_long.csv",
+        enrich     = f"{ENRICH_DIR}/df_enrich.csv",
+        top25      = f"{ENRICH_DIR}/df_enrich_top25.csv"
+    output:
+        touch(f"{PLOT_DIR}/plots.done")
+    params:
+        outdir = PLOT_DIR
+    container:
+        config["SIF_LIST"][5]
+    shell:
+        """
+        mkdir -p {params.outdir}
+
+        Rscript plots.R \
+            {input.resdf} \
+            {input.deg} \
+            {input.up} \
+            {input.down} \
+            {input.vsd} \
+            {input.pathways} \
+            {input.annot_long} \
+            {input.enrich} \
+            {input.top25} \
+            {params.outdir}
+
+        touch {output}
+        """
