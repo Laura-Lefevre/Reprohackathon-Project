@@ -1,5 +1,5 @@
 # Base URL for Zenodo files
-ZENODO_URL: "https://zenodo.org/records/17582711/files/"
+ZENODO_URL: "https://zenodo.org/records/17690941/files/"
 
 # List of Singularity image files (on Zenodo)
 SIF_LIST: [
