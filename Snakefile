@@ -23,6 +23,9 @@ include: "rules/downloading_gtf.rules"
 include: "rules/mapping.rules"
 include: "rules/counting.rules"
 include: "rules/deseq2.rules"
+include: "rules/enrichment.rules"
+include: "rules/plots.rules"
+
 
 
 rule all:
