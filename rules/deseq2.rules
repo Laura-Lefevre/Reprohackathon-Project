@@ -4,8 +4,8 @@
 ########################################
 
 COUNTS  = "output/counts/all_samples_counts.txt"
-SAMPLES = "samples.tsv"
-OUTDIR  = "results/deseq2"
+SAMPLES = "metadata/samples.tsv"
+OUTDIR  = "output/deseq2"
 
 rule deseq2:
     input:
@@ -16,19 +16,20 @@ rule deseq2:
         deg   = f"{OUTDIR}/deg.csv",
         up    = f"{OUTDIR}/deg_up.csv",
         down  = f"{OUTDIR}/deg_down.csv",
-        vsd   = "results/vsd.rds"
+        vsd   = "output/vsd.rds"
     params:
         outdir = OUTDIR,
-        vsd    = "results/vsd.rds"
+        vsd    = "output/vsd.rds"
     container:
-        f"{ZENODO_URL}{SIF_LIST[5]}"
+        f"{ZENODO_URL}{SIF_LIST[4]}"
     shell:
         """
         mkdir -p {params.outdir}
-        Rscript deseq2.R \
-            {input.counts} \
-            {input.samples} \
-            {params.outdir} \
-            {params.vsd}
+        Rscript scripts/deseq2.R \
+            --counts {input.counts} \
+            --samples {input.samples} \
+            --outdir {params.outdir} \
+            --vsd {params.vsd}
+
         """
 

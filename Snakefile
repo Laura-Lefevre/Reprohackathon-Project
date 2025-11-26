@@ -30,25 +30,22 @@ include: "rules/plots.rules"
 
 rule all:
     input:
-        # Comptage
         "output/counts/all_samples_counts.txt",
 
-        # Résultats DESeq2
-        "results/deseq2/res_df.csv",
-        "results/deseq2/deg.csv",
-        "results/deseq2/deg_up.csv",
-        "results/deseq2/deg_down.csv",
-        "results/vsd.rds",
+        "output/deseq2/res_df.csv",
+        "output/deseq2/deg.csv",
+        "output/deseq2/deg_up.csv",
+        "output/deseq2/deg_down.csv",
+        "output/vsd.rds",
 
-        # Résultats Enrichment
-        "results/enrichment/gene_ids.csv",
-        "results/enrichment/gene_pathways.csv",
-        "results/enrichment/annot_long.csv",
-        "results/enrichment/df_enrich.csv",
-        "results/enrichment/df_enrich_top25.csv",
+        "output/enrichment/gene_ids.csv",
+        "output/enrichment/gene_pathways.csv",
+        "output/enrichment/annot_long.csv",
+        "output/enrichment/df_enrich.csv",
+        "output/enrichment/df_enrich_top25.csv",
 
-        # Plots
-        "results/plots/plots.done"
+        "output/plots/plots.done"
+
 
 
 

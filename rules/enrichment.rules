@@ -21,9 +21,9 @@ rule enrichment:
     params:
         outdir = ENRICH_DIR
     container:
-        config["SIF_LIST"][5]     
+         f"{ZENODO_URL}{SIF_LIST[4]}"
     shell:
         """
         mkdir -p {params.outdir}
-        Rscript enrichment.R {input.resdf} {params.outdir}
+        Rscript scripts/enrichment.R {input.resdf} {params.outdir}
         """

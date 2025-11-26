@@ -26,12 +26,12 @@ rule plots:
     params:
         outdir = PLOT_DIR
     container:
-        config["SIF_LIST"][5]
+         f"{ZENODO_URL}{SIF_LIST[4]}"
     shell:
         """
         mkdir -p {params.outdir}
 
-        Rscript plots.R \
+        Rscript scripts/plots.R \
             {input.resdf} \
             {input.deg} \
             {input.up} \
