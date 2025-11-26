@@ -1,0 +1,37 @@
+# This .gitignore file excludes all files that are automatically generated
+# during the execution of the workflow. It keeps the repository clean by
+# ignoring Snakemake working directories, pipeline outputs, large sequencing
+# data files, R temporary files, and general temporary folders. Only the
+# code and configuration needed to reproduce the pipeline are kept under version control.
+
+
+# Snakemake
+.snakemake/
+*.log
+logs/
+
+# Outputs du pipeline
+output/
+results/
+plots/
+
+# FASTQ et autres données lourdes
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.bai
+*.vcf
+*.fasta
+*.fa
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temp
+tmp/
+temp/
