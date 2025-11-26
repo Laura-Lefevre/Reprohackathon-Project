@@ -1,0 +1,2968 @@
+"locus_tag","gene_id","pathways"
+"SAOUHSC_00001","3919798","sao02020_Two-component_system"
+"SAOUHSC_00002","3919799","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_00003","3919176",NA
+"SAOUHSC_00004","3919177","sao03440_Homologous_recombination"
+"SAOUHSC_00005","3919178",NA
+"SAOUHSC_00006","3919179",NA
+"SAOUHSC_00007","3919180",NA
+"SAOUHSC_00008","3919181","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00009","3919182","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_00010","3919183",NA
+"SAOUHSC_00012","3919184",NA
+"SAOUHSC_00013","3919185","sao00270_Cysteine_and_methionine_metabolism, sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00014","3919186",NA
+"SAOUHSC_00015","3919187",NA
+"SAOUHSC_00017","3919188","sao03010_Ribosome"
+"SAOUHSC_00018","3919189","sao03030_DNA_replication"
+"SAOUHSC_00019","3919190","sao00230_Purine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism, sao01240_Biosynthesis_of_cofactors"
+"gene-SAOUHSC_T00018",NA,NA
+"gene-SAOUHSC_T00011",NA,NA
+"SAOUHSC_00020","3919191","sao02020_Two-component_system"
+"SAOUHSC_00021","3919192","sao02020_Two-component_system"
+"SAOUHSC_00022","3919193",NA
+"SAOUHSC_00023","3919194",NA
+"SAOUHSC_00024","3919195",NA
+"SAOUHSC_00025","3919293",NA
+"SAOUHSC_00026","3919294",NA
+"SAOUHSC_00027","3919295",NA
+"SAOUHSC_00028","3919296",NA
+"SAOUHSC_00029","3919297",NA
+"SAOUHSC_00030","3919298",NA
+"SAOUHSC_00031","3919299",NA
+"SAOUHSC_00032","3919300",NA
+"SAOUHSC_00033","3919301",NA
+"SAOUHSC_00034","3919302",NA
+"SAOUHSC_00035","3919303",NA
+"SAOUHSC_00036","3919304",NA
+"SAOUHSC_00037","3919305","sao00920_Sulfur_metabolism, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00038","3919306",NA
+"SAOUHSC_00039","3919307",NA
+"SAOUHSC_00040","3919308",NA
+"SAOUHSC_00041","3919309",NA
+"SAOUHSC_00042","3919310",NA
+"SAOUHSC_00043","3919311",NA
+"SAOUHSC_00044","3919077",NA
+"SAOUHSC_00045","3919078",NA
+"SAOUHSC_00046","3919079",NA
+"SAOUHSC_00047","3919080",NA
+"SAOUHSC_00049","3919081",NA
+"SAOUHSC_00050","3919082",NA
+"SAOUHSC_00051","3919083","sao00562_Inositol_phosphate_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00052","3919084",NA
+"SAOUHSC_00053","3919085",NA
+"SAOUHSC_00054","3919086",NA
+"SAOUHSC_00055","3919087",NA
+"SAOUHSC_00056","3919088",NA
+"SAOUHSC_00057","3919089",NA
+"SAOUHSC_00058","3919090",NA
+"SAOUHSC_00060","3919091",NA
+"SAOUHSC_00061","3919092",NA
+"SAOUHSC_00062","3919093",NA
+"SAOUHSC_00064","3919094",NA
+"SAOUHSC_00065","3919095",NA
+"SAOUHSC_00067","3919096",NA
+"SAOUHSC_00069","3919448","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00070","3919449",NA
+"SAOUHSC_00071","3919450",NA
+"SAOUHSC_00072","3919451",NA
+"SAOUHSC_00074","3919452",NA
+"SAOUHSC_00075","3919453","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao00998_Biosynthesis_of_various_antibiotics, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00076","3919454","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao00998_Biosynthesis_of_various_antibiotics, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00077","3919455","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00078","3919456",NA
+"SAOUHSC_00079","3919457","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00080","3919458","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00081","3919459",NA
+"SAOUHSC_00082","3919460","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00083","3919461","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"gene-SAOUHSC_A00084",NA,NA
+"SAOUHSC_00084","3919462",NA
+"SAOUHSC_00085","3919463",NA
+"SAOUHSC_00086","3919464","sao00650_Butanoate_metabolism, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00087","3919465",NA
+"SAOUHSC_00088","3919466","sao00052_Galactose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00089","3919800",NA
+"SAOUHSC_00090","3919801",NA
+"SAOUHSC_00091","3919802",NA
+"SAOUHSC_00092","3919803",NA
+"SAOUHSC_00093","3919804","sao04146_Peroxisome"
+"SAOUHSC_00094","3919805",NA
+"SAOUHSC_00096","3919806",NA
+"gene-SAOUHSC_A00097",NA,NA
+"SAOUHSC_00097","3919807","sao00230_Purine_metabolism, sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00099","3919808",NA
+"SAOUHSC_00100","3919809","sao00030_Pentose_phosphate_pathway, sao01100_Metabolic_pathways"
+"SAOUHSC_00101","3919810","sao00030_Pentose_phosphate_pathway, sao00230_Purine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00102","3919811","sao02010_ABC_transporters"
+"SAOUHSC_00103","3919812","sao02010_ABC_transporters"
+"SAOUHSC_00104","3919813","sao02010_ABC_transporters"
+"SAOUHSC_00105","3919814","sao02010_ABC_transporters"
+"SAOUHSC_00106","3919815",NA
+"SAOUHSC_00107","3919816",NA
+"SAOUHSC_00108","3919817",NA
+"SAOUHSC_00109","3919818",NA
+"SAOUHSC_00110","3919819",NA
+"SAOUHSC_00111","3919820",NA
+"SAOUHSC_00112","3919821",NA
+"SAOUHSC_00113","3919822","sao00010_Glycolysis_/_Gluconeogenesis, sao00071_Fatty_acid_degradation, sao00350_Tyrosine_metabolism, sao00620_Pyruvate_metabolism, sao00625_Chloroalkane_and_chloroalkene_degradation, sao00626_Naphthalene_degradation, sao00650_Butanoate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01220_Degradation_of_aromatic_compounds"
+"SAOUHSC_00114","3919823",NA
+"SAOUHSC_00115","3919824",NA
+"SAOUHSC_00116","3919825",NA
+"SAOUHSC_00117","3919826","sao00541_Biosynthesis_of_various_nucleotide_sugars, sao00552_Teichoic_acid_biosynthesis, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00118","3919827","sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00119","3919828","sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00120","3919829","sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00121","3919830",NA
+"SAOUHSC_00122","3919831",NA
+"SAOUHSC_00123","3919832",NA
+"SAOUHSC_00124","3919833",NA
+"SAOUHSC_00125","3919834",NA
+"SAOUHSC_00126","3919835",NA
+"SAOUHSC_00127","3919836",NA
+"SAOUHSC_00128","3919837","sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars, sao02020_Two-component_system"
+"SAOUHSC_00129","3919838","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars, sao02020_Two-component_system"
+"SAOUHSC_00130","3919839","sao00860_Porphyrin_metabolism, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00131","3919840",NA
+"SAOUHSC_00132","3919841","sao00010_Glycolysis_/_Gluconeogenesis, sao00053_Ascorbate_and_aldarate_metabolism, sao00071_Fatty_acid_degradation, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00310_Lysine_degradation, sao00330_Arginine_and_proline_metabolism, sao00340_Histidine_metabolism, sao00380_Tryptophan_metabolism, sao00410_beta-Alanine_metabolism, sao00561_Glycerolipid_metabolism, sao00620_Pyruvate_metabolism, sao00625_Chloroalkane_and_chloroalkene_degradation, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00133","3919842",NA
+"SAOUHSC_00134","3919843",NA
+"SAOUHSC_00135","3919844",NA
+"SAOUHSC_00136","3919845",NA
+"SAOUHSC_00137","3919846",NA
+"SAOUHSC_00138","3919847",NA
+"SAOUHSC_00139","3919848",NA
+"SAOUHSC_00141","3919849",NA
+"SAOUHSC_00142","3919850","sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_00143","3919851",NA
+"SAOUHSC_00144","3919852",NA
+"SAOUHSC_00145","3919853",NA
+"SAOUHSC_00146","3919854",NA
+"SAOUHSC_00147","3919855","sao00220_Arginine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00148","3919856","sao00220_Arginine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00149","3919857","sao00220_Arginine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00150","3919858","sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00151","3919859",NA
+"SAOUHSC_00152","3919860",NA
+"SAOUHSC_00153","3919861",NA
+"SAOUHSC_00154","3919862",NA
+"SAOUHSC_00155","3919863","sao00010_Glycolysis_/_Gluconeogenesis, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00156","3919864",NA
+"SAOUHSC_00157","3919865","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00158","3919866","sao00500_Starch_and_sucrose_metabolism, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00160","3919867",NA
+"SAOUHSC_00161","3919868",NA
+"SAOUHSC_00162","3919869",NA
+"SAOUHSC_00163","3919870",NA
+"SAOUHSC_00164","3919871",NA
+"SAOUHSC_00166","3919872",NA
+"SAOUHSC_00167","3919873","sao02024_Quorum_sensing"
+"SAOUHSC_00168","3919874","sao02024_Quorum_sensing"
+"SAOUHSC_00169","3919875","sao02024_Quorum_sensing"
+"SAOUHSC_00170","3919876","sao02024_Quorum_sensing"
+"SAOUHSC_00171","3919877","sao00430_Taurine_and_hypotaurine_metabolism, sao00460_Cyanoamino_acid_metabolism, sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00172","3919486",NA
+"SAOUHSC_00173","3919487",NA
+"SAOUHSC_00174","3919488",NA
+"SAOUHSC_00175","3919489","sao02010_ABC_transporters"
+"SAOUHSC_00176","3919490","sao02010_ABC_transporters"
+"SAOUHSC_00177","3919491","sao02010_ABC_transporters"
+"SAOUHSC_00178","3919492","sao02010_ABC_transporters"
+"SAOUHSC_00179","3919493",NA
+"SAOUHSC_00180","3919494",NA
+"SAOUHSC_00181","3919495",NA
+"SAOUHSC_00182","3919496",NA
+"SAOUHSC_00183","3919497","sao02020_Two-component_system"
+"SAOUHSC_00184","3919498","sao02020_Two-component_system"
+"SAOUHSC_00185","3919499","sao02020_Two-component_system"
+"SAOUHSC_00186","3919500","sao02020_Two-component_system"
+"SAOUHSC_00187","3919501","sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00650_Butanoate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00188","3919502",NA
+"SAOUHSC_00189","3919503",NA
+"SAOUHSC_00190","3919504","sao00564_Glycerophospholipid_metabolism"
+"SAOUHSC_00191","3919505","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00192","3920348",NA
+"SAOUHSC_00193","3920349",NA
+"SAOUHSC_00194","3920350",NA
+"SAOUHSC_00195","3920351","sao00071_Fatty_acid_degradation, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00362_Benzoate_degradation, sao00592_alpha-Linolenic_acid_metabolism, sao00907_Pinene,_camphor_and_geraniol_degradation, sao00984_Steroid_degradation, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_00196","3920352","sao00071_Fatty_acid_degradation, sao00362_Benzoate_degradation, sao00650_Butanoate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_00197","3920353","sao00071_Fatty_acid_degradation, sao00310_Lysine_degradation, sao00362_Benzoate_degradation, sao00380_Tryptophan_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00198","3920354","sao00061_Fatty_acid_biosynthesis, sao00071_Fatty_acid_degradation, sao01100_Metabolic_pathways, sao01212_Fatty_acid_metabolism, sao02024_Quorum_sensing, sao04146_Peroxisome"
+"SAOUHSC_00199","3920355","sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00643_Styrene_degradation, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00200","3920356",NA
+"SAOUHSC_00201","3920357","sao02024_Quorum_sensing"
+"SAOUHSC_00202","3920358",NA
+"SAOUHSC_00203","3920359",NA
+"SAOUHSC_00204","3920360",NA
+"SAOUHSC_00205","3920361",NA
+"SAOUHSC_00206","3920362","sao00010_Glycolysis_/_Gluconeogenesis, sao00270_Cysteine_and_methionine_metabolism, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00208","3920363",NA
+"SAOUHSC_00209","3920364","sao00010_Glycolysis_/_Gluconeogenesis, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00211","3920365",NA
+"SAOUHSC_00212","3920366",NA
+"SAOUHSC_00213","3920289",NA
+"SAOUHSC_00214","3920290","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00215","3920291","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00216","3920292","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00217","3920293","sao00040_Pentose_and_glucuronate_interconversions, sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00218","3920294",NA
+"SAOUHSC_00219","3920295","sao00040_Pentose_and_glucuronate_interconversions, sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00220","3920296","sao00040_Pentose_and_glucuronate_interconversions, sao01100_Metabolic_pathways"
+"SAOUHSC_00221","3920297","sao00040_Pentose_and_glucuronate_interconversions, sao01100_Metabolic_pathways"
+"gene-SAOUHSC_A00219",NA,NA
+"SAOUHSC_00222","3920298","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00223","3920299","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00225","3920300","sao00040_Pentose_and_glucuronate_interconversions, sao01100_Metabolic_pathways"
+"SAOUHSC_00226","3920301","sao00040_Pentose_and_glucuronate_interconversions, sao01100_Metabolic_pathways"
+"SAOUHSC_00227","3920302","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00228","3920303","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00229","3920304",NA
+"SAOUHSC_00230","3920305","sao02020_Two-component_system"
+"SAOUHSC_00231","3920306","sao02020_Two-component_system"
+"SAOUHSC_00232","3920307","sao02020_Two-component_system"
+"SAOUHSC_00233","3920308","sao02020_Two-component_system"
+"SAOUHSC_00234","3919254",NA
+"SAOUHSC_00235","3919255",NA
+"SAOUHSC_00236","3919256","sao00010_Glycolysis_/_Gluconeogenesis, sao00500_Starch_and_sucrose_metabolism"
+"SAOUHSC_00237","3919257",NA
+"SAOUHSC_00238","3919258",NA
+"SAOUHSC_00239","3919259","sao00030_Pentose_phosphate_pathway, sao01100_Metabolic_pathways"
+"SAOUHSC_00240","3919260","sao02010_ABC_transporters"
+"SAOUHSC_00241","3919261",NA
+"SAOUHSC_00242","3919262",NA
+"SAOUHSC_00243","3919263",NA
+"SAOUHSC_00244","3919264",NA
+"SAOUHSC_00245","3919265",NA
+"SAOUHSC_00246","3919266",NA
+"SAOUHSC_00247","3919267","sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00248","3919268",NA
+"SAOUHSC_00249","3919269",NA
+"SAOUHSC_00250","3919270",NA
+"SAOUHSC_00251","3919271",NA
+"SAOUHSC_00253","3919272",NA
+"SAOUHSC_00254","3919196",NA
+"SAOUHSC_00255","3919197",NA
+"SAOUHSC_00256","3919198",NA
+"SAOUHSC_00257","3919199",NA
+"SAOUHSC_00258","3919200",NA
+"SAOUHSC_00259","3919201",NA
+"SAOUHSC_00260","3919202",NA
+"SAOUHSC_00261","3919203",NA
+"SAOUHSC_00262","3919204",NA
+"SAOUHSC_00264","3919205",NA
+"SAOUHSC_00265","3919206",NA
+"SAOUHSC_00266","3919207",NA
+"SAOUHSC_00267","3919208",NA
+"SAOUHSC_00268","3919209",NA
+"SAOUHSC_00269","3919210",NA
+"SAOUHSC_00270","3919211",NA
+"SAOUHSC_00271","3919212",NA
+"SAOUHSC_00272","3919213",NA
+"SAOUHSC_00274","3919214",NA
+"SAOUHSC_00275","3919215",NA
+"SAOUHSC_00276","3918960",NA
+"SAOUHSC_00277","3918961",NA
+"SAOUHSC_00278","3918962",NA
+"SAOUHSC_00279","3918963",NA
+"SAOUHSC_00280","3918964",NA
+"SAOUHSC_00281","3918965",NA
+"SAOUHSC_00282","3918966",NA
+"SAOUHSC_00284","3918967",NA
+"gene-SAOUHSC_A00283",NA,NA
+"SAOUHSC_00285","3918968",NA
+"SAOUHSC_00287","3918969",NA
+"SAOUHSC_00289","3918970",NA
+"SAOUHSC_00290","3918971",NA
+"SAOUHSC_00291","3918972",NA
+"SAOUHSC_00292","3918973","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00293","3918974",NA
+"SAOUHSC_00294","3918975",NA
+"SAOUHSC_00295","3918976","sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways"
+"SAOUHSC_00296","3918977",NA
+"SAOUHSC_00297","3918978",NA
+"SAOUHSC_00298","3919525","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00299","3919526",NA
+"SAOUHSC_00300","3919527","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00301","3919528",NA
+"SAOUHSC_00302","3919529",NA
+"SAOUHSC_00303","3919530",NA
+"SAOUHSC_00304","3919531",NA
+"SAOUHSC_00305","3919532",NA
+"SAOUHSC_00306","3919533",NA
+"SAOUHSC_00307","3919534",NA
+"SAOUHSC_00308","3919535","sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00309","3919536",NA
+"SAOUHSC_00310","3919537","sao00053_Ascorbate_and_aldarate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00311","3919538","sao00053_Ascorbate_and_aldarate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00312","3919539","sao00053_Ascorbate_and_aldarate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00313","3919540",NA
+"SAOUHSC_00314","3919541",NA
+"SAOUHSC_00315","3919542",NA
+"SAOUHSC_00316","3919543",NA
+"SAOUHSC_00317","3919544",NA
+"SAOUHSC_00318","3919584",NA
+"SAOUHSC_00319","3919585",NA
+"SAOUHSC_00320","3919586","sao00740_Riboflavin_metabolism, sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00322","3919587",NA
+"SAOUHSC_00323","3919588",NA
+"SAOUHSC_00324","3919589",NA
+"SAOUHSC_00325","3919590",NA
+"SAOUHSC_00326","3919591",NA
+"SAOUHSC_00327","3919592",NA
+"SAOUHSC_00328","3919593","sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_00329","3919594","sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_00330","3919595",NA
+"SAOUHSC_00331","3919596",NA
+"SAOUHSC_00332","3919597",NA
+"SAOUHSC_00333","3919598",NA
+"SAOUHSC_00334","3919599",NA
+"SAOUHSC_00335","3919600",NA
+"gene-SAOUHSC_A00332",NA,NA
+"SAOUHSC_00336","3919601","sao00071_Fatty_acid_degradation, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00310_Lysine_degradation, sao00362_Benzoate_degradation, sao00380_Tryptophan_metabolism, sao00620_Pyruvate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism, sao02020_Two-component_system"
+"SAOUHSC_00337","3919602",NA
+"SAOUHSC_00338","3921812","sao00270_Cysteine_and_methionine_metabolism, sao00450_Selenocompound_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00339","3921813","sao00270_Cysteine_and_methionine_metabolism, sao00450_Selenocompound_metabolism, sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00340","3921814","sao00270_Cysteine_and_methionine_metabolism, sao00450_Selenocompound_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00341","3921815","sao00270_Cysteine_and_methionine_metabolism, sao00450_Selenocompound_metabolism, sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00342","3921816",NA
+"SAOUHSC_00344","3921817",NA
+"SAOUHSC_00345","3921818",NA
+"SAOUHSC_00346","3921819",NA
+"SAOUHSC_00347","3921820",NA
+"SAOUHSC_00348","3921821","sao03010_Ribosome"
+"SAOUHSC_00349","3921822","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_00350","3921823","sao03010_Ribosome"
+"SAOUHSC_00351","3921824",NA
+"SAOUHSC_00352","3921825",NA
+"SAOUHSC_00353","3921826",NA
+"SAOUHSC_00354","3921827",NA
+"SAOUHSC_00355","3921828",NA
+"SAOUHSC_00356","3921829",NA
+"SAOUHSC_00357","3921830",NA
+"SAOUHSC_00358","3921831",NA
+"gene-SAOUHSC_A00354",NA,NA
+"SAOUHSC_00359","3919779","sao00010_Glycolysis_/_Gluconeogenesis, sao00260_Glycine,_serine_and_threonine_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00360","3919780",NA
+"SAOUHSC_00362","3919781",NA
+"SAOUHSC_00363","3919782",NA
+"SAOUHSC_00364","3919783",NA
+"SAOUHSC_00365","3919784",NA
+"SAOUHSC_00366","3919785","sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00367","3919786",NA
+"SAOUHSC_00368","3919787",NA
+"SAOUHSC_00369","3919788",NA
+"SAOUHSC_00370","3919789",NA
+"SAOUHSC_00371","3919790",NA
+"SAOUHSC_00372","3919791","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00373","3919792",NA
+"SAOUHSC_00374","3919793","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00375","3919794","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00376","3919795",NA
+"SAOUHSC_00377","3919796",NA
+"SAOUHSC_00378","3919797",NA
+"SAOUHSC_00380","3919117",NA
+"SAOUHSC_00381","3919118",NA
+"SAOUHSC_00382","3919119",NA
+"SAOUHSC_00383","3919120",NA
+"SAOUHSC_00384","3919121",NA
+"SAOUHSC_00386","3919122",NA
+"SAOUHSC_00387","3919123",NA
+"SAOUHSC_00389","3919124",NA
+"SAOUHSC_00390","3919125","sao05150_Staphylococcus_aureus_infection"
+"gene-SAOUHSC_A00379",NA,NA
+"SAOUHSC_00391","3919126","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00392","3919127","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00393","3919128",NA
+"SAOUHSC_00394","3919129",NA
+"SAOUHSC_00395","3919130",NA
+"SAOUHSC_00396","3919131",NA
+"SAOUHSC_00397","3919132",NA
+"SAOUHSC_00398","3919133",NA
+"SAOUHSC_00399","3919134","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00400","3919135",NA
+"SAOUHSC_00401","3919136",NA
+"SAOUHSC_00402","3920561",NA
+"SAOUHSC_00404","3920562",NA
+"SAOUHSC_00405","3920563",NA
+"SAOUHSC_00406","3920564",NA
+"SAOUHSC_00407","3920565",NA
+"SAOUHSC_00408","3920566",NA
+"SAOUHSC_00409","3920567",NA
+"SAOUHSC_00410","3920568",NA
+"SAOUHSC_00411","3920569",NA
+"SAOUHSC_00412","3920570",NA
+"SAOUHSC_00413","3920571",NA
+"SAOUHSC_00414","3920572",NA
+"SAOUHSC_00415","3920573",NA
+"SAOUHSC_00416","3920574",NA
+"SAOUHSC_00417","3920575",NA
+"SAOUHSC_00418","3920576",NA
+"SAOUHSC_00420","3920577",NA
+"SAOUHSC_00421","3920578","sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00422","3920579","sao00260_Glycine,_serine_and_threonine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao00670_One_carbon_pool_by_folate, sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00423","3919097","sao02010_ABC_transporters"
+"SAOUHSC_00424","3919098","sao02010_ABC_transporters"
+"SAOUHSC_00426","3919099","sao02010_ABC_transporters"
+"SAOUHSC_00427","3919100",NA
+"SAOUHSC_00428","3919101",NA
+"SAOUHSC_00429","3919102",NA
+"SAOUHSC_00430","3919103",NA
+"SAOUHSC_00431","3919104",NA
+"SAOUHSC_00433","3919105",NA
+"SAOUHSC_00434","3919106",NA
+"SAOUHSC_00435","3919107","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00436","3919108","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"gene-SAOUHSC_T00048",NA,NA
+"SAOUHSC_00437","3919109","sao00500_Starch_and_sucrose_metabolism, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00438","3919110","sao00500_Starch_and_sucrose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00439","3919111",NA
+"SAOUHSC_00440","3919112",NA
+"SAOUHSC_00441","3919113",NA
+"SAOUHSC_00442","3919114","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_00444","3919115",NA
+"SAOUHSC_00445","3919116","sao03440_Homologous_recombination"
+"SAOUHSC_00446","3920309",NA
+"gene-SAOUHSC_R0001",NA,NA
+"gene-SAOUHSC_R0006",NA,NA
+"gene-SAOUHSC_R00011",NA,NA
+"SAOUHSC_00450","3920310",NA
+"SAOUHSC_00451","3920311","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00452","3920312",NA
+"SAOUHSC_00453","3920313",NA
+"SAOUHSC_00454","3920314","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_00455","3920315",NA
+"SAOUHSC_00456","3920316",NA
+"SAOUHSC_00457","3920317",NA
+"SAOUHSC_00458","3920318",NA
+"SAOUHSC_00459","3920319",NA
+"SAOUHSC_00460","3920320",NA
+"SAOUHSC_00461","3920321","sao00450_Selenocompound_metabolism, sao00970_Aminoacyl-tRNA_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00462","3920322",NA
+"SAOUHSC_00463","3920323",NA
+"SAOUHSC_00464","3920324",NA
+"SAOUHSC_00465","3920325",NA
+"SAOUHSC_00466","3920326","sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00467","3920327",NA
+"SAOUHSC_00468","3920328",NA
+"SAOUHSC_00469","3920329",NA
+"SAOUHSC_00470","3920330",NA
+"SAOUHSC_00471","3920331","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00472","3920332","sao00030_Pentose_phosphate_pathway, sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00473","3920333",NA
+"SAOUHSC_00474","3920334","sao03010_Ribosome"
+"SAOUHSC_00475","3920335",NA
+"SAOUHSC_00477","3920336","sao03420_Nucleotide_excision_repair"
+"SAOUHSC_00479","3920337",NA
+"SAOUHSC_00480","3920338",NA
+"SAOUHSC_00481","3920339",NA
+"SAOUHSC_00482","3920340",NA
+"SAOUHSC_00483","3920341",NA
+"SAOUHSC_00484","3920342",NA
+"SAOUHSC_00485","3920343","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00486","3920344",NA
+"SAOUHSC_00487","3920345",NA
+"SAOUHSC_00488","3920346","sao00270_Cysteine_and_methionine_metabolism, sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids, sao01320_Sulfur_cycle"
+"SAOUHSC_00489","3920347","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00490","3920406","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00491","3920407","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00492","3920408",NA
+"SAOUHSC_00493","3920409","sao00970_Aminoacyl-tRNA_biosynthesis"
+"gene-SAOUHSC_R00016",NA,NA
+"gene-SAOUHSC_T00059",NA,NA
+"gene-SAOUHSC_T00053",NA,NA
+"gene-SAOUHSC_T00035",NA,NA
+"gene-SAOUHSC_T00021",NA,NA
+"gene-SAOUHSC_T00030",NA,NA
+"gene-SAOUHSC_T0004",NA,NA
+"gene-SAOUHSC_T00044",NA,NA
+"gene-SAOUHSC_T0001",NA,NA
+"gene-SAOUHSC_R0002",NA,NA
+"gene-SAOUHSC_R0007",NA,NA
+"gene-SAOUHSC_R00012",NA,NA
+"SAOUHSC_00497","3920410",NA
+"SAOUHSC_00499","3920411","sao00750_Vitamin_B6_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00500","3920412","sao00750_Vitamin_B6_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00501","3920413",NA
+"SAOUHSC_00502","3920414",NA
+"SAOUHSC_00503","3920415",NA
+"SAOUHSC_00504","3920416",NA
+"SAOUHSC_00505","3920417",NA
+"SAOUHSC_00506","3920418",NA
+"SAOUHSC_00507","3920419",NA
+"SAOUHSC_00508","3920420",NA
+"SAOUHSC_00509","3920421","sao00970_Aminoacyl-tRNA_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00510","3920422","sao00270_Cysteine_and_methionine_metabolism, sao00543_Exopolysaccharide_biosynthesis, sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00511","3920423","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_00512","3920424",NA
+"SAOUHSC_00513","3920367",NA
+"SAOUHSC_00514","3920368",NA
+"SAOUHSC_00515","3920369",NA
+"SAOUHSC_00516","3920370","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_00517","3920371",NA
+"SAOUHSC_00518","3920372","sao03010_Ribosome"
+"SAOUHSC_00519","3920373","sao03010_Ribosome"
+"SAOUHSC_00520","3920374","sao03010_Ribosome"
+"SAOUHSC_00521","3920375","sao03010_Ribosome"
+"SAOUHSC_00523","3920376",NA
+"SAOUHSC_00524","3920377","sao03020_RNA_polymerase"
+"SAOUHSC_00525","3920378","sao03020_RNA_polymerase"
+"SAOUHSC_00526","3920379","sao03010_Ribosome"
+"SAOUHSC_00527","3920380","sao03010_Ribosome"
+"SAOUHSC_00528","3920381","sao03010_Ribosome"
+"SAOUHSC_00529","3920382",NA
+"SAOUHSC_00530","3920383",NA
+"SAOUHSC_00531","3920384",NA
+"SAOUHSC_00532","3920385","sao00260_Glycine,_serine_and_threonine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00533","3920386","sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00534","3920814","sao00040_Pentose_and_glucuronate_interconversions, sao01100_Metabolic_pathways"
+"SAOUHSC_00535","3920815",NA
+"SAOUHSC_00536","3920816","sao00270_Cysteine_and_methionine_metabolism, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00537","3920817",NA
+"SAOUHSC_00538","3920818","sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00539","3920819","sao00230_Purine_metabolism, sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00540","3920820","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00541","3920821",NA
+"SAOUHSC_00542","3920822",NA
+"SAOUHSC_00543","3920823",NA
+"gene-SAOUHSC_A00526",NA,NA
+"SAOUHSC_00544","3920824","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00545","3920825","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00547","3920826","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00548","3920827","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00549","3920828","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00550","3920829",NA
+"SAOUHSC_00551","3920830",NA
+"SAOUHSC_00552","3920831","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00553","3920832","sao00030_Pentose_phosphate_pathway, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00554","3920599","sao00030_Pentose_phosphate_pathway, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00555","3920600","sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00556","3920601",NA
+"SAOUHSC_00557","3920602",NA
+"SAOUHSC_00558","3920603","sao00071_Fatty_acid_degradation, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00310_Lysine_degradation, sao00362_Benzoate_degradation, sao00380_Tryptophan_metabolism, sao00620_Pyruvate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism, sao02020_Two-component_system"
+"SAOUHSC_00559","3920604",NA
+"SAOUHSC_00560","3920605",NA
+"SAOUHSC_00561","3920606",NA
+"SAOUHSC_00562","3920607","sao00750_Vitamin_B6_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00564","3920608","sao03410_Base_excision_repair"
+"SAOUHSC_00565","3920609",NA
+"SAOUHSC_00567","3920610",NA
+"SAOUHSC_00569","3920611",NA
+"SAOUHSC_00571","3920612",NA
+"SAOUHSC_00572","3920613",NA
+"SAOUHSC_00573","3920614","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00574","3920615","sao00430_Taurine_and_hypotaurine_metabolism, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00680_Methane_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_00575","3920616","sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00577","3920617","sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao04146_Peroxisome"
+"SAOUHSC_00578","3920618","sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00579","3920503","sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00580","3920504",NA
+"SAOUHSC_00581","3920505",NA
+"SAOUHSC_00582","3920506",NA
+"SAOUHSC_00583","3920507",NA
+"SAOUHSC_00584","3920508",NA
+"SAOUHSC_00585","3920509",NA
+"SAOUHSC_00586","3920510",NA
+"SAOUHSC_00587","3920511",NA
+"SAOUHSC_00588","3920512",NA
+"SAOUHSC_00589","3920513",NA
+"SAOUHSC_00591","3920514",NA
+"SAOUHSC_00592","3920515",NA
+"SAOUHSC_00593","3920516",NA
+"SAOUHSC_00595","3920517",NA
+"SAOUHSC_00596","3920518",NA
+"SAOUHSC_00598","3920519",NA
+"SAOUHSC_00599","3920520",NA
+"SAOUHSC_00600","3920521",NA
+"SAOUHSC_00602","3918921",NA
+"SAOUHSC_00603","3918922",NA
+"SAOUHSC_00604","3918923",NA
+"SAOUHSC_00605","3918924",NA
+"SAOUHSC_00606","3918925",NA
+"SAOUHSC_00607","3918926",NA
+"SAOUHSC_00608","3918927","sao00010_Glycolysis_/_Gluconeogenesis, sao00071_Fatty_acid_degradation, sao00350_Tyrosine_metabolism, sao00620_Pyruvate_metabolism, sao00625_Chloroalkane_and_chloroalkene_degradation, sao00626_Naphthalene_degradation, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01220_Degradation_of_aromatic_compounds"
+"SAOUHSC_00609","3918928",NA
+"SAOUHSC_00610","3918929",NA
+"SAOUHSC_00611","3918930","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_00612","3918931",NA
+"SAOUHSC_00613","3918932",NA
+"SAOUHSC_00614","3918933",NA
+"SAOUHSC_00615","3918934",NA
+"SAOUHSC_00616","3918935",NA
+"SAOUHSC_00617","3918936",NA
+"SAOUHSC_00618","3918937",NA
+"SAOUHSC_00619","3918938",NA
+"SAOUHSC_00620","3918939",NA
+"SAOUHSC_00621","3918940","sao02024_Quorum_sensing"
+"SAOUHSC_00622","3920033",NA
+"SAOUHSC_00624","3920034",NA
+"SAOUHSC_00625","3920035",NA
+"SAOUHSC_00626","3920036",NA
+"SAOUHSC_00627","3920037",NA
+"SAOUHSC_00628","3920038",NA
+"SAOUHSC_00629","3920039",NA
+"SAOUHSC_00630","3920040",NA
+"SAOUHSC_00632","3920041",NA
+"SAOUHSC_00633","3920042",NA
+"SAOUHSC_00634","3920043","sao02010_ABC_transporters"
+"SAOUHSC_00636","3920044","sao02010_ABC_transporters"
+"SAOUHSC_00637","3920045","sao02010_ABC_transporters"
+"SAOUHSC_00638","3920046",NA
+"SAOUHSC_00639","3920047",NA
+"SAOUHSC_00640","3920048","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00641","3920049","sao02010_ABC_transporters"
+"SAOUHSC_00642","3920050","sao02010_ABC_transporters"
+"SAOUHSC_00643","3920051","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00644","3919936",NA
+"SAOUHSC_00645","3919937","sao00564_Glycerophospholipid_metabolism"
+"SAOUHSC_00646","3919938","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00647","3919939","sao01501_beta-Lactam_resistance, sao02010_ABC_transporters"
+"SAOUHSC_00648","3919940",NA
+"SAOUHSC_00650","3919941",NA
+"SAOUHSC_00651","3919942",NA
+"SAOUHSC_00652","3919943",NA
+"SAOUHSC_00653","3919944",NA
+"SAOUHSC_00654","3919945",NA
+"SAOUHSC_00655","3919946","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00656","3919947","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00658","3919948","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00659","3919949",NA
+"SAOUHSC_00660","3919950",NA
+"SAOUHSC_00661","3919951",NA
+"gene-SAOUHSC_A00635",NA,NA
+"SAOUHSC_00662","3919952",NA
+"SAOUHSC_00663","3919953",NA
+"SAOUHSC_00664","3919954",NA
+"SAOUHSC_00665","3919955","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system"
+"SAOUHSC_00666","3919429","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system"
+"SAOUHSC_00667","3919430","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02010_ABC_transporters, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00668","3919431","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02010_ABC_transporters, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00669","3919432",NA
+"SAOUHSC_00670","3919433",NA
+"SAOUHSC_00671","3919434",NA
+"SAOUHSC_00672","3919435",NA
+"SAOUHSC_00673","3919436",NA
+"SAOUHSC_00674","3919437",NA
+"SAOUHSC_00675","3919438",NA
+"SAOUHSC_00676","3919439",NA
+"SAOUHSC_00677","3919440",NA
+"SAOUHSC_00678","3919441",NA
+"SAOUHSC_00679","3919442",NA
+"SAOUHSC_00680","3919443",NA
+"SAOUHSC_00681","3919444",NA
+"SAOUHSC_00682","3919445",NA
+"SAOUHSC_00683","3919446",NA
+"SAOUHSC_00684","3919447",NA
+"SAOUHSC_00685","3920989",NA
+"SAOUHSC_00686","3920990",NA
+"SAOUHSC_00687","3920991",NA
+"SAOUHSC_00688","3920992",NA
+"SAOUHSC_00689","3920993",NA
+"SAOUHSC_00690","3920994",NA
+"SAOUHSC_00691","3920995","sao00550_Peptidoglycan_biosynthesis, sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00692","3920996","sao02010_ABC_transporters"
+"SAOUHSC_00693","3920997","sao02010_ABC_transporters"
+"SAOUHSC_00694","3920998",NA
+"SAOUHSC_00695","3920999",NA
+"SAOUHSC_00696","3921000",NA
+"SAOUHSC_00697","3921001",NA
+"SAOUHSC_00698","3921002",NA
+"SAOUHSC_00699","3921003",NA
+"SAOUHSC_00700","3921004",NA
+"SAOUHSC_00701","3921005",NA
+"SAOUHSC_00702","3921006",NA
+"SAOUHSC_00703","3921007",NA
+"SAOUHSC_00704","3921008",NA
+"SAOUHSC_00705","3919332",NA
+"SAOUHSC_00706","3919333",NA
+"SAOUHSC_00707","3919334","sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00708","3919335","sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_00709","3919336",NA
+"SAOUHSC_00710","3919337","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00711","3919338",NA
+"SAOUHSC_00712","3919339",NA
+"SAOUHSC_00713","3919340","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00714","3919341","sao02020_Two-component_system"
+"SAOUHSC_00715","3919342","sao02020_Two-component_system"
+"SAOUHSC_00716","3919343","sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01320_Sulfur_cycle"
+"SAOUHSC_00717","3919344",NA
+"SAOUHSC_00718","3919345",NA
+"SAOUHSC_00719","3919346","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00720","3919347","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00721","3919348","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00722","3919349","sao00790_Folate_biosynthesis, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00723","3919350","sao00790_Folate_biosynthesis, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00724","3920969","sao00790_Folate_biosynthesis, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00725","3920970",NA
+"SAOUHSC_00726","3920971",NA
+"SAOUHSC_00727","3920972",NA
+"SAOUHSC_00728","3920973","sao00552_Teichoic_acid_biosynthesis, sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"gene-SAOUHSC_A00703",NA,NA
+"SAOUHSC_00729","3920974",NA
+"SAOUHSC_00730","3920975","sao03018_RNA_degradation"
+"SAOUHSC_00731","3920976","sao02010_ABC_transporters"
+"SAOUHSC_00732","3920977","sao02010_ABC_transporters"
+"SAOUHSC_00733","3920978","sao00340_Histidine_metabolism, sao00350_Tyrosine_metabolism, sao00360_Phenylalanine_metabolism, sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao00401_Novobiocin_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00734","3920979",NA
+"SAOUHSC_00735","3920980",NA
+"SAOUHSC_00736","3920981",NA
+"SAOUHSC_00737","3920982",NA
+"SAOUHSC_00738","3920983",NA
+"SAOUHSC_00739","3920984","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00740","3920985",NA
+"SAOUHSC_00741","3920986",NA
+"SAOUHSC_00742","3920987","sao00230_Purine_metabolism, sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00743","3920988","sao00230_Purine_metabolism, sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_00744","3919506",NA
+"SAOUHSC_00745","3919507",NA
+"SAOUHSC_00746","3919508",NA
+"SAOUHSC_00747","3919509",NA
+"SAOUHSC_00748","3919510",NA
+"SAOUHSC_00749","3919511",NA
+"SAOUHSC_00751","3919512",NA
+"SAOUHSC_00752","3919513","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00753","3919514",NA
+"SAOUHSC_00754","3919515",NA
+"SAOUHSC_00755","3919516",NA
+"SAOUHSC_00756","3919517","sao00260_Glycine,_serine_and_threonine_metabolism, sao00561_Glycerolipid_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00757","3919518",NA
+"SAOUHSC_00758","3919519",NA
+"SAOUHSC_00759","3919520",NA
+"SAOUHSC_00760","3919521",NA
+"SAOUHSC_00762","3919522","sao00542_O-Antigen_repeat_unit_biosynthesis, sao00543_Exopolysaccharide_biosynthesis, sao00552_Teichoic_acid_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00763","3919523",NA
+"SAOUHSC_00764","3919524",NA
+"SAOUHSC_00765","3919057",NA
+"SAOUHSC_00766","3919058",NA
+"SAOUHSC_00767","3919059",NA
+"SAOUHSC_00769","3919060","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_00770","3919061",NA
+"SAOUHSC_00771","3919062",NA
+"SAOUHSC_00772","3919063",NA
+"SAOUHSC_00773","3919064",NA
+"SAOUHSC_00774","3919065",NA
+"SAOUHSC_00775","3919066",NA
+"SAOUHSC_00776","3919067","sao03420_Nucleotide_excision_repair"
+"SAOUHSC_00778","3919068",NA
+"gene-SAOUHSC_A00747",NA,NA
+"SAOUHSC_00779","3919069","sao03420_Nucleotide_excision_repair"
+"SAOUHSC_00780","3919070","sao03420_Nucleotide_excision_repair"
+"SAOUHSC_00781","3919071",NA
+"SAOUHSC_00782","3919072",NA
+"SAOUHSC_00783","3919073","sao00564_Glycerophospholipid_metabolism, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00784","3919074",NA
+"SAOUHSC_00785","3919075","sao00450_Selenocompound_metabolism"
+"SAOUHSC_00786","3919076",NA
+"SAOUHSC_00787","3919351",NA
+"SAOUHSC_00788","3919352",NA
+"SAOUHSC_00789","3919353",NA
+"gene-SAOUHSC_T0005",NA,NA
+"SAOUHSC_00790","3919354",NA
+"SAOUHSC_00792","3919355",NA
+"SAOUHSC_00793","3919356",NA
+"SAOUHSC_00794","3919357",NA
+"SAOUHSC_00795","3919358","sao00010_Glycolysis_/_Gluconeogenesis, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00796","3919359","sao00010_Glycolysis_/_Gluconeogenesis, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00797","3919360","sao00010_Glycolysis_/_Gluconeogenesis, sao00051_Fructose_and_mannose_metabolism, sao00562_Inositol_phosphate_metabolism, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00798","3919361","sao00010_Glycolysis_/_Gluconeogenesis, sao00260_Glycine,_serine_and_threonine_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00799","3919362","sao00010_Glycolysis_/_Gluconeogenesis, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids, sao03018_RNA_degradation"
+"SAOUHSC_00800","3919363",NA
+"SAOUHSC_00801","3919364","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_00802","3919365",NA
+"SAOUHSC_00803","3919366","sao03018_RNA_degradation"
+"SAOUHSC_00804","3919367",NA
+"SAOUHSC_00805","3919368",NA
+"SAOUHSC_00806","3919369",NA
+"SAOUHSC_00807","3919370",NA
+"SAOUHSC_00808","3919371",NA
+"SAOUHSC_00809","3919372",NA
+"SAOUHSC_00810","3919373",NA
+"SAOUHSC_00811","3919374",NA
+"SAOUHSC_00812","3919375","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00813","3919376",NA
+"SAOUHSC_00814","3919377",NA
+"SAOUHSC_00816","3919378",NA
+"SAOUHSC_00817","3919379",NA
+"SAOUHSC_00818","3919380",NA
+"SAOUHSC_00819","3919381",NA
+"SAOUHSC_00820","3919382",NA
+"SAOUHSC_00821","3919383",NA
+"SAOUHSC_00822","3919384",NA
+"SAOUHSC_00823","3919385",NA
+"SAOUHSC_00824","3919386",NA
+"SAOUHSC_00825","3919387",NA
+"SAOUHSC_00826","3919388",NA
+"SAOUHSC_00827","3919389",NA
+"SAOUHSC_00828","3918941",NA
+"SAOUHSC_00830","3918942",NA
+"SAOUHSC_00831","3918943",NA
+"SAOUHSC_00832","3918944","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00833","3918945",NA
+"SAOUHSC_00834","3918946",NA
+"SAOUHSC_00835","3918947",NA
+"SAOUHSC_00836","3918948","sao00260_Glycine,_serine_and_threonine_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00670_One_carbon_pool_by_folate, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism"
+"SAOUHSC_00837","3918949",NA
+"SAOUHSC_00838","3918950",NA
+"SAOUHSC_00839","3918951",NA
+"SAOUHSC_00840","3918952",NA
+"SAOUHSC_00841","3918953",NA
+"SAOUHSC_00842","3918954","sao02010_ABC_transporters"
+"SAOUHSC_00843","3918955","sao02010_ABC_transporters"
+"SAOUHSC_00844","3918956","sao02010_ABC_transporters"
+"SAOUHSC_00845","3918957",NA
+"SAOUHSC_00846","3918958",NA
+"SAOUHSC_00847","3918959",NA
+"SAOUHSC_00848","3918979",NA
+"SAOUHSC_00849","3918980","sao00450_Selenocompound_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00850","3918981",NA
+"SAOUHSC_00851","3918982",NA
+"SAOUHSC_00852","3918983",NA
+"SAOUHSC_00853","3918984",NA
+"SAOUHSC_00854","3918985",NA
+"SAOUHSC_00855","3918986","sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00857","3918987",NA
+"SAOUHSC_00858","3918988",NA
+"SAOUHSC_00859","3918989",NA
+"SAOUHSC_00860","3918990",NA
+"SAOUHSC_00861","3918991","sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00862","3918992",NA
+"SAOUHSC_00863","3918993",NA
+"SAOUHSC_00864","3918994",NA
+"SAOUHSC_00865","3918995",NA
+"SAOUHSC_00866","3918996","sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00867","3918997",NA
+"SAOUHSC_00868","3918998",NA
+"SAOUHSC_00869","3919216","sao00470_D-Amino_acid_metabolism, sao00552_Teichoic_acid_biosynthesis, sao01100_Metabolic_pathways, sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00870","3919217","sao00552_Teichoic_acid_biosynthesis, sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00871","3919218","sao00470_D-Amino_acid_metabolism, sao00552_Teichoic_acid_biosynthesis, sao01100_Metabolic_pathways, sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00872","3919219","sao00552_Teichoic_acid_biosynthesis, sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_00873","3919220",NA
+"SAOUHSC_00874","3919221",NA
+"SAOUHSC_00875","3919222",NA
+"SAOUHSC_00876","3919223",NA
+"SAOUHSC_00877","3919224",NA
+"SAOUHSC_00878","3919225","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_00879","3919226","sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00880","3919227",NA
+"SAOUHSC_00881","3919228","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00882","3919229",NA
+"SAOUHSC_00883","3919230",NA
+"SAOUHSC_00884","3919231",NA
+"SAOUHSC_00885","3919232",NA
+"SAOUHSC_00886","3919233",NA
+"SAOUHSC_00887","3919234",NA
+"SAOUHSC_00888","3921734",NA
+"SAOUHSC_00889","3921735",NA
+"SAOUHSC_00890","3921736","sao02020_Two-component_system"
+"SAOUHSC_00891","3921737",NA
+"SAOUHSC_00892","3921738",NA
+"SAOUHSC_00893","3921739",NA
+"SAOUHSC_00894","3921740","sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_00895","3921741","sao00220_Arginine_biosynthesis, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00430_Taurine_and_hypotaurine_metabolism, sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_00896","3921742",NA
+"SAOUHSC_00897","3921743","sao00564_Glycerophospholipid_metabolism"
+"SAOUHSC_00898","3921744","sao00220_Arginine_biosynthesis, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00899","3921745","sao00220_Arginine_biosynthesis, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00900","3921746","sao00010_Glycolysis_/_Gluconeogenesis, sao00030_Pentose_phosphate_pathway, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_00901","3921747",NA
+"SAOUHSC_00902","3921748","sao03060_Protein_export"
+"SAOUHSC_00903","3921749","sao03060_Protein_export"
+"SAOUHSC_00904","3921750",NA
+"SAOUHSC_00905","3921751",NA
+"SAOUHSC_00906","3921752",NA
+"SAOUHSC_00907","3921753",NA
+"SAOUHSC_00908","3920795",NA
+"SAOUHSC_00909","3920796","sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00910","3920797",NA
+"SAOUHSC_00911","3920798",NA
+"SAOUHSC_00912","3920799",NA
+"SAOUHSC_00913","3920800",NA
+"SAOUHSC_00914","3920801","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00915","3920802",NA
+"SAOUHSC_00916","3920803",NA
+"SAOUHSC_00917","3920804",NA
+"SAOUHSC_00918","3920805",NA
+"SAOUHSC_00919","3920806",NA
+"SAOUHSC_00920","3920807","sao00061_Fatty_acid_biosynthesis, sao01100_Metabolic_pathways, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_00921","3920808","sao00061_Fatty_acid_biosynthesis, sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01212_Fatty_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00922","3920809",NA
+"SAOUHSC_00923","3920810","sao01501_beta-Lactam_resistance, sao02010_ABC_transporters, sao02024_Quorum_sensing"
+"SAOUHSC_00924","3920811","sao01501_beta-Lactam_resistance, sao02010_ABC_transporters, sao02024_Quorum_sensing"
+"SAOUHSC_00925","3920812","sao01501_beta-Lactam_resistance, sao02010_ABC_transporters, sao02024_Quorum_sensing"
+"SAOUHSC_00926","3920813","sao01501_beta-Lactam_resistance, sao02010_ABC_transporters, sao02024_Quorum_sensing"
+"SAOUHSC_00927","3920756","sao01501_beta-Lactam_resistance, sao02010_ABC_transporters, sao02024_Quorum_sensing"
+"SAOUHSC_00928","3920757","sao02024_Quorum_sensing"
+"SAOUHSC_00929","3920758","sao02024_Quorum_sensing"
+"SAOUHSC_00930","3920759","sao02024_Quorum_sensing"
+"SAOUHSC_00931","3920760","sao02024_Quorum_sensing"
+"SAOUHSC_00932","3920761","sao02024_Quorum_sensing"
+"SAOUHSC_00933","3920762","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_00934","3920763",NA
+"SAOUHSC_00935","3920764",NA
+"SAOUHSC_00936","3920765",NA
+"SAOUHSC_00937","3920766",NA
+"SAOUHSC_00938","3920767",NA
+"SAOUHSC_00939","3920768",NA
+"SAOUHSC_00940","3920769",NA
+"SAOUHSC_00941","3920770",NA
+"SAOUHSC_00942","3920771","sao00230_Purine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00943","3920772","sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00944","3920773",NA
+"SAOUHSC_00945","3920774",NA
+"SAOUHSC_00946","3920775",NA
+"SAOUHSC_00947","3920658","sao00061_Fatty_acid_biosynthesis, sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01212_Fatty_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00948","3920659",NA
+"SAOUHSC_00949","3920660",NA
+"SAOUHSC_00950","3920661",NA
+"SAOUHSC_00951","3920662",NA
+"SAOUHSC_00952","3920663",NA
+"SAOUHSC_00953","3920664","sao00552_Teichoic_acid_biosynthesis, sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_00954","3920665","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_00955","3920666",NA
+"SAOUHSC_00956","3920667",NA
+"SAOUHSC_00957","3920668",NA
+"SAOUHSC_00958","3920669",NA
+"SAOUHSC_00959","3920670",NA
+"SAOUHSC_00960","3920671",NA
+"gene-SAOUHSC_T00049",NA,NA
+"gene-SAOUHSC_T0008",NA,NA
+"SAOUHSC_00961","3920672","sao02024_Quorum_sensing"
+"SAOUHSC_00962","3920673",NA
+"SAOUHSC_00963","3920674","sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00964","3920675",NA
+"SAOUHSC_00965","3920676",NA
+"SAOUHSC_00966","3920111",NA
+"SAOUHSC_00967","3920112",NA
+"SAOUHSC_00968","3920113",NA
+"SAOUHSC_00969","3920114",NA
+"SAOUHSC_00970","3920115",NA
+"SAOUHSC_00971","3920116",NA
+"SAOUHSC_00972","3920117",NA
+"SAOUHSC_00973","3920118",NA
+"SAOUHSC_00974","3920119",NA
+"SAOUHSC_00975","3920120",NA
+"SAOUHSC_00976","3920121",NA
+"SAOUHSC_00977","3920122",NA
+"SAOUHSC_00978","3920123",NA
+"SAOUHSC_00979","3920124",NA
+"SAOUHSC_00980","3920125","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00981","3920126",NA
+"SAOUHSC_00982","3920127","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00983","3920128","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00984","3920129","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00985","3920130","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_00986","3920387",NA
+"SAOUHSC_00987","3920388",NA
+"SAOUHSC_00988","3920389","sao02024_Quorum_sensing"
+"SAOUHSC_00989","3920390","sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_00991","3920391",NA
+"SAOUHSC_00992","3920392",NA
+"SAOUHSC_00993","3920393",NA
+"SAOUHSC_00994","3920394",NA
+"SAOUHSC_00995","3920395",NA
+"SAOUHSC_00996","3920396",NA
+"SAOUHSC_00997","3920397","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_00998","3920398",NA
+"SAOUHSC_00999","3920399","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_01000","3920400","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_01001","3920401","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_01002","3920402","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_01003","3920403",NA
+"SAOUHSC_01005","3920404",NA
+"SAOUHSC_01007","3920405","sao00670_One_carbon_pool_by_folate, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01008","3920269","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01009","3920270","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01010","3920271","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01011","3920272","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01012","3920273","sao00220_Arginine_biosynthesis, sao00230_Purine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01013","3920274","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01014","3920275","sao00230_Purine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01015","3920276","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01016","3920277","sao00230_Purine_metabolism, sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01017","3920278","sao00230_Purine_metabolism, sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01018","3920279","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01019","3920280","sao02010_ABC_transporters"
+"SAOUHSC_01021","3920281",NA
+"SAOUHSC_01022","3920282",NA
+"SAOUHSC_01023","3920283",NA
+"SAOUHSC_01024","3920284",NA
+"SAOUHSC_01025","3920285",NA
+"SAOUHSC_01026","3920286",NA
+"SAOUHSC_01027","3920287",NA
+"SAOUHSC_01028","3920288","sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_01029","3919878","sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_01030","3919879",NA
+"SAOUHSC_01031","3919880","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways, sao02020_Two-component_system"
+"SAOUHSC_01032","3919881","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways, sao02020_Two-component_system"
+"SAOUHSC_01034","3919882",NA
+"gene-SAOUHSC_A00992",NA,NA
+"SAOUHSC_01035","3919883","sao03018_RNA_degradation"
+"SAOUHSC_01036","3919884",NA
+"SAOUHSC_01037","3919885",NA
+"SAOUHSC_01038","3919886",NA
+"SAOUHSC_01039","3919887",NA
+"SAOUHSC_01040","3919888","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01041","3919889","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01042","3919890","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01043","3919891","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00260_Glycine,_serine_and_threonine_metabolism, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00310_Lysine_degradation, sao00380_Tryptophan_metabolism, sao00620_Pyruvate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00640_Propanoate_metabolism, sao00670_One_carbon_pool_by_folate, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01044","3919892",NA
+"SAOUHSC_01045","3919893",NA
+"SAOUHSC_01046","3919894","sao02010_ABC_transporters"
+"SAOUHSC_01047","3919895","sao02010_ABC_transporters"
+"SAOUHSC_01048","3919896","sao02010_ABC_transporters"
+"SAOUHSC_01049","3921714","sao02010_ABC_transporters"
+"SAOUHSC_01050","3921715",NA
+"SAOUHSC_01051","3921716",NA
+"SAOUHSC_01053","3921717",NA
+"SAOUHSC_01054","3921718",NA
+"SAOUHSC_01055","3921719","sao00521_Streptomycin_biosynthesis, sao00562_Inositol_phosphate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01057","3921720",NA
+"SAOUHSC_01058","3921721",NA
+"SAOUHSC_01060","3921722",NA
+"SAOUHSC_01061","3921723",NA
+"SAOUHSC_01062","3921724",NA
+"SAOUHSC_01063","3921725","sao00550_Peptidoglycan_biosynthesis"
+"SAOUHSC_01064","3921726","sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01065","3921727","sao00190_Oxidative_phosphorylation, sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors, sao02020_Two-component_system"
+"SAOUHSC_01066","3921728","sao00190_Oxidative_phosphorylation, sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01067","3921729",NA
+"SAOUHSC_01068","3921730",NA
+"SAOUHSC_01069","3921731",NA
+"SAOUHSC_01070","3921732",NA
+"SAOUHSC_01071","3921733","sao00564_Glycerophospholipid_metabolism"
+"SAOUHSC_01072","3919235",NA
+"SAOUHSC_01073","3919236",NA
+"SAOUHSC_01074","3919237",NA
+"SAOUHSC_01075","3919238","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01076","3919239",NA
+"SAOUHSC_01077","3919240",NA
+"gene-SAOUHSC_A01041",NA,NA
+"SAOUHSC_01078","3919241",NA
+"SAOUHSC_01079","3919242",NA
+"SAOUHSC_01081","3919243","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01082","3919244",NA
+"SAOUHSC_01084","3919245",NA
+"SAOUHSC_01085","3919246",NA
+"SAOUHSC_01086","3919247",NA
+"SAOUHSC_01087","3919248",NA
+"SAOUHSC_01088","3919249",NA
+"SAOUHSC_01089","3919250","sao00860_Porphyrin_metabolism, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01090","3919251",NA
+"SAOUHSC_01091","3919252",NA
+"SAOUHSC_01092","3919253","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01093","3920736","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01095","3920737","sao03030_DNA_replication"
+"SAOUHSC_01096","3920738",NA
+"SAOUHSC_01097","3920739",NA
+"SAOUHSC_01098","3920740",NA
+"SAOUHSC_01099","3920741","sao03430_Mismatch_repair"
+"SAOUHSC_01100","3920742",NA
+"SAOUHSC_01101","3920743",NA
+"SAOUHSC_01102","3920744","sao03420_Nucleotide_excision_repair"
+"SAOUHSC_01103","3920745","sao00020_Citrate_cycle_(TCA_cycle), sao00190_Oxidative_phosphorylation, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01104","3920746","sao00020_Citrate_cycle_(TCA_cycle), sao00190_Oxidative_phosphorylation, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01105","3920747","sao00020_Citrate_cycle_(TCA_cycle), sao00190_Oxidative_phosphorylation, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01106","3920748","sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01107","3920749","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01108","3920750",NA
+"SAOUHSC_01109","3920751",NA
+"SAOUHSC_01110","3920752",NA
+"SAOUHSC_01111","3920753",NA
+"SAOUHSC_01112","3920754","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01113","3920755",NA
+"SAOUHSC_01114","3920717","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01115","3920718","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01118","3920719",NA
+"gene-SAOUHSC_A01079",NA,NA
+"SAOUHSC_01119","3920720",NA
+"gene-SAOUHSC_A01081",NA,NA
+"SAOUHSC_01120","3920721",NA
+"SAOUHSC_01121","3920722",NA
+"SAOUHSC_01122","3920723",NA
+"SAOUHSC_01123","3920724",NA
+"SAOUHSC_01124","3920725",NA
+"SAOUHSC_01125","3920726",NA
+"SAOUHSC_01127","3920727",NA
+"SAOUHSC_01128","3920728","sao00220_Arginine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01129","3920729","sao00220_Arginine_biosynthesis, sao00230_Purine_metabolism, sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01130","3920730",NA
+"SAOUHSC_01131","3920731",NA
+"SAOUHSC_01133","3920732","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01134","3920733",NA
+"gene-SAOUHSC_T0006",NA,NA
+"SAOUHSC_01135","3920734","sao02024_Quorum_sensing"
+"SAOUHSC_01136","3920735","sao02024_Quorum_sensing"
+"SAOUHSC_01137","3920697",NA
+"SAOUHSC_01138","3920698",NA
+"SAOUHSC_01139","3920699",NA
+"SAOUHSC_01140","3920700",NA
+"SAOUHSC_01141","3920701",NA
+"SAOUHSC_01142","3920702",NA
+"SAOUHSC_01143","3920703",NA
+"SAOUHSC_01144","3920704",NA
+"SAOUHSC_01145","3920705","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01501_beta-Lactam_resistance"
+"SAOUHSC_01146","3920706","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01502_Vancomycin_resistance"
+"SAOUHSC_01147","3920707","sao00470_D-Amino_acid_metabolism, sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_01148","3920708",NA
+"SAOUHSC_01149","3920709",NA
+"SAOUHSC_01150","3920710",NA
+"SAOUHSC_01152","3920711","sao00230_Purine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01153","3920712",NA
+"SAOUHSC_01154","3920713",NA
+"SAOUHSC_01155","3920714",NA
+"SAOUHSC_01156","3920715",NA
+"SAOUHSC_01158","3920716",NA
+"SAOUHSC_01159","3920911","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01160","3920912","sao00362_Benzoate_degradation, sao00622_Xylene_degradation, sao00643_Styrene_degradation, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01220_Degradation_of_aromatic_compounds"
+"SAOUHSC_01161","3920913",NA
+"SAOUHSC_01162","3920914","sao03060_Protein_export"
+"SAOUHSC_01163","3920915",NA
+"SAOUHSC_01164","3920916","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01165","3920917",NA
+"SAOUHSC_01166","3920918","sao00240_Pyrimidine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01168","3920919","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01169","3920920","sao00220_Arginine_biosynthesis, sao00240_Pyrimidine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01170","3920921","sao00220_Arginine_biosynthesis, sao00240_Pyrimidine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01171","3920922","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01172","3920923","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01173","3920924",NA
+"SAOUHSC_01174","3920925",NA
+"SAOUHSC_01175","3920926",NA
+"SAOUHSC_01176","3920927","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01177","3920928","sao03020_RNA_polymerase"
+"SAOUHSC_01178","3920929","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01179","3919312","sao03440_Homologous_recombination"
+"SAOUHSC_01180","3919313",NA
+"SAOUHSC_01181","3919314",NA
+"SAOUHSC_01182","3919315",NA
+"SAOUHSC_01183","3919316","sao00970_Aminoacyl-tRNA_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_01184","3919317",NA
+"SAOUHSC_01185","3919318",NA
+"SAOUHSC_01186","3919319",NA
+"SAOUHSC_01187","3919320",NA
+"SAOUHSC_01188","3919321","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01189","3919322","sao00030_Pentose_phosphate_pathway, sao00040_Pentose_and_glucuronate_interconversions, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01190","3919323","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01191","3919324","sao03010_Ribosome"
+"SAOUHSC_01192","3919325",NA
+"SAOUHSC_01193","3919326",NA
+"SAOUHSC_01194","3919327","sao03440_Homologous_recombination"
+"SAOUHSC_01196","3919328",NA
+"SAOUHSC_01197","3919329","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01198","3919330","sao00061_Fatty_acid_biosynthesis, sao00074_Mycolic_acid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01199","3919331","sao00061_Fatty_acid_biosynthesis, sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01212_Fatty_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01200","3919467",NA
+"SAOUHSC_01201","3919468","sao00998_Biosynthesis_of_various_antibiotics, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01203","3919469",NA
+"SAOUHSC_01204","3919470",NA
+"SAOUHSC_01205","3919471","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_01206","3919472",NA
+"SAOUHSC_01207","3919473","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_01208","3919474","sao03010_Ribosome"
+"SAOUHSC_01209","3919475",NA
+"SAOUHSC_01210","3919476",NA
+"SAOUHSC_01211","3919477","sao03010_Ribosome"
+"SAOUHSC_01212","3919478",NA
+"SAOUHSC_01213","3919479","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_01214","3919480",NA
+"SAOUHSC_01215","3919481","sao03030_DNA_replication"
+"SAOUHSC_01216","3919482","sao00020_Citrate_cycle_(TCA_cycle), sao00640_Propanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01218","3919483","sao00020_Citrate_cycle_(TCA_cycle), sao00640_Propanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01219","3919484",NA
+"SAOUHSC_01220","3919485",NA
+"SAOUHSC_01221","3920249",NA
+"SAOUHSC_01222","3920250",NA
+"SAOUHSC_01223","3920251",NA
+"SAOUHSC_01224","3920252",NA
+"SAOUHSC_01225","3920253",NA
+"SAOUHSC_01226","3920254",NA
+"SAOUHSC_01228","3920255",NA
+"SAOUHSC_01230","3920256",NA
+"SAOUHSC_01232","3920257",NA
+"SAOUHSC_01233","3920258",NA
+"SAOUHSC_01234","3920259",NA
+"SAOUHSC_01235","3920260","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01236","3920261",NA
+"SAOUHSC_01237","3920262","sao00550_Peptidoglycan_biosynthesis, sao00900_Terpenoid_backbone_biosynthesis, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01238","3920263","sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01239","3920264",NA
+"SAOUHSC_01240","3920265","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01241","3920266","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_01242","3920267",NA
+"SAOUHSC_01243","3920268",NA
+"SAOUHSC_01244","3919975",NA
+"SAOUHSC_01245","3919976",NA
+"SAOUHSC_01246","3919977",NA
+"SAOUHSC_01247","3919978",NA
+"SAOUHSC_01248","3919979",NA
+"SAOUHSC_01249","3919980","sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01250","3919981","sao03010_Ribosome"
+"SAOUHSC_01251","3919982","sao03018_RNA_degradation"
+"SAOUHSC_01252","3919983","sao03018_RNA_degradation"
+"SAOUHSC_01253","3919984",NA
+"SAOUHSC_01254","3919985",NA
+"SAOUHSC_01255","3919986",NA
+"SAOUHSC_01256","3919987",NA
+"SAOUHSC_01257","3919988","sao00061_Fatty_acid_biosynthesis, sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01212_Fatty_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01258","3919989",NA
+"SAOUHSC_01259","3919990",NA
+"SAOUHSC_01260","3919991","sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01261","3919992",NA
+"SAOUHSC_01262","3919993","sao03440_Homologous_recombination"
+"SAOUHSC_01263","3919916","sao03018_RNA_degradation"
+"SAOUHSC_01264","3919917",NA
+"SAOUHSC_01265","3919918","sao00230_Purine_metabolism, sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01266","3919919","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01267","3919920","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00650_Butanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01268","3919921",NA
+"SAOUHSC_01269","3919922",NA
+"SAOUHSC_01270","3919923",NA
+"SAOUHSC_01271","3919924",NA
+"SAOUHSC_01272","3919925","sao03430_Mismatch_repair"
+"SAOUHSC_01273","3919926","sao03430_Mismatch_repair"
+"SAOUHSC_01274","3919927",NA
+"SAOUHSC_01275","3919928",NA
+"SAOUHSC_01276","3919929","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01278","3919930","sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01279","3919931",NA
+"SAOUHSC_01280","3919932","sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01281","3919933","sao02024_Quorum_sensing, sao03018_RNA_degradation"
+"SAOUHSC_01282","3919934","sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01283","3919935",NA
+"SAOUHSC_01284","3920171",NA
+"SAOUHSC_01285","3920172",NA
+"SAOUHSC_01287","3920173","sao00220_Arginine_biosynthesis, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids, sao02020_Two-component_system"
+"SAOUHSC_01288","3920174",NA
+"SAOUHSC_01289","3920175",NA
+"SAOUHSC_01290","3920176",NA
+"SAOUHSC_01291","3920177",NA
+"SAOUHSC_01292","3920178",NA
+"SAOUHSC_01293","3920179",NA
+"SAOUHSC_01294","3920180",NA
+"SAOUHSC_01295","3920181",NA
+"SAOUHSC_01296","3920182",NA
+"SAOUHSC_01297","3920183",NA
+"SAOUHSC_01298","3920184",NA
+"SAOUHSC_01299","3920185",NA
+"SAOUHSC_01300","3920186",NA
+"SAOUHSC_01301","3920187",NA
+"SAOUHSC_01302","3920188",NA
+"SAOUHSC_01303","3920189",NA
+"SAOUHSC_01304","3920131",NA
+"SAOUHSC_01305","3920132",NA
+"SAOUHSC_01306","3920133",NA
+"SAOUHSC_01307","3920134","sao00260_Glycine,_serine_and_threonine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01309","3920135",NA
+"SAOUHSC_01310","3920136","sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01311","3920137",NA
+"SAOUHSC_01312","3920138",NA
+"SAOUHSC_01313","3920139","sao02020_Two-component_system"
+"SAOUHSC_01314","3920140","sao02020_Two-component_system"
+"SAOUHSC_01315","3920141",NA
+"SAOUHSC_01316","3920142",NA
+"SAOUHSC_01317","3920143",NA
+"SAOUHSC_01318","3920144",NA
+"SAOUHSC_01319","3920145","sao00260_Glycine,_serine_and_threonine_metabolism, sao00261_Monobactam_biosynthesis, sao00270_Cysteine_and_methionine_metabolism, sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01320","3920146","sao00260_Glycine,_serine_and_threonine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01321","3920147","sao00260_Glycine,_serine_and_threonine_metabolism, sao00750_Vitamin_B6_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01322","3920148","sao00260_Glycine,_serine_and_threonine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01323","3920149",NA
+"SAOUHSC_01324","3920150",NA
+"SAOUHSC_01325","3920190",NA
+"SAOUHSC_01326","3920191",NA
+"SAOUHSC_01327","3920192","sao00380_Tryptophan_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism, sao04146_Peroxisome"
+"SAOUHSC_01328","3920193","sao03010_Ribosome"
+"SAOUHSC_01329","3920194","sao03010_Ribosome"
+"SAOUHSC_01330","3920195","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01331","3920196",NA
+"SAOUHSC_01332","3920197",NA
+"SAOUHSC_01333","3920198",NA
+"SAOUHSC_01334","3920199",NA
+"SAOUHSC_01336","3920200",NA
+"SAOUHSC_01337","3920201","sao00030_Pentose_phosphate_pathway, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01338","3920202",NA
+"SAOUHSC_01339","3920203",NA
+"SAOUHSC_01340","3920204",NA
+"SAOUHSC_01341","3920205",NA
+"SAOUHSC_01342","3920206",NA
+"SAOUHSC_01343","3920207",NA
+"SAOUHSC_01344","3920208",NA
+"SAOUHSC_01346","3920052",NA
+"SAOUHSC_01347","3920053","sao00020_Citrate_cycle_(TCA_cycle), sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01348","3920054",NA
+"SAOUHSC_01349","3920055",NA
+"SAOUHSC_01350","3920056","sao00561_Glycerolipid_metabolism, sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01351","3920057",NA
+"SAOUHSC_01352","3920058",NA
+"SAOUHSC_01353","3920059",NA
+"SAOUHSC_01354","3920060",NA
+"SAOUHSC_01356","3920061",NA
+"SAOUHSC_01357","3920062",NA
+"SAOUHSC_01358","3920063",NA
+"SAOUHSC_01359","3920064","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01360","3920065",NA
+"SAOUHSC_01361","3920066","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_01362","3920067","sao00362_Benzoate_degradation, sao00622_Xylene_degradation, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01220_Degradation_of_aromatic_compounds"
+"SAOUHSC_01363","3920068",NA
+"SAOUHSC_01364","3920069","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao00401_Novobiocin_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01365","3920070",NA
+"SAOUHSC_01366","3920071","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids, sao02024_Quorum_sensing"
+"SAOUHSC_01367","3920776","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids, sao02024_Quorum_sensing"
+"SAOUHSC_01368","3920777","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01369","3920778","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01370","3920779","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01371","3920780","sao00260_Glycine,_serine_and_threonine_metabolism, sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01372","3920781","sao00260_Glycine,_serine_and_threonine_metabolism, sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01373","3920782","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_01374","3920783","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_01375","3920784",NA
+"SAOUHSC_01376","3920785",NA
+"SAOUHSC_01377","3920786","sao02024_Quorum_sensing"
+"SAOUHSC_01378","3920787","sao02024_Quorum_sensing"
+"SAOUHSC_01379","3920788","sao02024_Quorum_sensing"
+"SAOUHSC_01380","3920789","sao02024_Quorum_sensing"
+"SAOUHSC_01381","3920790",NA
+"SAOUHSC_01382","3920791",NA
+"SAOUHSC_01383","3920792",NA
+"SAOUHSC_01384","3920793",NA
+"SAOUHSC_01385","3920794","sao02010_ABC_transporters"
+"SAOUHSC_01386","3920677","sao02010_ABC_transporters"
+"SAOUHSC_01387","3920678","sao02010_ABC_transporters"
+"SAOUHSC_01388","3920679",NA
+"SAOUHSC_01389","3920680","sao02010_ABC_transporters, sao02020_Two-component_system"
+"gene-SAOUHSC_A01332",NA,NA
+"SAOUHSC_01390","3920681",NA
+"SAOUHSC_01391","3920682",NA
+"SAOUHSC_01392","3920683",NA
+"SAOUHSC_01394","3920684","sao00260_Glycine,_serine_and_threonine_metabolism, sao00261_Monobactam_biosynthesis, sao00270_Cysteine_and_methionine_metabolism, sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01395","3920685","sao00260_Glycine,_serine_and_threonine_metabolism, sao00261_Monobactam_biosynthesis, sao00270_Cysteine_and_methionine_metabolism, sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01396","3920686","sao00261_Monobactam_biosynthesis, sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01397","3920687","sao00261_Monobactam_biosynthesis, sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01398","3920688","sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01399","3920689",NA
+"SAOUHSC_01400","3920690","sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways, sao01502_Vancomycin_resistance"
+"SAOUHSC_01401","3920691","sao00300_Lysine_biosynthesis, sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01402","3920692",NA
+"SAOUHSC_01403","3920693",NA
+"SAOUHSC_01404","3920694",NA
+"SAOUHSC_01405","3920695",NA
+"SAOUHSC_01406","3920696","sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_01407","3920639",NA
+"SAOUHSC_01408","3920640",NA
+"SAOUHSC_01409","3920641",NA
+"SAOUHSC_01410","3920642",NA
+"SAOUHSC_01411","3920643",NA
+"SAOUHSC_01412","3920644",NA
+"SAOUHSC_01413","3920645",NA
+"SAOUHSC_01414","3920646",NA
+"SAOUHSC_01415","3920647",NA
+"SAOUHSC_01416","3920648","sao00020_Citrate_cycle_(TCA_cycle), sao00310_Lysine_degradation, sao00380_Tryptophan_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01418","3920649","sao00020_Citrate_cycle_(TCA_cycle), sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01419","3920650","sao02020_Two-component_system"
+"SAOUHSC_01420","3920651","sao02020_Two-component_system"
+"SAOUHSC_01421","3920652",NA
+"SAOUHSC_01422","3920653",NA
+"SAOUHSC_01423","3920654",NA
+"SAOUHSC_01424","3920655","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01502_Vancomycin_resistance"
+"SAOUHSC_01425","3920656",NA
+"SAOUHSC_01427","3920657",NA
+"SAOUHSC_01428","3920209",NA
+"SAOUHSC_01429","3920210",NA
+"SAOUHSC_01430","3920211","sao00010_Glycolysis_/_Gluconeogenesis, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_01431","3920212",NA
+"SAOUHSC_01432","3920213",NA
+"SAOUHSC_01433","3920214",NA
+"SAOUHSC_01434","3920215","sao00670_One_carbon_pool_by_folate, sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04981_Folate_transport_and_metabolism"
+"SAOUHSC_01435","3920216","sao00240_Pyrimidine_metabolism, sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism, sao04981_Folate_transport_and_metabolism"
+"SAOUHSC_01436","3920217",NA
+"SAOUHSC_01437","3920218",NA
+"SAOUHSC_01438","3920219",NA
+"SAOUHSC_01439","3920220",NA
+"SAOUHSC_01440","3920221",NA
+"SAOUHSC_01441","3920222",NA
+"SAOUHSC_01442","3920223",NA
+"SAOUHSC_01443","3920224","sao03030_DNA_replication"
+"SAOUHSC_01447","3920225",NA
+"SAOUHSC_01448","3920226",NA
+"SAOUHSC_01450","3920227",NA
+"SAOUHSC_01451","3920228","sao00260_Glycine,_serine_and_threonine_metabolism, sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01452","3919897","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00430_Taurine_and_hypotaurine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01454","3919898",NA
+"SAOUHSC_01455","3919899",NA
+"SAOUHSC_01456","3919900",NA
+"SAOUHSC_01458","3919901",NA
+"SAOUHSC_01459","3919902",NA
+"SAOUHSC_01460","3919903",NA
+"SAOUHSC_01462","3919904",NA
+"SAOUHSC_01463","3919905",NA
+"SAOUHSC_01464","3919906",NA
+"SAOUHSC_01465","3919907",NA
+"SAOUHSC_01466","3919908",NA
+"SAOUHSC_01467","3919909","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01501_beta-Lactam_resistance"
+"SAOUHSC_01468","3919910",NA
+"SAOUHSC_01469","3919911","sao03410_Base_excision_repair"
+"SAOUHSC_01470","3919912",NA
+"SAOUHSC_01471","3919913","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01472","3919914",NA
+"SAOUHSC_01473","3919915","sao00780_Biotin_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01474","3920229",NA
+"SAOUHSC_01475","3920230",NA
+"SAOUHSC_01476","3920231",NA
+"SAOUHSC_01477","3920232",NA
+"SAOUHSC_01478","3920233",NA
+"SAOUHSC_01479","3920234",NA
+"SAOUHSC_01480","3920235",NA
+"SAOUHSC_01481","3920236","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01482","3920237","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01483","3920238","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01484","3920239",NA
+"SAOUHSC_01485","3920240","sao00230_Purine_metabolism, sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01486","3920241","sao00900_Terpenoid_backbone_biosynthesis, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01487","3920242","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01488","3920243","sao00900_Terpenoid_backbone_biosynthesis, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01489","3920244",NA
+"SAOUHSC_01490","3920245",NA
+"SAOUHSC_01491","3920246","sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01492","3920247",NA
+"SAOUHSC_01493","3920248","sao03010_Ribosome"
+"gene-SAOUHSC_A01436",NA,NA
+"SAOUHSC_01494","3919038",NA
+"SAOUHSC_01495","3919039",NA
+"SAOUHSC_01496","3919040","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01497","3919041","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00460_Cyanoamino_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01499","3919042",NA
+"SAOUHSC_01500","3919043",NA
+"SAOUHSC_01501","3919044",NA
+"SAOUHSC_01502","3919045","sao03018_RNA_degradation"
+"SAOUHSC_01503","3919046",NA
+"SAOUHSC_01504","3919047",NA
+"SAOUHSC_01505","3919048",NA
+"SAOUHSC_01507","3919049",NA
+"SAOUHSC_01508","3919050",NA
+"SAOUHSC_01510","3919051",NA
+"SAOUHSC_01511","3919052",NA
+"SAOUHSC_01512","3919053",NA
+"SAOUHSC_01513","3919054",NA
+"SAOUHSC_01514","3919055",NA
+"gene-SAOUHSC_A01455",NA,NA
+"SAOUHSC_01515","3919056",NA
+"SAOUHSC_01516","3920619",NA
+"SAOUHSC_01517","3920620",NA
+"SAOUHSC_01518","3920621",NA
+"SAOUHSC_01519","3920622",NA
+"SAOUHSC_01520","3920623",NA
+"SAOUHSC_01521","3920624",NA
+"SAOUHSC_01522","3920625",NA
+"SAOUHSC_01523","3920626",NA
+"SAOUHSC_01524","3920627",NA
+"SAOUHSC_01525","3920628",NA
+"SAOUHSC_01526","3920629",NA
+"SAOUHSC_01527","3920630",NA
+"SAOUHSC_01528","3920631",NA
+"SAOUHSC_01529","3920632",NA
+"SAOUHSC_01530","3920633",NA
+"SAOUHSC_01531","3920634",NA
+"SAOUHSC_01532","3920635",NA
+"SAOUHSC_01533","3920636",NA
+"SAOUHSC_01535","3920637",NA
+"SAOUHSC_01536","3920638",NA
+"SAOUHSC_01537","3920580",NA
+"SAOUHSC_01538","3920581",NA
+"SAOUHSC_01539","3920582",NA
+"SAOUHSC_01540","3920583",NA
+"SAOUHSC_01541","3920584",NA
+"SAOUHSC_01542","3920585",NA
+"SAOUHSC_01543","3920586",NA
+"SAOUHSC_01544","3920587",NA
+"SAOUHSC_01545","3920588",NA
+"SAOUHSC_01546","3920589",NA
+"SAOUHSC_01547","3920590",NA
+"SAOUHSC_01548","3920591",NA
+"SAOUHSC_01549","3920592",NA
+"SAOUHSC_01550","3920593",NA
+"SAOUHSC_01551","3920594",NA
+"SAOUHSC_01552","3920595","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01553","3920596",NA
+"SAOUHSC_01554","3920597",NA
+"SAOUHSC_01555","3920598",NA
+"SAOUHSC_01556","3920151",NA
+"SAOUHSC_01557","3920152",NA
+"SAOUHSC_01558","3920153",NA
+"SAOUHSC_01559","3920154",NA
+"SAOUHSC_01560","3920155",NA
+"SAOUHSC_01561","3920156",NA
+"SAOUHSC_01562","3920157",NA
+"SAOUHSC_01563","3920158",NA
+"SAOUHSC_01565","3920159",NA
+"SAOUHSC_01566","3920160",NA
+"SAOUHSC_01567","3920161",NA
+"SAOUHSC_01568","3920162",NA
+"SAOUHSC_01569","3920163",NA
+"SAOUHSC_01570","3920164",NA
+"SAOUHSC_01571","3920165",NA
+"SAOUHSC_01572","3920166",NA
+"SAOUHSC_01573","3920167",NA
+"SAOUHSC_01574","3920168",NA
+"gene-SAOUHSC_A01514",NA,NA
+"SAOUHSC_01575","3920169",NA
+"SAOUHSC_01576","3920170",NA
+"SAOUHSC_01577","3919994",NA
+"SAOUHSC_01578","3919995",NA
+"SAOUHSC_01579","3919996",NA
+"SAOUHSC_01580","3919997",NA
+"SAOUHSC_01582","3919998",NA
+"SAOUHSC_01583","3919999",NA
+"SAOUHSC_01584","3920000",NA
+"SAOUHSC_01585","3920001","sao02020_Two-component_system"
+"SAOUHSC_01586","3920002","sao02020_Two-component_system"
+"SAOUHSC_01587","3920003",NA
+"SAOUHSC_01588","3920004",NA
+"SAOUHSC_01589","3920005",NA
+"SAOUHSC_01590","3920006",NA
+"SAOUHSC_01591","3920007",NA
+"SAOUHSC_01592","3920008",NA
+"SAOUHSC_01593","3920009","sao00230_Purine_metabolism, sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01594","3920010",NA
+"SAOUHSC_01595","3920011",NA
+"SAOUHSC_01596","3920012",NA
+"SAOUHSC_01597","3920013","sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01598","3920014",NA
+"SAOUHSC_01599","3920015","sao00030_Pentose_phosphate_pathway, sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01600","3920016",NA
+"SAOUHSC_01601","3920017","sao00052_Galactose_metabolism, sao00500_Starch_and_sucrose_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01602","3920018",NA
+"SAOUHSC_01603","3920019",NA
+"SAOUHSC_01604","3920020",NA
+"SAOUHSC_01605","3920021","sao00030_Pentose_phosphate_pathway, sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01606","3920022",NA
+"SAOUHSC_01607","3920023",NA
+"SAOUHSC_01608","3920024",NA
+"SAOUHSC_01609","3920025",NA
+"SAOUHSC_01610","3920026",NA
+"SAOUHSC_01611","3920027","sao00280_Valine,_leucine_and_isoleucine_degradation, sao00640_Propanoate_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01612","3920028","sao00280_Valine,_leucine_and_isoleucine_degradation, sao00640_Propanoate_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01613","3920029","sao00280_Valine,_leucine_and_isoleucine_degradation, sao00640_Propanoate_metabolism, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_01614","3920030","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00260_Glycine,_serine_and_threonine_metabolism, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00310_Lysine_degradation, sao00380_Tryptophan_metabolism, sao00620_Pyruvate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00640_Propanoate_metabolism, sao00670_One_carbon_pool_by_folate, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01615","3920031",NA
+"SAOUHSC_01617","3920032",NA
+"SAOUHSC_01618","3919956","sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01619","3919957","sao03430_Mismatch_repair"
+"SAOUHSC_01620","3919958","sao03430_Mismatch_repair"
+"SAOUHSC_01621","3919959",NA
+"SAOUHSC_01622","3919960",NA
+"SAOUHSC_01623","3919961","sao00061_Fatty_acid_biosynthesis, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01624","3919962","sao00061_Fatty_acid_biosynthesis, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01625","3919963",NA
+"SAOUHSC_01626","3919964",NA
+"SAOUHSC_01627","3919965",NA
+"SAOUHSC_01628","3919966",NA
+"SAOUHSC_01629","3919967","sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01630","3919968",NA
+"SAOUHSC_01632","3919969","sao00260_Glycine,_serine_and_threonine_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00670_One_carbon_pool_by_folate, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism"
+"SAOUHSC_01633","3919970","sao00260_Glycine,_serine_and_threonine_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00670_One_carbon_pool_by_folate, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism"
+"SAOUHSC_01634","3919971","sao00260_Glycine,_serine_and_threonine_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00670_One_carbon_pool_by_folate, sao00785_Lipoic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism"
+"SAOUHSC_01635","3919972","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01636","3919973",NA
+"SAOUHSC_01637","3919974",NA
+"SAOUHSC_01638","3920091",NA
+"SAOUHSC_01639","3920092",NA
+"SAOUHSC_01640","3920093",NA
+"SAOUHSC_01641","3920094",NA
+"SAOUHSC_01643","3920095",NA
+"SAOUHSC_01644","3920096","sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01645","3920097",NA
+"SAOUHSC_01646","3920098","sao00010_Glycolysis_/_Gluconeogenesis, sao00052_Galactose_metabolism, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00521_Streptomycin_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_01647","3920099",NA
+"SAOUHSC_01648","3920100",NA
+"SAOUHSC_01649","3920101",NA
+"SAOUHSC_01650","3920102","sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways, sao04981_Folate_transport_and_metabolism"
+"SAOUHSC_01651","3920103","sao03010_Ribosome"
+"SAOUHSC_01652","3920104","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01501_beta-Lactam_resistance"
+"SAOUHSC_01653","3920105","sao04146_Peroxisome"
+"SAOUHSC_01655","3920106",NA
+"SAOUHSC_01656","3920107","sao02010_ABC_transporters"
+"SAOUHSC_01657","3920108","sao02010_ABC_transporters"
+"SAOUHSC_01658","3920109","sao03410_Base_excision_repair"
+"SAOUHSC_01659","3920110",NA
+"SAOUHSC_01660","3920072",NA
+"SAOUHSC_01661","3920073",NA
+"SAOUHSC_01662","3920074","sao02040_Flagellar_assembly"
+"SAOUHSC_01663","3920075","sao03030_DNA_replication"
+"SAOUHSC_01664","3920076",NA
+"SAOUHSC_01665","3920077",NA
+"SAOUHSC_01666","3920078","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01667","3920079","sao03440_Homologous_recombination"
+"SAOUHSC_01668","3920080",NA
+"SAOUHSC_01669","3920081",NA
+"SAOUHSC_01670","3920082","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01671","3920083","sao00550_Peptidoglycan_biosynthesis"
+"SAOUHSC_01672","3920084",NA
+"SAOUHSC_01673","3920085",NA
+"SAOUHSC_01675","3920086",NA
+"SAOUHSC_01676","3920087",NA
+"SAOUHSC_01677","3920088",NA
+"SAOUHSC_01678","3920089","sao03010_Ribosome"
+"SAOUHSC_01679","3920090",NA
+"SAOUHSC_01680","3921792",NA
+"SAOUHSC_01681","3921793",NA
+"SAOUHSC_01682","3921794",NA
+"SAOUHSC_01683","3921795","sao03018_RNA_degradation"
+"SAOUHSC_01684","3921796",NA
+"SAOUHSC_01685","3921797",NA
+"SAOUHSC_01686","3921798",NA
+"SAOUHSC_01687","3921799",NA
+"SAOUHSC_01688","3921800",NA
+"SAOUHSC_01689","3921801","sao03010_Ribosome"
+"SAOUHSC_01690","3921802","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_01691","3921803",NA
+"SAOUHSC_01692","3921804","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01693","3921805",NA
+"SAOUHSC_01694","3921806",NA
+"SAOUHSC_01695","3921807",NA
+"SAOUHSC_01696","3921808",NA
+"SAOUHSC_01697","3921809","sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01698","3921810",NA
+"SAOUHSC_01699","3921811","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao00999_Biosynthesis_of_various_plant_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01700","3921090",NA
+"SAOUHSC_01701","3921091",NA
+"SAOUHSC_01702","3921092","sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01703","3921093",NA
+"SAOUHSC_01704","3921094",NA
+"SAOUHSC_01705","3921095","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01706","3921096",NA
+"SAOUHSC_01707","3921097",NA
+"SAOUHSC_01708","3921098","sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01709","3921099","sao00061_Fatty_acid_biosynthesis, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01710","3921100","sao00061_Fatty_acid_biosynthesis, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01711","3921101",NA
+"SAOUHSC_01712","3921102",NA
+"SAOUHSC_01714","3921103",NA
+"SAOUHSC_01715","3921104","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01716","3921105",NA
+"SAOUHSC_01717","3921106",NA
+"SAOUHSC_01718","3921107",NA
+"SAOUHSC_01719","3921108",NA
+"SAOUHSC_01720","3921070",NA
+"SAOUHSC_01721","3921071",NA
+"SAOUHSC_01722","3921072","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01723","3921073","sao03440_Homologous_recombination"
+"SAOUHSC_01724","3921074",NA
+"SAOUHSC_01725","3921075",NA
+"SAOUHSC_01726","3921076",NA
+"SAOUHSC_01727","3921077","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_01728","3921078",NA
+"SAOUHSC_01729","3921079",NA
+"SAOUHSC_01730","3921080",NA
+"SAOUHSC_01732","3921081",NA
+"SAOUHSC_01733","3921082",NA
+"SAOUHSC_01734","3921083",NA
+"SAOUHSC_01735","3921084",NA
+"SAOUHSC_01736","3921085",NA
+"SAOUHSC_01737","3921086","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01738","3921087","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01739","3921088","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance"
+"SAOUHSC_01741","3921089",NA
+"SAOUHSC_01742","3920542","sao00230_Purine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01743","3920543","sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_01744","3920544","sao03410_Base_excision_repair, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_01746","3920545","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_01747","3920546","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_01748","3920547",NA
+"SAOUHSC_01749","3920548",NA
+"SAOUHSC_01750","3920549","sao03440_Homologous_recombination"
+"SAOUHSC_01751","3920550","sao03440_Homologous_recombination"
+"SAOUHSC_01752","3920551","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01753","3920552",NA
+"SAOUHSC_01755","3920553","sao03010_Ribosome"
+"SAOUHSC_01756","3920554",NA
+"SAOUHSC_01757","3920555","sao03010_Ribosome"
+"SAOUHSC_01758","3920556",NA
+"SAOUHSC_01759","3920557",NA
+"SAOUHSC_01760","3920558",NA
+"SAOUHSC_01761","3920559",NA
+"SAOUHSC_01762","3920560",NA
+"SAOUHSC_01763","3919681",NA
+"SAOUHSC_01764","3919682",NA
+"SAOUHSC_01765","3919683",NA
+"SAOUHSC_01766","3919684","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01767","3919685","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01768","3919686","sao03410_Base_excision_repair"
+"SAOUHSC_01769","3919687",NA
+"SAOUHSC_01770","3919688",NA
+"SAOUHSC_01771","3919689","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01772","3919690","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01773","3919691","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01774","3919692","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01775","3919693",NA
+"SAOUHSC_01776","3919694","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01777","3919695",NA
+"SAOUHSC_01778","3919696",NA
+"SAOUHSC_01779","3919697",NA
+"SAOUHSC_01780","3919698",NA
+"SAOUHSC_01781","3919699",NA
+"SAOUHSC_01782","3919700",NA
+"SAOUHSC_01783","3920425",NA
+"SAOUHSC_01784","3920426","sao03010_Ribosome"
+"SAOUHSC_01785","3920427","sao03010_Ribosome"
+"SAOUHSC_01786","3920428",NA
+"SAOUHSC_01787","3920429",NA
+"SAOUHSC_01788","3920430","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01789","3920431",NA
+"SAOUHSC_01791","3920432",NA
+"SAOUHSC_01792","3920433",NA
+"SAOUHSC_01793","3920434",NA
+"SAOUHSC_01794","3920435","sao00010_Glycolysis_/_Gluconeogenesis, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01795","3920436","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01796","3920437","sao03410_Base_excision_repair"
+"SAOUHSC_01797","3920438","sao03030_DNA_replication, sao03410_Base_excision_repair, sao03420_Nucleotide_excision_repair, sao03440_Homologous_recombination"
+"SAOUHSC_01798","3920439",NA
+"SAOUHSC_01799","3920440","sao02020_Two-component_system"
+"SAOUHSC_01800","3920441","sao02020_Two-component_system"
+"gene-SAOUHSC_A01723",NA,NA
+"SAOUHSC_01801","3920442","sao00020_Citrate_cycle_(TCA_cycle), sao00480_Glutathione_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids, sao04146_Peroxisome"
+"SAOUHSC_01802","3920443","sao00020_Citrate_cycle_(TCA_cycle), sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00640_Propanoate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01803","3919273",NA
+"SAOUHSC_01804","3919274",NA
+"SAOUHSC_01805","3919275",NA
+"SAOUHSC_01806","3919276","sao00010_Glycolysis_/_Gluconeogenesis, sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01807","3919277","sao00010_Glycolysis_/_Gluconeogenesis, sao00030_Pentose_phosphate_pathway, sao00051_Fructose_and_mannose_metabolism, sao00052_Galactose_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids, sao03018_RNA_degradation"
+"SAOUHSC_01808","3919278","sao00061_Fatty_acid_biosynthesis, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01809","3919279","sao00061_Fatty_acid_biosynthesis, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01212_Fatty_acid_metabolism"
+"SAOUHSC_01810","3919280","sao00620_Pyruvate_metabolism, sao01200_Carbon_metabolism, sao02020_Two-component_system"
+"SAOUHSC_01811","3919281","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_01812","3919282","sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_01813","3919283",NA
+"SAOUHSC_01814","3919284",NA
+"SAOUHSC_01815","3919285",NA
+"SAOUHSC_01816","3919286",NA
+"SAOUHSC_01817","3919287",NA
+"SAOUHSC_01818","3919288","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00430_Taurine_and_hypotaurine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01819","3919289",NA
+"SAOUHSC_01820","3919290","sao00430_Taurine_and_hypotaurine_metabolism, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao00680_Methane_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01821","3919291",NA
+"SAOUHSC_01822","3919292",NA
+"SAOUHSC_01823","3921773",NA
+"SAOUHSC_01824","3921774","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_01825","3921775","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_01826","3921776",NA
+"SAOUHSC_01827","3921777",NA
+"SAOUHSC_01828","3921778","sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_01829","3921779","sao03010_Ribosome"
+"gene-SAOUHSC_A01754",NA,NA
+"SAOUHSC_01830","3921780","sao00564_Glycerophospholipid_metabolism"
+"SAOUHSC_01831","3921781",NA
+"SAOUHSC_01832","3921782",NA
+"SAOUHSC_01833","3921783","sao00260_Glycine,_serine_and_threonine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01834","3921784",NA
+"SAOUHSC_01835","3921785",NA
+"SAOUHSC_01836","3921786","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_01837","3921787","sao00561_Glycerolipid_metabolism, sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01838","3921788","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao02020_Two-component_system"
+"SAOUHSC_01839","3921789","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01840","3921790","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_01841","3921791",NA
+"SAOUHSC_01843","3920522",NA
+"SAOUHSC_01844","3920523",NA
+"SAOUHSC_01845","3920524","sao00670_One_carbon_pool_by_folate, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01846","3920525","sao00010_Glycolysis_/_Gluconeogenesis, sao00620_Pyruvate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00640_Propanoate_metabolism, sao00680_Methane_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01847","3920526",NA
+"SAOUHSC_01849","3920527",NA
+"SAOUHSC_01850","3920528",NA
+"SAOUHSC_01851","3920529",NA
+"SAOUHSC_01852","3920530","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01853","3920531",NA
+"SAOUHSC_01854","3920532",NA
+"SAOUHSC_01855","3920533",NA
+"SAOUHSC_01856","3920534","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_01857","3920535",NA
+"SAOUHSC_01858","3920536",NA
+"SAOUHSC_01859","3920537",NA
+"SAOUHSC_01860","3920538",NA
+"SAOUHSC_01861","3920539",NA
+"SAOUHSC_01863","3920540",NA
+"SAOUHSC_01864","3920541",NA
+"SAOUHSC_01865","3921754",NA
+"SAOUHSC_01866","3921755",NA
+"SAOUHSC_01867","3921756","sao00310_Lysine_degradation, sao00330_Arginine_and_proline_metabolism, sao00360_Phenylalanine_metabolism, sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_01868","3921757","sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01869","3921758",NA
+"SAOUHSC_01870","3921759",NA
+"SAOUHSC_01871","3921760",NA
+"SAOUHSC_01872","3921761",NA
+"SAOUHSC_01873","3921762",NA
+"SAOUHSC_01874","3921763",NA
+"SAOUHSC_01875","3921764","sao00970_Aminoacyl-tRNA_biosynthesis"
+"SAOUHSC_01876","3921765",NA
+"SAOUHSC_01877","3921766",NA
+"SAOUHSC_01878","3921767",NA
+"SAOUHSC_01879","3921768","sao02024_Quorum_sensing"
+"SAOUHSC_01880","3921769",NA
+"SAOUHSC_01881","3921770",NA
+"SAOUHSC_01882","3921771","sao00564_Glycerophospholipid_metabolism"
+"SAOUHSC_01883","3921772",NA
+"SAOUHSC_01884","3920833","sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_01886","3920834","sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01887","3920835","sao00740_Riboflavin_metabolism, sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01888","3920836","sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01889","3920837","sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors, sao02024_Quorum_sensing"
+"SAOUHSC_01890","3920838",NA
+"SAOUHSC_01891","3920839",NA
+"SAOUHSC_01893","3920840",NA
+"SAOUHSC_01894","3920841",NA
+"SAOUHSC_01895","3920842",NA
+"SAOUHSC_01896","3920843",NA
+"SAOUHSC_01897","3920844",NA
+"SAOUHSC_01898","3920845",NA
+"SAOUHSC_01899","3920846",NA
+"SAOUHSC_01900","3920847",NA
+"SAOUHSC_01901","3920848","sao00030_Pentose_phosphate_pathway, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_01902","3920849",NA
+"SAOUHSC_01903","3920850",NA
+"SAOUHSC_01904","3920851",NA
+"SAOUHSC_01905","3920852",NA
+"SAOUHSC_01906","3921048",NA
+"SAOUHSC_01907","3921049",NA
+"SAOUHSC_01908","3921050",NA
+"SAOUHSC_01909","3921051","sao00270_Cysteine_and_methionine_metabolism, sao00670_One_carbon_pool_by_folate, sao00999_Biosynthesis_of_various_plant_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01910","3921052","sao00010_Glycolysis_/_Gluconeogenesis, sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01911","3921053",NA
+"SAOUHSC_01912","3921054",NA
+"SAOUHSC_01913","3921055",NA
+"SAOUHSC_01914","3921056",NA
+"SAOUHSC_01915","3921057","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01916","3921058","sao00130_Ubiquinone_and_other_terpenoid-quinone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01917","3921059",NA
+"SAOUHSC_01918","3921060",NA
+"SAOUHSC_01919","3921061",NA
+"SAOUHSC_01920","3921062",NA
+"SAOUHSC_01921","3921063",NA
+"SAOUHSC_01922","3921064",NA
+"SAOUHSC_01923","3921065",NA
+"SAOUHSC_01924","3921066",NA
+"SAOUHSC_01925","3921009",NA
+"SAOUHSC_01926","3921010",NA
+"SAOUHSC_01927","3921011",NA
+"SAOUHSC_01928","3921012",NA
+"SAOUHSC_01929","3921013",NA
+"SAOUHSC_01930","3921014",NA
+"SAOUHSC_01931","3921015",NA
+"SAOUHSC_01932","3921016",NA
+"SAOUHSC_01933","3921017",NA
+"SAOUHSC_01934","3921018",NA
+"SAOUHSC_01935","3921019","sao02024_Quorum_sensing"
+"SAOUHSC_01936","3921020","sao02024_Quorum_sensing"
+"SAOUHSC_01937","3921021",NA
+"SAOUHSC_01938","3921022","sao02024_Quorum_sensing"
+"SAOUHSC_01939","3921023",NA
+"SAOUHSC_01941","3921024",NA
+"SAOUHSC_01942","3921025","sao02024_Quorum_sensing"
+"SAOUHSC_01943","3921026",NA
+"SAOUHSC_01944","3921027",NA
+"SAOUHSC_01945","3921028","sao02010_ABC_transporters, sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01947","3920892","sao02010_ABC_transporters, sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01948","3920893","sao02010_ABC_transporters, sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01949","3920894","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01950","3920895",NA
+"SAOUHSC_01951","3920896","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01952","3920897","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01953","3920898","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_01954","3920899","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01955","3920900","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_01956","3920901",NA
+"SAOUHSC_01957","3920902",NA
+"gene-SAOUHSC_T00050",NA,NA
+"gene-SAOUHSC_T00019",NA,NA
+"gene-SAOUHSC_T0009",NA,NA
+"gene-SAOUHSC_T00022",NA,NA
+"gene-SAOUHSC_T00026",NA,NA
+"gene-SAOUHSC_T00042",NA,NA
+"gene-SAOUHSC_T00012",NA,NA
+"gene-SAOUHSC_T00038",NA,NA
+"SAOUHSC_01958","3920903",NA
+"SAOUHSC_01959","3920904",NA
+"SAOUHSC_01960","3920905","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01961","3920906","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01962","3920907","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_01963","3920908",NA
+"SAOUHSC_01964","3920909",NA
+"SAOUHSC_01966","3920910",NA
+"SAOUHSC_01967","3920444",NA
+"SAOUHSC_01968","3920445",NA
+"SAOUHSC_01969","3920446",NA
+"SAOUHSC_01971","3920447",NA
+"SAOUHSC_01972","3920448",NA
+"SAOUHSC_01973","3920449",NA
+"SAOUHSC_01974","3920450",NA
+"SAOUHSC_01975","3920451",NA
+"SAOUHSC_01976","3920452",NA
+"SAOUHSC_01977","3920453",NA
+"SAOUHSC_01978","3920454",NA
+"SAOUHSC_01979","3920455",NA
+"SAOUHSC_01980","3920456",NA
+"SAOUHSC_01981","3920457",NA
+"SAOUHSC_01982","3920458",NA
+"SAOUHSC_01983","3920459","sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_01984","3920460",NA
+"SAOUHSC_01985","3920461",NA
+"SAOUHSC_01986","3920462",NA
+"SAOUHSC_01987","3920463",NA
+"SAOUHSC_01988","3921871",NA
+"SAOUHSC_01989","3921872",NA
+"SAOUHSC_01990","3921873","sao02010_ABC_transporters"
+"SAOUHSC_01991","3921874","sao02010_ABC_transporters"
+"SAOUHSC_01992","3921875",NA
+"SAOUHSC_01993","3921876",NA
+"gene-SAOUHSC_T00031",NA,NA
+"gene-SAOUHSC_T00023",NA,NA
+"gene-SAOUHSC_T00015",NA,NA
+"gene-SAOUHSC_T00016",NA,NA
+"gene-SAOUHSC_T00027",NA,NA
+"gene-SAOUHSC_T00056",NA,NA
+"gene-SAOUHSC_T00057",NA,NA
+"gene-SAOUHSC_T00054",NA,NA
+"gene-SAOUHSC_T00043",NA,NA
+"gene-SAOUHSC_A01909",NA,NA
+"gene-SAOUHSC_T00013",NA,NA
+"gene-SAOUHSC_T00039",NA,NA
+"gene-SAOUHSC_T00051",NA,NA
+"gene-SAOUHSC_A01910",NA,NA
+"gene-SAOUHSC_T00014",NA,NA
+"gene-SAOUHSC_T00052",NA,NA
+"gene-SAOUHSC_T00040",NA,NA
+"gene-SAOUHSC_T00041",NA,NA
+"gene-SAOUHSC_T0002",NA,NA
+"gene-SAOUHSC_T00045",NA,NA
+"gene-SAOUHSC_T0007",NA,NA
+"gene-SAOUHSC_T00032",NA,NA
+"gene-SAOUHSC_T00024",NA,NA
+"gene-SAOUHSC_T00033",NA,NA
+"gene-SAOUHSC_T00036",NA,NA
+"gene-SAOUHSC_T00055",NA,NA
+"gene-SAOUHSC_T00060",NA,NA
+"gene-SAOUHSC_R00013",NA,NA
+"gene-SAOUHSC_R0008",NA,NA
+"gene-SAOUHSC_T0003",NA,NA
+"gene-SAOUHSC_A01912",NA,NA
+"gene-SAOUHSC_T00028",NA,NA
+"gene-SAOUHSC_R0003",NA,NA
+"SAOUHSC_01997","3921877",NA
+"SAOUHSC_01998","3921878",NA
+"SAOUHSC_01999","3921879",NA
+"SAOUHSC_02000","3921880","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02001","3921881",NA
+"SAOUHSC_02002","3921882",NA
+"SAOUHSC_02003","3921883",NA
+"SAOUHSC_02004","3921884",NA
+"SAOUHSC_02005","3921885","sao03410_Base_excision_repair"
+"SAOUHSC_02006","3921886",NA
+"SAOUHSC_02007","3921887",NA
+"SAOUHSC_02008","3921888","sao02010_ABC_transporters"
+"SAOUHSC_02009","3921889","sao02010_ABC_transporters"
+"SAOUHSC_02010","3920464",NA
+"SAOUHSC_02011","3920465",NA
+"SAOUHSC_02012","3920466","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02013","3920467",NA
+"SAOUHSC_02014","3920468",NA
+"SAOUHSC_02015","3920469",NA
+"SAOUHSC_02016","3920470",NA
+"SAOUHSC_02017","3920471",NA
+"SAOUHSC_02018","3920472",NA
+"SAOUHSC_02019","3920473",NA
+"SAOUHSC_02020","3920474",NA
+"SAOUHSC_02021","3920475",NA
+"SAOUHSC_02022","3920476",NA
+"SAOUHSC_02023","3920477","sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02025","3920478",NA
+"SAOUHSC_02026","3920479",NA
+"SAOUHSC_02027","3920480",NA
+"SAOUHSC_02028","3920481",NA
+"SAOUHSC_02029","3920482",NA
+"SAOUHSC_02030","3920483",NA
+"SAOUHSC_02031","3920484",NA
+"SAOUHSC_02033","3920485",NA
+"SAOUHSC_02034","3920486",NA
+"SAOUHSC_02035","3920487",NA
+"SAOUHSC_02036","3920488",NA
+"SAOUHSC_02037","3920489",NA
+"SAOUHSC_02038","3920490",NA
+"SAOUHSC_02040","3920491",NA
+"SAOUHSC_02041","3920492",NA
+"SAOUHSC_02042","3920493",NA
+"SAOUHSC_02043","3920494",NA
+"SAOUHSC_02044","3920495",NA
+"SAOUHSC_02046","3920496",NA
+"SAOUHSC_02047","3920497",NA
+"SAOUHSC_02048","3920498",NA
+"SAOUHSC_02049","3920499",NA
+"SAOUHSC_02050","3920500",NA
+"SAOUHSC_02051","3920501",NA
+"SAOUHSC_02052","3920502",NA
+"SAOUHSC_02053","3919740",NA
+"SAOUHSC_02054","3919741",NA
+"SAOUHSC_02055","3919742",NA
+"SAOUHSC_02056","3919743",NA
+"SAOUHSC_02057","3919744","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_02058","3919745",NA
+"SAOUHSC_02059","3919746",NA
+"SAOUHSC_02060","3919747",NA
+"SAOUHSC_02061","3919748",NA
+"SAOUHSC_02062","3919749",NA
+"SAOUHSC_02063","3919750",NA
+"SAOUHSC_02064","3919751",NA
+"SAOUHSC_02065","3919752",NA
+"SAOUHSC_02066","3919753",NA
+"SAOUHSC_02067","3919754",NA
+"SAOUHSC_02068","3919755",NA
+"SAOUHSC_02069","3919756",NA
+"SAOUHSC_02070","3919757",NA
+"SAOUHSC_02071","3919758",NA
+"SAOUHSC_02072","3919759",NA
+"SAOUHSC_02073","3919760",NA
+"SAOUHSC_02074","3919761",NA
+"SAOUHSC_02075","3919762",NA
+"SAOUHSC_02076","3919763",NA
+"SAOUHSC_02077","3919764",NA
+"SAOUHSC_02078","3919765",NA
+"SAOUHSC_02079","3919766",NA
+"SAOUHSC_02080","3919767",NA
+"SAOUHSC_02081","3919768",NA
+"SAOUHSC_02083","3919769",NA
+"SAOUHSC_02084","3919770",NA
+"SAOUHSC_02085","3919771",NA
+"SAOUHSC_02086","3919772",NA
+"SAOUHSC_02087","3919773",NA
+"SAOUHSC_02088","3919774",NA
+"SAOUHSC_02089","3919775",NA
+"SAOUHSC_02090","3919776",NA
+"SAOUHSC_02091","3919777",NA
+"SAOUHSC_02092","3919778",NA
+"SAOUHSC_02093","3921166",NA
+"SAOUHSC_02095","3921167","sao02020_Two-component_system"
+"SAOUHSC_02096","3921168",NA
+"SAOUHSC_02097","3921169",NA
+"SAOUHSC_02098","3921170","sao02020_Two-component_system"
+"SAOUHSC_02099","3921171","sao02020_Two-component_system"
+"SAOUHSC_02100","3921172",NA
+"SAOUHSC_02101","3921173",NA
+"SAOUHSC_02102","3921174",NA
+"gene-SAOUHSC_A02013",NA,NA
+"SAOUHSC_02103","3921175",NA
+"SAOUHSC_02104","3921176",NA
+"SAOUHSC_02105","3921177",NA
+"SAOUHSC_02106","3921178","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02107","3921179","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02108","3921180",NA
+"SAOUHSC_02109","3921181",NA
+"SAOUHSC_02110","3921182","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_02111","3921183",NA
+"SAOUHSC_02112","3921184",NA
+"SAOUHSC_02113","3921185",NA
+"SAOUHSC_02114","3921186","sao00561_Glycerolipid_metabolism, sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02115","3921187",NA
+"SAOUHSC_02116","3921188","sao00970_Aminoacyl-tRNA_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02117","3921189","sao00970_Aminoacyl-tRNA_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02118","3921190","sao00970_Aminoacyl-tRNA_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02119","3921191",NA
+"SAOUHSC_02121","3921192",NA
+"SAOUHSC_02122","3921193","sao03030_DNA_replication, sao03410_Base_excision_repair, sao03420_Nucleotide_excision_repair, sao03430_Mismatch_repair"
+"SAOUHSC_02123","3921194","sao03420_Nucleotide_excision_repair, sao03430_Mismatch_repair"
+"SAOUHSC_02124","3921195","sao00564_Glycerophospholipid_metabolism, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02125","3921196",NA
+"SAOUHSC_02126","3921197","sao00230_Purine_metabolism, sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02127","3921198",NA
+"SAOUHSC_02129","3921199",NA
+"SAOUHSC_02130","3921200",NA
+"SAOUHSC_02131","3921201",NA
+"SAOUHSC_02132","3921202","sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02133","3921203","sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02134","3921204","sao00220_Arginine_biosynthesis, sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02135","3921832","sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02136","3921833",NA
+"SAOUHSC_02137","3921834",NA
+"SAOUHSC_02138","3921835",NA
+"SAOUHSC_02139","3921836",NA
+"SAOUHSC_02140","3921837","sao00190_Oxidative_phosphorylation"
+"SAOUHSC_02141","3921838",NA
+"SAOUHSC_02142","3921839","sao00906_Carotenoid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02143","3921840","sao00030_Pentose_phosphate_pathway, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02144","3921841",NA
+"SAOUHSC_02145","3921842",NA
+"SAOUHSC_02146","3921843",NA
+"SAOUHSC_02147","3921844",NA
+"SAOUHSC_02148","3921845",NA
+"SAOUHSC_02149","3921846",NA
+"SAOUHSC_02150","3921847",NA
+"SAOUHSC_02151","3921848",NA
+"SAOUHSC_02152","3921849",NA
+"SAOUHSC_02153","3921850",NA
+"SAOUHSC_02154","3921851",NA
+"SAOUHSC_02155","3921852",NA
+"SAOUHSC_02156","3921853",NA
+"SAOUHSC_02157","3921854",NA
+"SAOUHSC_02158","3921855",NA
+"SAOUHSC_02160","3921856",NA
+"SAOUHSC_02161","3921857","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02163","3921858",NA
+"SAOUHSC_02164","3921859",NA
+"SAOUHSC_02165","3921860",NA
+"SAOUHSC_02166","3921861",NA
+"SAOUHSC_02167","3921862","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02169","3921863","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02170","3921864",NA
+"SAOUHSC_02171","3921865","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02173","3921866",NA
+"SAOUHSC_02174","3921867",NA
+"SAOUHSC_02175","3921868",NA
+"SAOUHSC_02176","3921869",NA
+"SAOUHSC_02177","3921870",NA
+"SAOUHSC_02178","3919545",NA
+"SAOUHSC_02179","3919546",NA
+"SAOUHSC_02180","3919547",NA
+"SAOUHSC_02181","3919548",NA
+"SAOUHSC_02182","3919549",NA
+"SAOUHSC_02183","3919550",NA
+"SAOUHSC_02184","3919551",NA
+"SAOUHSC_02185","3919552",NA
+"SAOUHSC_02186","3919553",NA
+"SAOUHSC_02187","3919554",NA
+"SAOUHSC_02188","3919555",NA
+"SAOUHSC_02189","3919556",NA
+"SAOUHSC_02190","3919557",NA
+"SAOUHSC_02191","3919558",NA
+"SAOUHSC_02193","3919559",NA
+"SAOUHSC_02194","3919560",NA
+"SAOUHSC_02195","3919561",NA
+"SAOUHSC_02196","3919562",NA
+"SAOUHSC_02197","3919563",NA
+"SAOUHSC_02198","3919564",NA
+"SAOUHSC_02199","3919565",NA
+"SAOUHSC_02200","3919566",NA
+"gene-SAOUHSC_A02094",NA,NA
+"SAOUHSC_02202","3919567",NA
+"SAOUHSC_02203","3919568",NA
+"SAOUHSC_02204","3919569",NA
+"SAOUHSC_02205","3919570",NA
+"SAOUHSC_02206","3919571",NA
+"SAOUHSC_02207","3919572",NA
+"SAOUHSC_02208","3919573",NA
+"SAOUHSC_02209","3919574",NA
+"SAOUHSC_02210","3919575",NA
+"SAOUHSC_02211","3919576",NA
+"SAOUHSC_02212","3919577",NA
+"SAOUHSC_02213","3919578",NA
+"SAOUHSC_02214","3919579",NA
+"SAOUHSC_02215","3919580",NA
+"SAOUHSC_02216","3919581",NA
+"SAOUHSC_02217","3919582",NA
+"SAOUHSC_02218","3919583",NA
+"SAOUHSC_02219","3919642",NA
+"SAOUHSC_02220","3919643",NA
+"SAOUHSC_02221","3919644",NA
+"SAOUHSC_02222","3919645",NA
+"SAOUHSC_02223","3919646",NA
+"SAOUHSC_02224","3919647",NA
+"SAOUHSC_02225","3919648",NA
+"SAOUHSC_02226","3919649",NA
+"SAOUHSC_02227","3919650",NA
+"SAOUHSC_02228","3919651",NA
+"SAOUHSC_02229","3919652",NA
+"SAOUHSC_02231","3919653",NA
+"SAOUHSC_02232","3919654",NA
+"SAOUHSC_02233","3919655",NA
+"SAOUHSC_02234","3919656",NA
+"SAOUHSC_02235","3919657",NA
+"SAOUHSC_02236","3919658",NA
+"SAOUHSC_02237","3919659",NA
+"SAOUHSC_02238","3919660",NA
+"SAOUHSC_02239","3919661",NA
+"SAOUHSC_02240","3919662",NA
+"SAOUHSC_02241","3919663","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02243","3919664","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02244","3919665","sao00300_Lysine_biosynthesis, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02245","3919666",NA
+"SAOUHSC_02246","3919667",NA
+"SAOUHSC_02247","3919668",NA
+"SAOUHSC_02248","3919669",NA
+"SAOUHSC_02249","3919670",NA
+"SAOUHSC_02250","3919671",NA
+"SAOUHSC_02251","3919672",NA
+"SAOUHSC_02252","3919673",NA
+"SAOUHSC_02254","3919674","sao03018_RNA_degradation"
+"SAOUHSC_02255","3919675",NA
+"SAOUHSC_02256","3919676",NA
+"SAOUHSC_02257","3919677",NA
+"SAOUHSC_02258","3919678",NA
+"SAOUHSC_02259","3919679","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02260","3919680","sao02024_Quorum_sensing"
+"SAOUHSC_02261","3919137","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_02262","3919138","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_02264","3919139","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_02265","3919140","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_02266","3919141",NA
+"SAOUHSC_02267","3919142","sao00051_Fructose_and_mannose_metabolism, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02268","3919143","sao00052_Galactose_metabolism, sao00500_Starch_and_sucrose_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02269","3919144",NA
+"SAOUHSC_02270","3919145",NA
+"SAOUHSC_02271","3919146",NA
+"SAOUHSC_02272","3919147",NA
+"SAOUHSC_02273","3919148",NA
+"SAOUHSC_02274","3919149",NA
+"SAOUHSC_02275","3919150",NA
+"SAOUHSC_02276","3919151",NA
+"SAOUHSC_02277","3919152",NA
+"SAOUHSC_02278","3919153",NA
+"SAOUHSC_02279","3919154",NA
+"SAOUHSC_02280","3919155",NA
+"gene-SAOUHSC_A02169",NA,NA
+"SAOUHSC_02281","3919156","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02282","3919157","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00650_Butanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02283","3919158","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00650_Butanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02284","3919159","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02285","3919160","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02286","3919161","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00660_C5-Branched_dibasic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02287","3919162","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00660_C5-Branched_dibasic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02288","3919163","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00660_C5-Branched_dibasic_acid_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02289","3919164","sao00260_Glycine,_serine_and_threonine_metabolism, sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02290","3919165",NA
+"gene-SAOUHSC_R00014",NA,NA
+"gene-SAOUHSC_R0009",NA,NA
+"gene-SAOUHSC_R0004",NA,NA
+"gene-SAOUHSC_T00025",NA,NA
+"gene-SAOUHSC_T00034",NA,NA
+"SAOUHSC_02294","3919166",NA
+"SAOUHSC_02296","3919167",NA
+"SAOUHSC_02297","3919168",NA
+"SAOUHSC_02298","3919169",NA
+"SAOUHSC_02299","3919170",NA
+"SAOUHSC_02300","3919171",NA
+"SAOUHSC_02301","3919172",NA
+"SAOUHSC_02302","3919173",NA
+"gene-SAOUHSC_A02189",NA,NA
+"SAOUHSC_02303","3919174",NA
+"SAOUHSC_02304","3919175",NA
+"SAOUHSC_02305","3920930","sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways, sao01502_Vancomycin_resistance"
+"SAOUHSC_02306","3920931","sao00074_Mycolic_acid_biosynthesis, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02307","3920932",NA
+"SAOUHSC_02308","3920933",NA
+"SAOUHSC_02309","3920934",NA
+"SAOUHSC_02310","3920935","sao02020_Two-component_system"
+"SAOUHSC_02311","3920936","sao02020_Two-component_system"
+"SAOUHSC_02312","3920937","sao02020_Two-component_system"
+"SAOUHSC_02313","3920938","sao02020_Two-component_system"
+"SAOUHSC_02314","3920939","sao02020_Two-component_system"
+"SAOUHSC_02315","3920940","sao02020_Two-component_system, sao02024_Quorum_sensing"
+"SAOUHSC_02316","3920941","sao03018_RNA_degradation"
+"SAOUHSC_02317","3920942","sao00300_Lysine_biosynthesis, sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01502_Vancomycin_resistance"
+"SAOUHSC_02318","3920943","sao00470_D-Amino_acid_metabolism, sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01502_Vancomycin_resistance"
+"SAOUHSC_02319","3920944","sao00550_Peptidoglycan_biosynthesis"
+"SAOUHSC_02320","3920945",NA
+"SAOUHSC_02321","3920946",NA
+"SAOUHSC_02322","3920947",NA
+"SAOUHSC_02323","3920948","sao00564_Glycerophospholipid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02324","3920949",NA
+"SAOUHSC_02325","3920950",NA
+"SAOUHSC_02326","3920951",NA
+"SAOUHSC_02327","3920952","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_02328","3920953","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02329","3920954","sao00730_Thiamine_metabolism, sao00740_Riboflavin_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02330","3920955","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02331","3920956","sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02332","3920957",NA
+"SAOUHSC_02333","3920958",NA
+"SAOUHSC_02334","3920959","sao03030_DNA_replication, sao03430_Mismatch_repair, sao03440_Homologous_recombination"
+"SAOUHSC_02335","3920960",NA
+"SAOUHSC_02336","3920961","sao00061_Fatty_acid_biosynthesis, sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01212_Fatty_acid_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02337","3920962","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02338","3920963",NA
+"SAOUHSC_02339","3920964",NA
+"SAOUHSC_02340","3920965","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02341","3920966","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02343","3920967","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02345","3920968","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02346","3919390","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02347","3919391","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02349","3919392","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02350","3919393","sao00190_Oxidative_phosphorylation, sao01100_Metabolic_pathways"
+"SAOUHSC_02351","3919394",NA
+"SAOUHSC_02352","3919395","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars, sao02020_Two-component_system"
+"SAOUHSC_02353","3919396","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_02354","3919397","sao00260_Glycine,_serine_and_threonine_metabolism, sao00460_Cyanoamino_acid_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00670_One_carbon_pool_by_folate, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids, sao01240_Biosynthesis_of_cofactors, sao04981_Folate_transport_and_metabolism"
+"SAOUHSC_02355","3919398",NA
+"SAOUHSC_02356","3919399",NA
+"SAOUHSC_02357","3919400",NA
+"SAOUHSC_02358","3919401",NA
+"SAOUHSC_02359","3919402",NA
+"SAOUHSC_02360","3919403","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_02361","3919404","sao03010_Ribosome"
+"SAOUHSC_02362","3919405","sao03018_RNA_degradation"
+"SAOUHSC_02363","3919406","sao00010_Glycolysis_/_Gluconeogenesis, sao00053_Ascorbate_and_aldarate_metabolism, sao00071_Fatty_acid_degradation, sao00280_Valine,_leucine_and_isoleucine_degradation, sao00310_Lysine_degradation, sao00330_Arginine_and_proline_metabolism, sao00340_Histidine_metabolism, sao00380_Tryptophan_metabolism, sao00410_beta-Alanine_metabolism, sao00561_Glycerolipid_metabolism, sao00620_Pyruvate_metabolism, sao00625_Chloroalkane_and_chloroalkene_degradation, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02364","3919407",NA
+"SAOUHSC_02365","3919408","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02366","3919409","sao00010_Glycolysis_/_Gluconeogenesis, sao00030_Pentose_phosphate_pathway, sao00051_Fructose_and_mannose_metabolism, sao00680_Methane_metabolism, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02367","3919410",NA
+"SAOUHSC_02368","3919411","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02369","3919412","sao03020_RNA_polymerase"
+"SAOUHSC_02370","3919413",NA
+"gene-SAOUHSC_A02254",NA,NA
+"SAOUHSC_02371","3919414","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02372","3919415",NA
+"SAOUHSC_02373","3919416",NA
+"SAOUHSC_02374","3919417",NA
+"SAOUHSC_02375","3919418","sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01230_Biosynthesis_of_amino_acids, sao02024_Quorum_sensing"
+"SAOUHSC_02376","3919419",NA
+"SAOUHSC_02377","3919420","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_02378","3919421",NA
+"SAOUHSC_02379","3919422","sao00030_Pentose_phosphate_pathway, sao01100_Metabolic_pathways"
+"SAOUHSC_02380","3919423","sao00230_Purine_metabolism, sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism"
+"SAOUHSC_02381","3919424",NA
+"SAOUHSC_02382","3919425",NA
+"SAOUHSC_02383","3919426",NA
+"SAOUHSC_02384","3919427",NA
+"SAOUHSC_02385","3919428","sao00051_Fructose_and_mannose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02386","3919603",NA
+"SAOUHSC_02387","3919604",NA
+"SAOUHSC_02388","3919605",NA
+"SAOUHSC_02389","3919606",NA
+"SAOUHSC_02390","3919607",NA
+"SAOUHSC_02391","3919608",NA
+"SAOUHSC_02392","3919609",NA
+"SAOUHSC_02393","3919610",NA
+"SAOUHSC_02394","3919611",NA
+"gene-SAOUHSC_A02273",NA,NA
+"SAOUHSC_02396","3919612",NA
+"SAOUHSC_02397","3919613",NA
+"SAOUHSC_02399","3919614","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02400","3919615","sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02401","3919616",NA
+"SAOUHSC_02402","3919617","sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02403","3919618","sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02404","3919619",NA
+"SAOUHSC_02405","3919620","sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02406","3919621",NA
+"SAOUHSC_02407","3919622",NA
+"SAOUHSC_02409","3919623","sao00220_Arginine_biosynthesis, sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02410","3919624",NA
+"SAOUHSC_02411","3919625",NA
+"gene-SAOUHSC_T00037",NA,NA
+"SAOUHSC_02412","3919626",NA
+"gene-SAOUHSC_T00017",NA,NA
+"gene-SAOUHSC_T00058",NA,NA
+"gene-SAOUHSC_T00061",NA,NA
+"gene-SAOUHSC_T00020",NA,NA
+"gene-SAOUHSC_T00010",NA,NA
+"gene-SAOUHSC_R00015",NA,NA
+"gene-SAOUHSC_R00010",NA,NA
+"gene-SAOUHSC_T00029",NA,NA
+"gene-SAOUHSC_R0005",NA,NA
+"SAOUHSC_02416","3919627",NA
+"SAOUHSC_02417","3919628",NA
+"SAOUHSC_02418","3919629",NA
+"SAOUHSC_02419","3919630",NA
+"SAOUHSC_02420","3919631",NA
+"SAOUHSC_02422","3919632",NA
+"SAOUHSC_02423","3919633",NA
+"SAOUHSC_02424","3919634",NA
+"SAOUHSC_02425","3919635",NA
+"SAOUHSC_02426","3919636",NA
+"SAOUHSC_02427","3919637","sao02010_ABC_transporters"
+"SAOUHSC_02428","3919638","sao02010_ABC_transporters"
+"SAOUHSC_02430","3919639","sao02010_ABC_transporters"
+"SAOUHSC_02432","3919640",NA
+"SAOUHSC_02433","3919641","sao00470_D-Amino_acid_metabolism, sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02434","3918999","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02435","3919000",NA
+"SAOUHSC_02436","3919001","sao00997_Biosynthesis_of_various_other_secondary_metabolites, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02437","3919002",NA
+"SAOUHSC_02438","3919003",NA
+"SAOUHSC_02440","3919004",NA
+"SAOUHSC_02441","3919005",NA
+"SAOUHSC_02442","3919006",NA
+"SAOUHSC_02443","3919007",NA
+"SAOUHSC_02444","3919008",NA
+"SAOUHSC_02445","3919009",NA
+"SAOUHSC_02447","3919010",NA
+"SAOUHSC_02448","3919011",NA
+"SAOUHSC_02449","3919012","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02450","3919013","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02451","3919014","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02452","3919015","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao02024_Quorum_sensing"
+"SAOUHSC_02453","3919016","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02454","3919017","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02455","3919018","sao00052_Galactose_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02456","3919019",NA
+"SAOUHSC_02457","3919020","sao00760_Nicotinate_and_nicotinamide_metabolism, sao01100_Metabolic_pathways"
+"gene-SAOUHSC_A02331",NA,NA
+"SAOUHSC_02458","3919021",NA
+"SAOUHSC_02459","3919022",NA
+"SAOUHSC_02460","3919023",NA
+"SAOUHSC_02461","3919024",NA
+"SAOUHSC_02462","3919025",NA
+"SAOUHSC_02463","3919026",NA
+"SAOUHSC_02464","3919027",NA
+"SAOUHSC_02465","3919028",NA
+"SAOUHSC_02466","3919029",NA
+"SAOUHSC_02467","3919030","sao00650_Butanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_02468","3919031","sao00290_Valine,_leucine_and_isoleucine_biosynthesis, sao00650_Butanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02469","3919032",NA
+"SAOUHSC_02470","3919033",NA
+"SAOUHSC_02471","3919034",NA
+"SAOUHSC_02472","3919035",NA
+"SAOUHSC_02473","3919036",NA
+"SAOUHSC_02474","3919037",NA
+"SAOUHSC_02475","3920853",NA
+"SAOUHSC_02476","3920854",NA
+"gene-SAOUHSC_A02350",NA,NA
+"SAOUHSC_02477","3920855","sao03010_Ribosome"
+"SAOUHSC_02478","3920856","sao03010_Ribosome"
+"SAOUHSC_02480","3920857",NA
+"SAOUHSC_02481","3920858","sao02010_ABC_transporters"
+"SAOUHSC_02482","3920859","sao02010_ABC_transporters"
+"SAOUHSC_02483","3920860","sao02010_ABC_transporters"
+"SAOUHSC_02484","3920861","sao03010_Ribosome"
+"SAOUHSC_02485","3920862","sao03020_RNA_polymerase"
+"SAOUHSC_02486","3920863","sao03010_Ribosome"
+"SAOUHSC_02487","3920864","sao03010_Ribosome"
+"SAOUHSC_02488","3920865","sao03010_Ribosome"
+"SAOUHSC_02489","3920866",NA
+"SAOUHSC_02490","3920867","sao00230_Purine_metabolism, sao00730_Thiamine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01232_Nucleotide_metabolism, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02491","3920868","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_02492","3920869","sao03010_Ribosome"
+"SAOUHSC_02493","3920870","sao03010_Ribosome"
+"SAOUHSC_02494","3920871","sao03010_Ribosome"
+"SAOUHSC_02495","3920872","sao03010_Ribosome"
+"SAOUHSC_02496","3920873","sao03010_Ribosome"
+"SAOUHSC_02498","3920874","sao03010_Ribosome"
+"SAOUHSC_02499","3920875","sao03010_Ribosome"
+"SAOUHSC_02500","3920876","sao03010_Ribosome"
+"SAOUHSC_02501","3920877","sao03010_Ribosome"
+"SAOUHSC_02502","3920878","sao03010_Ribosome"
+"SAOUHSC_02503","3920879","sao03010_Ribosome"
+"SAOUHSC_02504","3920880","sao03010_Ribosome"
+"SAOUHSC_02505","3920881","sao03010_Ribosome"
+"SAOUHSC_02506","3920882","sao03010_Ribosome"
+"SAOUHSC_02507","3920883","sao03010_Ribosome"
+"SAOUHSC_02508","3920884","sao03010_Ribosome"
+"SAOUHSC_02509","3920885","sao03010_Ribosome"
+"SAOUHSC_02510","3920886","sao03010_Ribosome"
+"SAOUHSC_02511","3920887","sao03010_Ribosome"
+"SAOUHSC_02512","3920888","sao03010_Ribosome"
+"SAOUHSC_02515","3920889",NA
+"SAOUHSC_02516","3920890",NA
+"SAOUHSC_02517","3920891",NA
+"SAOUHSC_02518","3921109",NA
+"SAOUHSC_02519","3921110",NA
+"SAOUHSC_02520","3921111",NA
+"SAOUHSC_02521","3921112",NA
+"SAOUHSC_02522","3921113",NA
+"SAOUHSC_02523","3921114",NA
+"SAOUHSC_02524","3921115",NA
+"SAOUHSC_02525","3921116",NA
+"SAOUHSC_02527","3921117","sao00550_Peptidoglycan_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02528","3921118",NA
+"SAOUHSC_02529","3921119",NA
+"SAOUHSC_02530","3921120",NA
+"SAOUHSC_02531","3921121",NA
+"SAOUHSC_02532","3921122",NA
+"SAOUHSC_02533","3921123",NA
+"SAOUHSC_02534","3921124",NA
+"SAOUHSC_02535","3921125",NA
+"SAOUHSC_02536","3921126","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_02537","3921127","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways"
+"SAOUHSC_02538","3921128","sao04122_Sulfur_relay_system"
+"SAOUHSC_02540","3921129","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_02541","3921130",NA
+"SAOUHSC_02542","3921131","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02543","3921132","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_02544","3921133","sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao04122_Sulfur_relay_system"
+"SAOUHSC_02545","3921134","sao04122_Sulfur_relay_system"
+"SAOUHSC_02546","3921135","sao02010_ABC_transporters"
+"SAOUHSC_02547","3921136","sao02010_ABC_transporters"
+"SAOUHSC_02549","3921137","sao02010_ABC_transporters"
+"SAOUHSC_02550","3921138",NA
+"SAOUHSC_02551","3921139",NA
+"SAOUHSC_02552","3921140","sao02010_ABC_transporters"
+"SAOUHSC_02553","3921141",NA
+"SAOUHSC_02554","3921142",NA
+"SAOUHSC_02555","3921143",NA
+"SAOUHSC_02556","3921144",NA
+"SAOUHSC_02557","3921145",NA
+"SAOUHSC_02558","3921146","sao00220_Arginine_biosynthesis, sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02559","3921147","sao00220_Arginine_biosynthesis, sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02561","3921558","sao00220_Arginine_biosynthesis, sao00230_Purine_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02562","3921559",NA
+"SAOUHSC_02563","3921560",NA
+"SAOUHSC_02564","3921561",NA
+"SAOUHSC_02565","3921562",NA
+"SAOUHSC_02566","3921563",NA
+"SAOUHSC_02567","3921564",NA
+"SAOUHSC_02568","3921565",NA
+"SAOUHSC_02569","3921566",NA
+"SAOUHSC_02570","3921567",NA
+"SAOUHSC_02571","3921568",NA
+"SAOUHSC_02572","3921569",NA
+"SAOUHSC_02573","3921570",NA
+"SAOUHSC_02574","3921571",NA
+"SAOUHSC_02575","3921572",NA
+"SAOUHSC_02576","3921573",NA
+"gene-SAOUHSC_A02445",NA,NA
+"SAOUHSC_02577","3921574",NA
+"SAOUHSC_02579","3921575",NA
+"SAOUHSC_02580","3921576",NA
+"gene-SAOUHSC_A02450",NA,NA
+"SAOUHSC_02581","3921577",NA
+"SAOUHSC_02582","3921578","sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02583","3921579","sao00552_Teichoic_acid_biosynthesis"
+"SAOUHSC_02584","3921580","sao00521_Streptomycin_biosynthesis, sao00562_Inositol_phosphate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02585","3921581",NA
+"SAOUHSC_02586","3921582",NA
+"SAOUHSC_02587","3921583",NA
+"SAOUHSC_02588","3921584",NA
+"SAOUHSC_02589","3921585",NA
+"SAOUHSC_02590","3921586",NA
+"SAOUHSC_02591","3921587",NA
+"SAOUHSC_02592","3921588",NA
+"SAOUHSC_02593","3921589",NA
+"SAOUHSC_02594","3921590",NA
+"SAOUHSC_02595","3921591",NA
+"SAOUHSC_02596","3921592",NA
+"SAOUHSC_02597","3921593","sao00500_Starch_and_sucrose_metabolism, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02599","3921594",NA
+"SAOUHSC_02600","3921595",NA
+"SAOUHSC_02601","3921596",NA
+"SAOUHSC_02602","3921380",NA
+"SAOUHSC_02603","3921381",NA
+"SAOUHSC_02604","3921382",NA
+"SAOUHSC_02605","3921383",NA
+"SAOUHSC_02606","3921384","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02607","3921385","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02608","3921386",NA
+"SAOUHSC_02609","3921387",NA
+"SAOUHSC_02610","3921388","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02611","3921389",NA
+"SAOUHSC_02612","3921390","sao00030_Pentose_phosphate_pathway, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02613","3921391",NA
+"gene-SAOUHSC_A02483",NA,NA
+"SAOUHSC_02614","3921392","sao00010_Glycolysis_/_Gluconeogenesis, sao00052_Galactose_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02615","3921393",NA
+"SAOUHSC_02616","3921394",NA
+"SAOUHSC_02618","3921395",NA
+"SAOUHSC_02619","3921396",NA
+"SAOUHSC_02620","3921397",NA
+"SAOUHSC_02621","3921398","sao03410_Base_excision_repair"
+"SAOUHSC_02622","3921399",NA
+"SAOUHSC_02623","3921400","sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02624","3921401",NA
+"SAOUHSC_02625","3921402",NA
+"SAOUHSC_02626","3921403",NA
+"SAOUHSC_02627","3921404",NA
+"SAOUHSC_02628","3921405",NA
+"SAOUHSC_02629","3921406",NA
+"SAOUHSC_02630","3921407",NA
+"SAOUHSC_02631","3921408",NA
+"SAOUHSC_02632","3921409",NA
+"SAOUHSC_02633","3921410",NA
+"SAOUHSC_02634","3921411",NA
+"SAOUHSC_02635","3921412",NA
+"gene-SAOUHSC_A02503",NA,NA
+"SAOUHSC_02636","3921413",NA
+"SAOUHSC_02637","3921414",NA
+"SAOUHSC_02638","3921415",NA
+"gene-SAOUHSC_A02505",NA,NA
+"SAOUHSC_02639","3921416",NA
+"SAOUHSC_02640","3921417","sao02010_ABC_transporters"
+"SAOUHSC_02641","3921418","sao02010_ABC_transporters"
+"SAOUHSC_02643","3921205",NA
+"SAOUHSC_02644","3921206",NA
+"SAOUHSC_02645","3921207",NA
+"SAOUHSC_02646","3921208",NA
+"SAOUHSC_02647","3921209","sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02648","3921210",NA
+"SAOUHSC_02649","3921211",NA
+"SAOUHSC_02650","3921212",NA
+"SAOUHSC_02651","3921213",NA
+"SAOUHSC_02652","3921214","sao00640_Propanoate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02653","3921215",NA
+"SAOUHSC_02654","3921216",NA
+"SAOUHSC_02655","3921217",NA
+"SAOUHSC_02656","3921218",NA
+"SAOUHSC_02657","3921219",NA
+"SAOUHSC_02658","3921220",NA
+"SAOUHSC_02659","3921221",NA
+"SAOUHSC_02660","3921222",NA
+"SAOUHSC_02661","3921223","sao00500_Starch_and_sucrose_metabolism, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02662","3921224",NA
+"SAOUHSC_02663","3921225",NA
+"SAOUHSC_02664","3921226",NA
+"SAOUHSC_02665","3921227",NA
+"SAOUHSC_02666","3921228",NA
+"SAOUHSC_02667","3921229",NA
+"SAOUHSC_02668","3921230",NA
+"SAOUHSC_02669","3921231",NA
+"SAOUHSC_02670","3921232",NA
+"SAOUHSC_02671","3921233","sao02020_Two-component_system"
+"SAOUHSC_02672","3921234",NA
+"SAOUHSC_02673","3921235",NA
+"SAOUHSC_02674","3921236",NA
+"SAOUHSC_02675","3921237","sao02020_Two-component_system"
+"SAOUHSC_02676","3921238","sao02020_Two-component_system"
+"SAOUHSC_02677","3921239","sao02020_Two-component_system"
+"SAOUHSC_02678","3921240","sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01310_Nitrogen_cycle, sao02020_Two-component_system"
+"SAOUHSC_02679","3921241","sao02020_Two-component_system"
+"SAOUHSC_02680","3921242","sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01310_Nitrogen_cycle, sao02020_Two-component_system"
+"SAOUHSC_02681","3921243","sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01310_Nitrogen_cycle, sao02020_Two-component_system"
+"SAOUHSC_02682","3919701","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02683","3919702","sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01310_Nitrogen_cycle"
+"SAOUHSC_02684","3919703","sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01310_Nitrogen_cycle"
+"SAOUHSC_02685","3919704",NA
+"SAOUHSC_02686","3919705",NA
+"SAOUHSC_02687","3919706",NA
+"SAOUHSC_02688","3919707",NA
+"SAOUHSC_02689","3919708",NA
+"SAOUHSC_02690","3919709","sao02010_ABC_transporters"
+"SAOUHSC_02691","3919710",NA
+"SAOUHSC_02692","3919711",NA
+"SAOUHSC_02693","3919712",NA
+"SAOUHSC_02694","3919713",NA
+"SAOUHSC_02695","3919714",NA
+"SAOUHSC_02696","3919715",NA
+"SAOUHSC_02697","3919716","sao02010_ABC_transporters"
+"SAOUHSC_02698","3919717","sao02010_ABC_transporters"
+"SAOUHSC_02699","3919718","sao02010_ABC_transporters, sao02040_Flagellar_assembly"
+"SAOUHSC_02700","3919719",NA
+"SAOUHSC_02701","3919720",NA
+"SAOUHSC_02702","3919721",NA
+"SAOUHSC_02703","3919722","sao00010_Glycolysis_/_Gluconeogenesis, sao00260_Glycine,_serine_and_threonine_metabolism, sao00680_Methane_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02704","3919723",NA
+"SAOUHSC_02705","3919724",NA
+"SAOUHSC_02706","3919725","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02707","3919726",NA
+"SAOUHSC_02708","3919727","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02709","3919728","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02710","3919729","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02711","3919730",NA
+"SAOUHSC_02712","3919731","sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02713","3919732","sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02714","3919733","sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02715","3919734","sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02716","3919735","sao00780_Biotin_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"gene-SAOUHSC_A02577",NA,NA
+"SAOUHSC_02717","3919736",NA
+"SAOUHSC_02718","3919737","sao02010_ABC_transporters"
+"SAOUHSC_02719","3919738","sao02010_ABC_transporters"
+"SAOUHSC_02720","3919739",NA
+"SAOUHSC_02721","3921597",NA
+"SAOUHSC_02722","3921598",NA
+"SAOUHSC_02723","3921599","sao00260_Glycine,_serine_and_threonine_metabolism, sao00561_Glycerolipid_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02724","3921600",NA
+"SAOUHSC_02725","3921601",NA
+"SAOUHSC_02726","3921602",NA
+"SAOUHSC_02727","3921603",NA
+"SAOUHSC_02728","3921604",NA
+"SAOUHSC_02729","3921605",NA
+"SAOUHSC_02731","3921606",NA
+"SAOUHSC_02732","3921607",NA
+"SAOUHSC_02733","3921608",NA
+"SAOUHSC_02734","3921609",NA
+"SAOUHSC_02736","3921610",NA
+"SAOUHSC_02737","3921611",NA
+"SAOUHSC_02738","3921612",NA
+"SAOUHSC_02739","3921613","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02740","3921614",NA
+"SAOUHSC_02741","3921615","sao02010_ABC_transporters"
+"SAOUHSC_02742","3921616","sao02010_ABC_transporters"
+"SAOUHSC_02743","3921617","sao02010_ABC_transporters"
+"SAOUHSC_02744","3921618","sao02010_ABC_transporters"
+"SAOUHSC_02745","3921619",NA
+"SAOUHSC_02746","3921620",NA
+"SAOUHSC_02747","3921621",NA
+"SAOUHSC_02750","3921622",NA
+"SAOUHSC_02751","3921623",NA
+"SAOUHSC_02752","3921624",NA
+"SAOUHSC_02753","3921625",NA
+"SAOUHSC_02754","3921626",NA
+"SAOUHSC_02755","3921627",NA
+"SAOUHSC_02756","3921628",NA
+"SAOUHSC_02757","3921629",NA
+"SAOUHSC_02758","3921630",NA
+"SAOUHSC_02759","3921631",NA
+"SAOUHSC_02760","3921632",NA
+"SAOUHSC_02761","3921633",NA
+"SAOUHSC_02762","3921634",NA
+"SAOUHSC_02763","3921635","sao02010_ABC_transporters"
+"SAOUHSC_02764","3921419","sao02010_ABC_transporters"
+"SAOUHSC_02765","3921420","sao02010_ABC_transporters"
+"SAOUHSC_02766","3921421","sao02010_ABC_transporters"
+"SAOUHSC_02767","3921422","sao02010_ABC_transporters"
+"SAOUHSC_02768","3921423","sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02769","3921424","sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02770","3921425","sao00470_D-Amino_acid_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02771","3921426",NA
+"SAOUHSC_02772","3921427",NA
+"SAOUHSC_02773","3921428",NA
+"SAOUHSC_02774","3921429",NA
+"SAOUHSC_02775","3921430",NA
+"SAOUHSC_02776","3921431",NA
+"gene-SAOUHSC_A02635",NA,NA
+"SAOUHSC_02777","3921432",NA
+"SAOUHSC_02778","3921433",NA
+"SAOUHSC_02779","3921434",NA
+"SAOUHSC_02780","3921435",NA
+"SAOUHSC_02781","3921436",NA
+"SAOUHSC_02782","3921437",NA
+"SAOUHSC_02783","3921438",NA
+"SAOUHSC_02784","3921439",NA
+"SAOUHSC_02785","3921440",NA
+"SAOUHSC_02786","3921441",NA
+"SAOUHSC_02787","3921442",NA
+"SAOUHSC_02788","3921443",NA
+"SAOUHSC_02789","3921444",NA
+"SAOUHSC_02790","3921445",NA
+"SAOUHSC_02791","3921446",NA
+"SAOUHSC_02793","3921447","sao00010_Glycolysis_/_Gluconeogenesis, sao00030_Pentose_phosphate_pathway, sao00052_Galactose_metabolism, sao00230_Purine_metabolism, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00521_Streptomycin_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02794","3921448",NA
+"SAOUHSC_02795","3921449",NA
+"SAOUHSC_02796","3921450",NA
+"SAOUHSC_02797","3921451",NA
+"SAOUHSC_02798","3921452","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02799","3921453",NA
+"SAOUHSC_02800","3921454",NA
+"SAOUHSC_02801","3921455","sao00040_Pentose_and_glucuronate_interconversions, sao00052_Galactose_metabolism, sao00500_Starch_and_sucrose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao00541_Biosynthesis_of_various_nucleotide_sugars, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02802","3921456","sao05100_Bacterial_invasion_of_epithelial_cells"
+"SAOUHSC_02803","3921457","sao05100_Bacterial_invasion_of_epithelial_cells"
+"SAOUHSC_02804","3921244",NA
+"SAOUHSC_02805","3921245",NA
+"SAOUHSC_02806","3921246",NA
+"SAOUHSC_02808","3921247","sao00030_Pentose_phosphate_pathway, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02809","3921248",NA
+"SAOUHSC_02810","3921249",NA
+"SAOUHSC_02811","3921250","sao00230_Purine_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02812","3921251",NA
+"SAOUHSC_02813","3921252",NA
+"SAOUHSC_02814","3921253",NA
+"SAOUHSC_02815","3921254",NA
+"SAOUHSC_02816","3921255",NA
+"SAOUHSC_02817","3921256",NA
+"SAOUHSC_02818","3921257",NA
+"SAOUHSC_02819","3921258",NA
+"SAOUHSC_02820","3921259",NA
+"SAOUHSC_02821","3921260",NA
+"SAOUHSC_02822","3921261","sao00010_Glycolysis_/_Gluconeogenesis, sao00030_Pentose_phosphate_pathway, sao00051_Fructose_and_mannose_metabolism, sao00680_Methane_metabolism, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"gene-SAOUHSC_A02680",NA,NA
+"SAOUHSC_02823","3921262",NA
+"SAOUHSC_02824","3921263",NA
+"SAOUHSC_02825","3921264",NA
+"SAOUHSC_02826","3921265",NA
+"SAOUHSC_02827","3921266",NA
+"SAOUHSC_02828","3921267","sao00362_Benzoate_degradation, sao00622_Xylene_degradation, sao00643_Styrene_degradation, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01220_Degradation_of_aromatic_compounds"
+"SAOUHSC_02829","3921268",NA
+"SAOUHSC_02830","3921269","sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02831","3921270",NA
+"SAOUHSC_02832","3921271","sao02010_ABC_transporters"
+"SAOUHSC_02833","3921272","sao02010_ABC_transporters"
+"SAOUHSC_02834","3921273",NA
+"SAOUHSC_02836","3921274",NA
+"SAOUHSC_02837","3921275",NA
+"SAOUHSC_02838","3921276",NA
+"SAOUHSC_02839","3921277","sao00260_Glycine,_serine_and_threonine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02840","3921278","sao00260_Glycine,_serine_and_threonine_metabolism, sao00270_Cysteine_and_methionine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02841","3921279",NA
+"SAOUHSC_02842","3921280",NA
+"SAOUHSC_02843","3921281",NA
+"SAOUHSC_02844","3921282",NA
+"SAOUHSC_02845","3921519",NA
+"SAOUHSC_02846","3921520",NA
+"SAOUHSC_02848","3921521","sao00010_Glycolysis_/_Gluconeogenesis, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02849","3921522","sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02850","3921523",NA
+"SAOUHSC_02851","3921524",NA
+"SAOUHSC_02852","3921525",NA
+"SAOUHSC_02853","3921526",NA
+"SAOUHSC_02855","3921527",NA
+"SAOUHSC_02856","3921528",NA
+"SAOUHSC_02857","3921529",NA
+"SAOUHSC_02858","3921530",NA
+"SAOUHSC_02859","3921531","sao00900_Terpenoid_backbone_biosynthesis, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02860","3921532","sao00280_Valine,_leucine_and_isoleucine_degradation, sao00650_Butanoate_metabolism, sao00900_Terpenoid_backbone_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02861","3921533",NA
+"SAOUHSC_02862","3921534",NA
+"SAOUHSC_02863","3921535",NA
+"SAOUHSC_02864","3921536",NA
+"SAOUHSC_02865","3921537",NA
+"SAOUHSC_02866","3921538",NA
+"SAOUHSC_02867","3921539",NA
+"SAOUHSC_02868","3921540",NA
+"SAOUHSC_02869","3921541","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00330_Arginine_and_proline_metabolism, sao01100_Metabolic_pathways"
+"SAOUHSC_02871","3921542",NA
+"SAOUHSC_02872","3921543",NA
+"SAOUHSC_02873","3921544",NA
+"SAOUHSC_02874","3921545",NA
+"SAOUHSC_02875","3921546","sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02876","3921547",NA
+"SAOUHSC_02877","3921548","sao00906_Carotenoid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02879","3921549","sao00906_Carotenoid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02880","3921550","sao00906_Carotenoid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02881","3921551","sao00906_Carotenoid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02882","3921552","sao00906_Carotenoid_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"SAOUHSC_02883","3921553",NA
+"SAOUHSC_02885","3921554",NA
+"SAOUHSC_02886","3921555",NA
+"SAOUHSC_02887","3921556",NA
+"SAOUHSC_02888","3921557",NA
+"SAOUHSC_02889","3921341",NA
+"SAOUHSC_02890","3921342",NA
+"SAOUHSC_02891","3921343",NA
+"SAOUHSC_02892","3921344",NA
+"SAOUHSC_02893","3921345",NA
+"SAOUHSC_02894","3921346",NA
+"SAOUHSC_02895","3921347",NA
+"SAOUHSC_02896","3921348",NA
+"SAOUHSC_02897","3921349",NA
+"SAOUHSC_02898","3921350",NA
+"SAOUHSC_02899","3921351",NA
+"SAOUHSC_02900","3921352",NA
+"SAOUHSC_02901","3921353",NA
+"SAOUHSC_02902","3921354",NA
+"SAOUHSC_02903","3921355",NA
+"SAOUHSC_02904","3921356",NA
+"SAOUHSC_02905","3921357",NA
+"SAOUHSC_02906","3921358",NA
+"SAOUHSC_02907","3921359",NA
+"SAOUHSC_02908","3921360",NA
+"SAOUHSC_02909","3921361","sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02910","3921362",NA
+"SAOUHSC_02911","3921363",NA
+"SAOUHSC_02912","3921364",NA
+"SAOUHSC_02913","3921365",NA
+"SAOUHSC_02914","3921366",NA
+"SAOUHSC_02915","3921367",NA
+"SAOUHSC_02916","3921368","sao00410_beta-Alanine_metabolism, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02918","3921369","sao00410_beta-Alanine_metabolism, sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02919","3921370","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02920","3921371","sao00770_Pantothenate_and_CoA_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02921","3921372","sao00650_Butanoate_metabolism, sao00660_C5-Branched_dibasic_acid_metabolism, sao01110_Biosynthesis_of_secondary_metabolites, sao01210_2-Oxocarboxylic_acid_metabolism"
+"SAOUHSC_02922","3921373","sao00010_Glycolysis_/_Gluconeogenesis, sao00270_Cysteine_and_methionine_metabolism, sao00620_Pyruvate_metabolism, sao00640_Propanoate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments"
+"gene-SAOUHSC_A02771",NA,NA
+"SAOUHSC_02923","3921374",NA
+"SAOUHSC_02924","3921375","sao00250_Alanine,_aspartate_and_glutamate_metabolism, sao00410_beta-Alanine_metabolism, sao00640_Propanoate_metabolism, sao00650_Butanoate_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments"
+"SAOUHSC_02925","3921376",NA
+"SAOUHSC_02926","3921377","sao00010_Glycolysis_/_Gluconeogenesis, sao00030_Pentose_phosphate_pathway, sao00051_Fructose_and_mannose_metabolism, sao00680_Methane_metabolism, sao00710_Carbon_fixation_by_Calvin_cycle, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02927","3921378","sao00020_Citrate_cycle_(TCA_cycle), sao00620_Pyruvate_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02928","3921379",NA
+"SAOUHSC_02929","3921636","sao00010_Glycolysis_/_Gluconeogenesis, sao00620_Pyruvate_metabolism, sao00630_Glyoxylate_and_dicarboxylate_metabolism, sao00640_Propanoate_metabolism, sao00680_Methane_metabolism, sao00720_Other_carbon_fixation_pathways, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02930","3921637",NA
+"SAOUHSC_02931","3921638",NA
+"SAOUHSC_02932","3921639","sao00260_Glycine,_serine_and_threonine_metabolism, sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways"
+"SAOUHSC_02933","3921640","sao00260_Glycine,_serine_and_threonine_metabolism, sao00670_One_carbon_pool_by_folate, sao01100_Metabolic_pathways"
+"SAOUHSC_02934","3921641",NA
+"SAOUHSC_02935","3921642",NA
+"SAOUHSC_02936","3921643",NA
+"SAOUHSC_02937","3921644",NA
+"SAOUHSC_02939","3921645",NA
+"SAOUHSC_02940","3921646",NA
+"SAOUHSC_02941","3921647",NA
+"SAOUHSC_02942","3921648","sao00230_Purine_metabolism, sao00240_Pyrimidine_metabolism, sao01100_Metabolic_pathways, sao01232_Nucleotide_metabolism"
+"SAOUHSC_02943","3921649",NA
+"SAOUHSC_02944","3921650",NA
+"SAOUHSC_02945","3921651","sao00860_Porphyrin_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors"
+"SAOUHSC_02947","3921652","sao00920_Sulfur_metabolism, sao01100_Metabolic_pathways, sao01120_Microbial_metabolism_in_diverse_environments, sao01320_Sulfur_cycle"
+"SAOUHSC_02948","3921653",NA
+"SAOUHSC_02949","3921654","sao00480_Glutathione_metabolism, sao01100_Metabolic_pathways"
+"gene-SAOUHSC_A02794",NA,NA
+"SAOUHSC_02950","3921655",NA
+"gene-SAOUHSC_A02795",NA,NA
+"SAOUHSC_02953","3921656","sao02010_ABC_transporters, sao02020_Two-component_system"
+"SAOUHSC_02954","3921657","sao02010_ABC_transporters, sao02020_Two-component_system"
+"SAOUHSC_02955","3921658","sao02020_Two-component_system"
+"SAOUHSC_02956","3921659","sao02020_Two-component_system"
+"SAOUHSC_02957","3921660",NA
+"gene-SAOUHSC_A02801",NA,NA
+"SAOUHSC_02958","3921661","sao00730_Thiamine_metabolism, sao00790_Folate_biosynthesis, sao01100_Metabolic_pathways, sao01240_Biosynthesis_of_cofactors, sao02020_Two-component_system"
+"SAOUHSC_02960","3921662",NA
+"SAOUHSC_02961","3921663",NA
+"SAOUHSC_02962","3921664",NA
+"SAOUHSC_02963","3921665","sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02964","3921666",NA
+"SAOUHSC_02965","3921667","sao00220_Arginine_biosynthesis, sao00230_Purine_metabolism, sao00910_Nitrogen_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01120_Microbial_metabolism_in_diverse_environments, sao01200_Carbon_metabolism"
+"SAOUHSC_02967","3921668",NA
+"SAOUHSC_02968","3921669","sao00220_Arginine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_02969","3921670","sao00220_Arginine_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites"
+"gene-SAOUHSC_A02811",NA,NA
+"SAOUHSC_02970","3921671",NA
+"SAOUHSC_02971","3921672","sao01503_Cationic_antimicrobial_peptide_(CAMP)_resistance, sao05150_Staphylococcus_aureus_infection"
+"SAOUHSC_02972","3921673",NA
+"SAOUHSC_02973","3921674",NA
+"SAOUHSC_02974","3921458",NA
+"SAOUHSC_02975","3921459","sao00051_Fructose_and_mannose_metabolism, sao01100_Metabolic_pathways, sao02060_Phosphotransferase_system_(PTS)"
+"SAOUHSC_02976","3921460","sao00051_Fructose_and_mannose_metabolism, sao00520_Amino_sugar_and_nucleotide_sugar_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01240_Biosynthesis_of_cofactors, sao01250_Biosynthesis_of_nucleotide_sugars"
+"SAOUHSC_02978","3921461",NA
+"SAOUHSC_02979","3921462",NA
+"SAOUHSC_02980","3921463",NA
+"SAOUHSC_02982","3921464",NA
+"SAOUHSC_02983","3921465",NA
+"SAOUHSC_02984","3921466",NA
+"SAOUHSC_02985","3921467","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_02986","3921468",NA
+"SAOUHSC_02987","3921469",NA
+"SAOUHSC_02988","3921470",NA
+"SAOUHSC_02989","3921471","sao02024_Quorum_sensing, sao03060_Protein_export, sao03070_Bacterial_secretion_system"
+"SAOUHSC_02990","3921472",NA
+"SAOUHSC_02991","3921473",NA
+"SAOUHSC_02992","3921474",NA
+"SAOUHSC_02993","3921475",NA
+"SAOUHSC_02994","3921476",NA
+"SAOUHSC_02995","3921477",NA
+"SAOUHSC_02996","3921478",NA
+"SAOUHSC_02997","3921479",NA
+"SAOUHSC_02998","3921480",NA
+"SAOUHSC_02999","3921481",NA
+"SAOUHSC_03000","3921482",NA
+"SAOUHSC_03001","3921483",NA
+"SAOUHSC_03002","3921484","sao00543_Exopolysaccharide_biosynthesis"
+"SAOUHSC_03003","3921485","sao00543_Exopolysaccharide_biosynthesis"
+"SAOUHSC_03004","3921486",NA
+"SAOUHSC_03005","3921487",NA
+"SAOUHSC_03006","3921488","sao00561_Glycerolipid_metabolism, sao01100_Metabolic_pathways"
+"gene-SAOUHSC_A02856",NA,NA
+"SAOUHSC_03008","3921489","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03009","3921490","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03010","3921491","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03011","3921492","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03012","3921493","sao00340_Histidine_metabolism, sao00350_Tyrosine_metabolism, sao00360_Phenylalanine_metabolism, sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis, sao00401_Novobiocin_biosynthesis, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03013","3921494","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03014","3921495","sao00340_Histidine_metabolism, sao01100_Metabolic_pathways, sao01110_Biosynthesis_of_secondary_metabolites, sao01230_Biosynthesis_of_amino_acids"
+"SAOUHSC_03015","3921496",NA
+"SAOUHSC_03016","3921283",NA
+"SAOUHSC_03017","3921284",NA
+"SAOUHSC_03018","3921285","sao02010_ABC_transporters"
+"SAOUHSC_03019","3921286",NA
+"SAOUHSC_03020","3921287",NA
+"SAOUHSC_03021","3921288",NA
+"SAOUHSC_03022","3921289",NA
+"SAOUHSC_03023","3921290",NA
+"SAOUHSC_03024","3921291",NA
+"SAOUHSC_03025","3921292",NA
+"SAOUHSC_03026","3921293",NA
+"SAOUHSC_03027","3921294",NA
+"SAOUHSC_03028","3921295",NA
+"SAOUHSC_03030","3921296",NA
+"SAOUHSC_03031","3921297",NA
+"SAOUHSC_03032","3921298",NA
+"SAOUHSC_03033","3921299",NA
+"SAOUHSC_03034","3921300",NA
+"SAOUHSC_03035","3921301",NA
+"SAOUHSC_03036","3921302","sao02010_ABC_transporters, sao02020_Two-component_system"
+"SAOUHSC_03037","3921303","sao02010_ABC_transporters, sao02020_Two-component_system"
+"SAOUHSC_03038","3921304",NA
+"SAOUHSC_03040","3921305",NA
+"SAOUHSC_03041","3921306",NA
+"SAOUHSC_03042","3921307",NA
+"SAOUHSC_03043","3921308",NA
+"SAOUHSC_03045","3921309",NA
+"SAOUHSC_03046","3921310",NA
+"SAOUHSC_03047","3921311",NA
+"SAOUHSC_03048","3921312",NA
+"SAOUHSC_03049","3921313",NA
+"SAOUHSC_03051","3921314",NA
+"SAOUHSC_03052","3921315",NA
+"SAOUHSC_03053","3921316",NA
+"SAOUHSC_03054","3921317",NA
+"SAOUHSC_03055","3921318","sao03010_Ribosome"
