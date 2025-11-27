@@ -73,9 +73,22 @@ res_df$neglog10padj <- -log10(res_df$padj)
 ############################################################
 p1 <- ggplot(res_df, aes(x = baseMean, y = log2FoldChange)) +
   geom_point(aes(color = signif), alpha = 0.5, size = 1) +
-  scale_color_manual(values = c("FALSE"="black","TRUE"="red")) +
-  scale_x_log10() +
-  geom_hline(yintercept = 0, linetype="dashed") +
+  scale_color_manual(
+    values = c("FALSE" = "black", "TRUE" = "red"),
+    name   = NULL,
+    labels = c("Not significant", "Significant (padj < 0.05)")
+  ) +
+  scale_x_log10(
+    breaks = 10^(0:5),
+    labels = scales::trans_format("log10", scales::math_format(10^.x)),
+    name = "Mean of normalized counts"
+  ) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  coord_cartesian(ylim = c(-4, 4)) +
+  labs(
+    y = "log2 Fold Change",
+    title = "MA-plot of complete RNA-seq dataset"
+  ) +
   theme_bw()
 
 ggsave(file.path(outdir, "MAplot_global.png"), p1, width = 6, height = 5)
@@ -87,7 +100,17 @@ p2 <- ggplot(res_df %>% filter(!is.na(padj)),
              aes(x = log2FoldChange, y = neglog10padj)) +
   geom_point(aes(color = signif), size=1, alpha=0.6) +
   geom_vline(xintercept = 0, linetype="dashed") +
-  scale_color_manual(values=c("FALSE"="black","TRUE"="red")) +
+  scale_color_manual(
+    values = c("FALSE" = "black", "TRUE" = "red"),
+    breaks = c("TRUE", "FALSE"),
+    labels = c("Significant (padj < 0.05)", "Not significant"),
+    name   = NULL
+  ) +
+ labs(
+    x = "log2 Fold Change (Persistent / Normal)",
+    y = "-log10(padj)",
+    title = "Volcano plot of differential expression"
+  ) +
   theme_bw()
 
 ggsave(file.path(outdir, "Volcano.png"), p2, width = 6, height = 5)
@@ -103,10 +126,13 @@ mat_scaled <- t(scale(t(mat_deg)))
 pheatmap(
   mat_scaled,
   color=colorRampPalette(rev(brewer.pal(11,"RdBu")))(100),
+  cluster_rows = TRUE,
+  cluster_cols = TRUE,
   show_rownames=FALSE,
   show_colnames=FALSE,
   filename=file.path(outdir,"Heatmap_DEGs.png")
 )
+
 
 ############################################################
 # PLOT 4 — PATHWAY BARPLOT (≥20 genes)
@@ -115,13 +141,18 @@ df_counts <- gene_pathways %>%
   filter(!is.na(pathways)) %>%
   separate_rows(pathways, sep=", ") %>%
   count(pathways, name="gene_count") %>%
-  filter(gene_count >= 20)
+  filter(gene_count >= 20) %>%
+  arrange(desc(gene_count))
 
 p3 <- ggplot(df_counts,
              aes(x=reorder(pathways, gene_count), y=gene_count)) +
   geom_bar(stat="identity", fill="steelblue") +
   coord_flip() +
+  labs(title = "Distribution of genes by pathway (>= 20 genes)",
+       x = "Pathway",
+       y = "Number of genes") +
   theme_bw()
+
 
 ggsave(file.path(outdir, "Pathways_barplot.png"), p3, width = 6, height = 7)
 
@@ -137,7 +168,20 @@ p_enrich <- ggplot(df_top25,
   geom_point(aes(size=n_genes)) +
   scale_color_gradient(low="#104E8B", high="#1E90FF") +
   scale_size(range=c(2,8)) +
-  theme_bw()
+  labs(
+    x = "Odds-Ratio",
+    y = "",
+    color = "FDR",
+    shape = "Enrichment",
+    size = "Pathway Size"
+  ) +
+  theme_bw(base_size = 13) +
+  theme(
+    panel.grid.minor = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.major.x = element_line(linetype = "dashed", color = "grey70"),
+    legend.position = "right"
+  )
 
 ggsave(file.path(outdir, "enrichment_top25.png"), p_enrich,
        width=7, height=7)
@@ -182,7 +226,8 @@ translation_genes <- annot_long %>%
   pull(locus_tag)
 
 res_translation <- res_df %>%
-  filter(locus_tag %in% translation_genes)
+  inner_join(translation_genes, by="locus_tag")
+
 
 ############################################################
 # Forced labels (tsf, frr, infA/B/C)
@@ -204,10 +249,14 @@ res_translation <- res_translation %>%
 # AA–tRNA synthetase genes (automatic from KEGG annotation)
 ############################################################
 
-aatRNA_synthetase <- gene_pathways %>%
-  filter(grepl("Aminoacyl-tRNA_biosynthesis", pathways)) %>%
-  pull(locus_tag) %>%
-  unique()
+aa_ids <- translation_genes %>%
+  filter(grepl("Aminoacyl-tRNA_biosynthesis", pathways, fixed=TRUE)) %>%
+  pull(locus_tag)
+
+res_translation <- res_translation %>%
+  mutate(
+    is_aa_trna = locus_tag %in% aa_ids
+  )
 
 ############################################################
 # Build plot — translation-only MA-plot with labels
@@ -219,24 +268,26 @@ p_translation <- ggplot(res_translation,
   geom_point(aes(color = signif),
              alpha = 0.6, size = 1.3) +
   
-  geom_point(data = res_translation %>%
-               filter(locus_tag %in% aatRNA_synthetase),
-             shape = 21, fill = NA, color = "black",
-             stroke = 1.1, size = 3.5) +
+  geom_point(
+    data = subset(res_translation, is_aa_trna),
+    shape = 21, fill = NA, color = "black",
+    stroke = 1.1, size = 3.5
+  ) +
   
-  geom_point(data = res_translation %>%
-               filter(!is.na(ids)),
-             color = "black", size = 3) +
+  geom_point(
+    data = subset(res_translation, !is.na(ids)),
+    color = "black", size = 3
+  ) +
   
-  geom_label_repel(data = res_translation %>%
-                     filter(!is.na(ids)),
-                   aes(label = ids),
-                   color = "black", size = 4,
-                   box.padding = 0.4,
-                   max.overlaps = Inf) +
+  geom_label_repel(
+    data = subset(res_translation, !is.na(ids)),
+    aes(label = ids),
+    color = "black", size = 4,
+    box.padding = 0.4,
+    max.overlaps = Inf
+  ) +
   
   scale_color_manual(values = c("FALSE"="grey60","TRUE"="red")) +
-  
   geom_hline(yintercept = 0, linetype="dashed") +
   labs(
     title = "MA-plot – Translation-related genes",
