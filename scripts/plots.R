@@ -239,7 +239,8 @@ forced_translation_genes <- tibble::tribble(
   "SAOUHSC_01236","frr",
   "SAOUHSC_02489","infA",
   "SAOUHSC_01246","infB",
-  "SAOUHSC_01786","infC"
+  "SAOUHSC_01786","infC",
+  "SAOUHSC_00475", "pth"
 )
 
 res_translation <- res_translation %>%
