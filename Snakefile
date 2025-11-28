@@ -1,6 +1,10 @@
-###############################################
-# Snakefile — Reprohackathon Project (version monolithique)
-###############################################
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Authors : Saïda MOUSSAEVA,                     ###
+### Camille LE CORRE, Laura LEFEVRE, Muyao GUO     ###
+### Description : Snakefile with rule all to       ###
+### run the pipeline                               ###
+######################################################
 
 # Loading configuration file
 configfile: "config.yaml"
@@ -26,8 +30,7 @@ include: "rules/deseq2.rules"
 include: "rules/enrichment.rules"
 include: "rules/plots.rules"
 
-
-
+# Main rule
 rule all:
     input:
         "output/counts/all_samples_counts.txt",
@@ -45,47 +48,3 @@ rule all:
         "output/enrichment/df_enrich_top25.csv",
 
         "output/plots/plots.done"
-
-
-
-
-###############################################
-# 0 — Download images from Zenodo
-###############################################
-
-###############################################
-# 1 — Download FASTQ
-###############################################
-
-#rule download_all_fastq:
-#    input:
-#        expand(f"{OUTDIR}/{{srr}}.fastq", srr=SRR_LIST)
-
-###############################################
-# 2 — Trimming
-###############################################
-
-#rule trimming_all:
-#    input:
-#        expand("output/trimmed/{srr}_trimmed.fq", srr=SRR_LIST)
-
-###############################################
-# 3 — Mapping
-###############################################
-
-#rule mapping_all:
-#    input:
-#        expand("output/mapping/{srr}.bam", srr=SRR_LIST),
-#        expand("output/mapping/{srr}.bam.bai", srr=SRR_LIST)
-
-###############################################
-# 4 — Counting
-###############################################
-
-#rule counting_all:
-#    input:
-#        "output/counts/all_samples_counts.txt"
-
-###############################################
-# 5 — Statistical Analysis (DESeq2)
-###############################################

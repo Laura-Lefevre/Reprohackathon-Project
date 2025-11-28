@@ -1,3 +1,10 @@
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Camille LE CORRE                      ###
+### Description : rule downloading_fastq to        ###
+### download the 6 FastQ files from their SRR      ###
+######################################################
+
 rule downloading_fastq:
     output:
         "output/fastq/{srr}.fastq"

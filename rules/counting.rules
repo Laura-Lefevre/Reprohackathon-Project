@@ -1,4 +1,12 @@
-# Counting with featureCounts
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Muyao GUO                             ###
+### Description : rule counting to perform read    ###
+### counting for all mapped samples using          ###
+### featureCounts                                  ###
+######################################################
+
+
 rule counting:
     input:
         bams = expand("output/mapping/{srr}.bam", srr=SRR_LIST),

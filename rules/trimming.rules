@@ -1,3 +1,10 @@
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Camille LE CORRE                      ###
+### Description : rule trimming to perform         ###
+### trimming                                       ###
+######################################################
+
 rule trimming:
     input:
         fastq="output/fastq/{srr}.fastq"

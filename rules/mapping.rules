@@ -1,4 +1,9 @@
-# Règle pour le mapping
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Laura LEFEVRE                         ###
+### Description : rule bowtie_map for mapping      ###
+######################################################
+
 rule bowtie_map:
     input:
         fastq="output/trimmed/{srr}_trimmed.fq",

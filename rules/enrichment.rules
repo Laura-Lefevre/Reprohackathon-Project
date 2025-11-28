@@ -1,13 +1,12 @@
-###############################################
-# ENRICHMENT RULES
-###############################################
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Saïda MOUSSAEVA                       ###
+### Description : rule enrichment for functionnal  ###
+### enrichment                                     ###
+######################################################
 
 ENRICH_DIR = "output/enrichment"
 DESEQ_DIR  = "output/deseq2"
-
-###############################################
-# RULE: enrichment
-###############################################
 
 rule enrichment:
     input:

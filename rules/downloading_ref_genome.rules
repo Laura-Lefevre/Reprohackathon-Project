@@ -1,4 +1,10 @@
-# Règle pour télécharger le génome de référence
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Laura LEFEVRE                         ###
+### Description : rule downloading_ref_genome to   ###
+### download reference genome                      ###
+######################################################
+
 rule downloading_ref_genome:
     output:
         "output/genome/reference.fasta"

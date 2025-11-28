@@ -1,5 +1,12 @@
 #!/usr/bin/env Rscript
 
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Saïda MOUSSAEVA, Camille LE CORRE     ###
+### Description : R file to get pathways of        ###
+### each gene                                      ###
+######################################################
+
 library(dplyr)
 library(tidyr)
 library(rentrez)

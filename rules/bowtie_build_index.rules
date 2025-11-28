@@ -1,4 +1,11 @@
-# Règle pour créer l'index Bowtie
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Laura LEFEVRE                         ###
+### Description : rule bowtie_build_index to       ###
+### build a Bowtie index from a reference genome   ###
+######################################################
+
+
 rule bowtie_build_index:
     input:
         fasta = "output/genome/reference.fasta"

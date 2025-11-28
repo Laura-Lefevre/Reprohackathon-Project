@@ -1,3 +1,10 @@
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Muyao GUO                             ###
+### Description : rule downloading_gtf to          ###
+### download the GTF annotation                    ###
+######################################################
+
 rule download_gtf:
     output:
         "SRR_annotated_gene.gtf"

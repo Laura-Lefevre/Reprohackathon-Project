@@ -1,14 +1,12 @@
-###############################################
-# PLOT RULES
-###############################################
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Saïda MOUSSAEVA                       ###
+### Description : rule plots to create the plots   ###
+######################################################
 
 DESEQ_DIR  = "output/deseq2"
 ENRICH_DIR = "output/enrichment"
 PLOT_DIR   = "output/plots"
-
-###############################################
-# RULE: plots
-###############################################
 
 rule plots:
     input:

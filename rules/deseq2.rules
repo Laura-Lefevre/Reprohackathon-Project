@@ -1,7 +1,9 @@
-# Differential expression with DESeq2
-########################################
-# RULE: DESeq2
-########################################
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Saïda MOUSSAEVA                       ###
+### Description : rule deseq2 for Differential     ###
+### expression analysis with DESeq2 (R)            ###
+######################################################
 
 COUNTS  = "output/counts/all_samples_counts.txt"
 SAMPLES = "metadata/samples.tsv"
@@ -32,4 +34,3 @@ rule deseq2:
             --vsd {params.vsd}
 
         """
-

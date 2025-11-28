@@ -1,5 +1,12 @@
 #!/usr/bin/env Rscript
 
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Saïda MOUSSAEVA                       ###
+### Description : R file for Differential          ###
+### expression analysis with DESeq2s               ###
+######################################################
+
 ###############
 # Parse args
 ###############

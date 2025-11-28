@@ -3,9 +3,7 @@ From: ubuntu:22.04
 
 %labels
     Author "Muyao GUO"
-    Tool "featureCounts (subread)"
-    Version "1.4.6-p3"
-    BuildDate "2025-10-28"
+    Description "Singularity container for featureCounts (subread)"
 
 %post
     apt-get update && \
@@ -19,15 +17,15 @@ From: ubuntu:22.04
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 %environment
-export PATH=/usr/local/bin:$PATH
-export LC_ALL=C
-export LANG=C
+    export PATH=/usr/local/bin:$PATH
+    export LC_ALL=C
+    export LANG=C
 
 %runscript
-exec featureCounts "$@"
+    exec featureCounts "$@"
 
 %help
-This container provides featureCounts from Subread version 1.4.6-p3.
-Example:
-    singularity exec counting.sif featureCounts -a genes.gtf -o counts.txt sample.bam
-    singularity run counting.sif -a genes.gtf -o counts.txt sample.bam
+    This container provides featureCounts from Subread version 1.4.6-p3.
+    Example:
+        singularity exec counting.sif featureCounts -a genes.gtf -o counts.txt sample.bam
+        singularity run counting.sif -a genes.gtf -o counts.txt sample.bam

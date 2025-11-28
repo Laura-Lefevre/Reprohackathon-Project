@@ -2,10 +2,8 @@ Bootstrap: docker
 From: ubuntu:22.04
 
 %labels
-    Author Camille Le Corre
-    Version v1.0
-    Description "Image Singularity pour télécharger des fichiers FASTQ avec sra-tools"
-
+    Author "Camille LE CORRE"
+    Description "Singularity container to download FastQ files with sra-tools"
 
 %post
     apt-get update && apt-get install -y sra-toolkit

@@ -1,5 +1,11 @@
 #!/usr/bin/env Rscript
 
+######################################################
+### Reprohackathon Project - 2025                  ###
+### Author : Saïda MOUSSAEVA, Camille LE CORRE     ###
+### Description : R file to create plots           ###
+######################################################
+
 args <- commandArgs(trailingOnly = TRUE)
 
 resdf_file      <- args[1]
