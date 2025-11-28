@@ -6,6 +6,8 @@
 ### Description : R file to create plots           ###
 ######################################################
 
+#!/usr/bin/env Rscript
+
 args <- commandArgs(trailingOnly = TRUE)
 
 resdf_file      <- args[1]
@@ -200,45 +202,39 @@ res_df$locus_tag <- sub(".*?(SAOUHSC_\\d+)", "\\1", res_df$Geneid)
 # Translation pathways — classification KEGG
 ############################################################
 
+# translation_pathways <- c(
+#   "sao00970_Aminoacyl-tRNA_biosynthesis",
+#   "sao03010_Ribosome",
+#   "sao01240_Biosynthesis_of_cofactors",
+#   "sao01230_Biosynthesis_of_amino_acids",
+#   "sao00470_D-Amino_acid_metabolism",
+#   "sao00250_Alanine,_aspartate_and_glutamate_metabolism",
+#   "sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis",
+#   "sao00350_Tyrosine_metabolism",
+#   "sao00360_Phenylalanine_metabolism",
+#   "sao00380_Tryptophan_metabolism",
+#   "sao00260_Glycine,_serine_and_threonine_metabolism",
+#   "sao00330_Arginine_and_proline_metabolism",
+#   "sao00290_Valine,_leucine_and_isoleucine_biosynthesis",
+#   "sao00280_Valine,_leucine_and_isoleucine_degradation",
+#   "sao00270_Cysteine_and_methionine_metabolism",
+#   "sao00340_Histidine_metabolism",
+#   "sao00310_Lysine_degradation",
+#   "sao00300_Lysine_biosynthesis",
+#   "sao00220_Arginine_biosynthesis"
+# )
+
+
 translation_pathways <- c(
   "sao00970_Aminoacyl-tRNA_biosynthesis",
   "sao03010_Ribosome",
-  "sao01240_Biosynthesis_of_cofactors",
-  "sao01230_Biosynthesis_of_amino_acids",
-  "sao00470_D-Amino_acid_metabolism",
-  "sao00250_Alanine,_aspartate_and_glutamate_metabolism",
-  "sao00400_Phenylalanine,_tyrosine_and_tryptophan_biosynthesis",
-  "sao00350_Tyrosine_metabolism",
-  "sao00360_Phenylalanine_metabolism",
-  "sao00380_Tryptophan_metabolism",
-  "sao00260_Glycine,_serine_and_threonine_metabolism",
-  "sao00330_Arginine_and_proline_metabolism",
-  "sao00290_Valine,_leucine_and_isoleucine_biosynthesis",
-  "sao00280_Valine,_leucine_and_isoleucine_degradation",
-  "sao00270_Cysteine_and_methionine_metabolism",
-  "sao00340_Histidine_metabolism",
-  "sao00310_Lysine_degradation",
-  "sao00300_Lysine_biosynthesis",
-  "sao00220_Arginine_biosynthesis"
+  "sao01230_Biosynthesis_of_amino_acids"
 )
-
-############################################################
-# Extract translation-related genes from annot_long
-############################################################
-
-translation_genes <- annot_long %>%
-  filter(pathways %in% translation_pathways) %>%
-  distinct(locus_tag) %>%
-  pull(locus_tag)
-
-res_translation <- res_df %>%
-  inner_join(translation_genes, by="locus_tag")
 
 
 ############################################################
 # Forced labels (tsf, frr, infA/B/C)
 ############################################################
-
 forced_translation_genes <- tibble::tribble(
   ~locus_tag, ~ids,
   "SAOUHSC_01234","tsf",
@@ -246,23 +242,46 @@ forced_translation_genes <- tibble::tribble(
   "SAOUHSC_02489","infA",
   "SAOUHSC_01246","infB",
   "SAOUHSC_01786","infC",
-  "SAOUHSC_00475", "pth"
+  "SAOUHSC_00475","pth"
 )
 
-res_translation <- res_translation %>%
+############################################################
+# Extract translation-related genes + force-insert forced ones
+############################################################
+translation_genes <- annot_long %>%
+  filter(pathways %in% translation_pathways) %>%
+  select(locus_tag, pathways) %>%
+  distinct()
+
+translation_genes <- bind_rows(
+  translation_genes,
+  tibble(
+    locus_tag = forced_translation_genes$locus_tag,
+    pathways  = "forced"
+  )
+) %>% distinct()
+
+############################################################
+# Build res_translation
+############################################################
+res_translation <- res_df %>%
+  inner_join(translation_genes, by="locus_tag") %>%
   left_join(forced_translation_genes, by="locus_tag")
 
 ############################################################
-# AA–tRNA synthetase genes (automatic from KEGG annotation)
+# AA–tRNA synthetases
 ############################################################
-
-aa_ids <- translation_genes %>%
-  filter(grepl("Aminoacyl-tRNA_biosynthesis", pathways, fixed=TRUE)) %>%
-  pull(locus_tag)
+aa_ids <- translation_genes$locus_tag[
+  grepl("Aminoacyl-tRNA_biosynthesis", translation_genes$pathways, fixed = TRUE)
+]
 
 res_translation <- res_translation %>%
   mutate(
-    is_aa_trna = locus_tag %in% aa_ids
+    is_aa_trna = locus_tag %in% aa_ids,
+    gene_type  = case_when(
+      is_aa_trna ~ "AA-tRNA synthetases",
+      TRUE       ~ "Other"
+    )
   )
 
 ############################################################
@@ -273,17 +292,23 @@ p_translation <- ggplot(res_translation,
                         aes(x = log2(baseMean + 1),
                             y = log2FoldChange)) +
   geom_point(aes(color = signif),
-             alpha = 0.6, size = 1.3) +
+             alpha = 0.9, size = 2.5) +
   
+  # Surcouche AA-tRNA (par-dessus, sans label)
   geom_point(
     data = subset(res_translation, is_aa_trna),
-    shape = 21, fill = NA, color = "black",
-    stroke = 1.1, size = 3.5
+    aes(x = log2(baseMean + 1), y = log2FoldChange),
+    shape = 21,           # cercle avec bordure
+    fill  = NULL,       # intérieur
+    color = "black",      # contour noir
+    size  = 2.5,
+    stroke = 1.1,         # épaisseur du contour
+    alpha = 1
   ) +
   
   geom_point(
     data = subset(res_translation, !is.na(ids)),
-    color = "black", size = 3
+    color = "black", size = 2.5
   ) +
   
   geom_label_repel(
@@ -292,6 +317,14 @@ p_translation <- ggplot(res_translation,
     color = "black", size = 4,
     box.padding = 0.4,
     max.overlaps = Inf
+  ) +
+
+  geom_point(
+    aes(x = NA, y = NA, shape = "AA-tRNA synthetases"),
+    color = "black",
+    fill  = "white",
+    size  = 3,
+    stroke = 1.2
   ) +
   
   scale_color_manual(values = c("FALSE"="grey60","TRUE"="red")) +
