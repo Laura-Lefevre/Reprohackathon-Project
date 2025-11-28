@@ -28,5 +28,10 @@ rule enrichment:
     shell:
         """
         mkdir -p {params.outdir}
-        Rscript scripts/enrichment.R {input.resdf} {params.outdir}
+        Rscript scripts/enrichment.R \
+            {input.resdf} \
+            {input.gene_ids} \
+            {input.pathways} \
+            {input.kegg} \
+            {params.outdir}
         """
