@@ -11,9 +11,9 @@ DESEQ_DIR  = "output/deseq2"
 rule enrichment:
     input:
         resdf = f"{DESEQ_DIR}/res_df.csv",
-        gene_ids   = "data/gene_ids.csv",
-        pathways   = "data/gene_pathways.csv",
-        kegg       = "data/kegg_pathways.rds"
+        gene_ids   = "enrichment_data/gene_ids.csv",
+        pathways   = "enrichment_data/gene_pathways.csv",
+        kegg       = "enrichment_data/kegg_pathways.rds"
 
     output:
         gene_ids      = f"{ENRICH_DIR}/gene_ids.csv",
