@@ -26,7 +26,6 @@ rule trimming:
         cutadapt \
             -m {params.minlen} \
             -q {params.quality} \
-            --phred={params.phred} \
             -o {output.trimmed_fastq} \
             {input.fastq} \
             2> {log}
