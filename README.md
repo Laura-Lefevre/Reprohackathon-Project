@@ -47,10 +47,11 @@ Reproducing or adapting the analysis to a new dataset mainly requires editing co
 
 ## Execution
 
-To run the workflow:  
-`snakemake --use-singularity --cores N` 
+To run the workflow, execute the provided script:
 
-Replace `N` with the number of threads available. Snakemake resolves dependencies, builds the directed acyclic graph (DAG) of jobs, and executes each rule in the correct order inside the appropriate Singularity container.
+`run.sh` 
+
+The script positions itself in the project directory, creates the base logs/ folder, and launches Snakemake with Singularity enabled. Snakemake then resolves dependencies, builds the directed acyclic graph (DAG), and executes each rule in the correct order inside the corresponding Singularity container.
 
 
 ## Repository structure 
