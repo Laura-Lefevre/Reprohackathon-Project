@@ -11,4 +11,4 @@ rule downloading_ref_annot:
     container:
         f"{ZENODO_URL}{SIF_LIST[2]}"
     shell:
-        "wget -O {output} 'https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&report=gff3&id=CP000253.1'"
+        "wget -O {output} 'https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&report=gff3&id={config[GENOME_ACCESSION]}'"
