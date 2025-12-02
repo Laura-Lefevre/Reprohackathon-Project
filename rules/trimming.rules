@@ -10,6 +10,8 @@ rule trimming:
         fastq="output/fastq/{srr}.fastq"
     output:
         trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
+    log:
+        "logs/trimming/{srr}.log"
     threads: THREADS
     container:
         f"{ZENODO_URL}{SIF_LIST[3]}"
@@ -22,7 +24,7 @@ rule trimming:
         """
         echo "Trimming {input.fastq} with cutadapt..."
         
-        cutadapt -m {params.minlen} -q {params.quality} -o {output.trimmed_fastq} {input.fastq}
+        cutadapt -m {params.minlen} -q {params.quality} -o {output.trimmed_fastq} {input.fastq} 2> {log}
         
         echo "Trimming complete for {wildcards.srr}"
         """
