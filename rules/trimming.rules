@@ -1,55 +1,28 @@
 ######################################################
-### Reprohackathon Project - 2025                  ###
-### Author : Camille LE CORRE                      ###
-### Description : rule trimming to perform         ###
-### trimming                                       ###
+### Reprohackathon Project - 2025
+### Author : Camille LE CORRE
+### Description : rule trimming
 ######################################################
 
 rule trimming:
     input:
-        fastq="output/fastq/{srr}.fastq"
+        fastq = "output/fastq/{srr}.fastq"
     output:
-        trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
+        trimmed_fastq = "output/trimmed/{srr}_trimmed.fq"
     log:
         "logs/trimming/{srr}.log"
     threads: THREADS
     container:
         f"{ZENODO_URL}{SIF_LIST[3]}"
     params:
-        outdir="output/trimmed",
+        outdir = "output/trimmed",
         quality = config["QUALITY"],
         phred   = config["PHRED"],
         minlen  = config["MINLEN"]
     shell:
         """
         echo "Trimming {input.fastq} with cutadapt..."
-        
-        ######################################################
-### Reprohackathon Project - 2025                  ###
-### Author : Camille LE CORRE                      ###
-### Description : rule trimming to perform         ###
-### trimming                                       ###
-######################################################
 
-rule trimming:
-    input:
-        fastq="output/fastq/{srr}.fastq"
-    output:
-        trimmed_fastq="output/trimmed/{srr}_trimmed.fq"
-    log:
-        "logs/trimming/{srr}.log"
-    threads: THREADS
-    container:
-        f"{ZENODO_URL}{SIF_LIST[3]}"
-    params:
-        outdir="output/trimmed",
-        quality = config["QUALITY"],
-        phred   = config["PHRED"],
-        minlen  = config["MINLEN"]
-    shell:
-        """
-        echo "Trimming {input.fastq} with cutadapt..."
-        
         cutadapt \
             -m {params.minlen} \
             -q {params.quality} \
@@ -57,10 +30,6 @@ rule trimming:
             -o {output.trimmed_fastq} \
             {input.fastq} \
             2> {log}
-        
-        echo "Trimming complete for {wildcards.srr}"
-        """
 
-        
         echo "Trimming complete for {wildcards.srr}"
         """
