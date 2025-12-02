@@ -22,4 +22,4 @@ PHRED: 33
 MINLEN: 25
 
 # reference genome parameters
-genome_accession: "CP000253.1"
+GENOME_ACCESSION: "CP000253.1"
