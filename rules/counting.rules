@@ -13,6 +13,8 @@ rule counting:
         gff  = "output/genome/reference.gff"
     output:
         "output/counts/all_samples_counts.txt"
+    log:
+        "logs/featureCounts/featureCounts.log"
     container:
         f"{ZENODO_URL}{SIF_LIST[1]}"
     params:
@@ -24,6 +26,7 @@ rule counting:
         featureCounts -t gene -g ID -s 1 \
                       -a {input.gff} \
                       -o {output} \
-                      {input.bams}
+                      {input.bams} \
+                      2> {log}
         echo "Combined featureCounts results saved to {output}"
         """
