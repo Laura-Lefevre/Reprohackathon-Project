@@ -20,3 +20,6 @@ SRR_LIST: ["SRR10379721", "SRR10379722", "SRR10379723", "SRR10379724", "SRR10379
 QUALITY: 20
 PHRED: 33
 MINLEN: 25
+
+# reference genome parameters
+genome_accession: "CP000253.1"
