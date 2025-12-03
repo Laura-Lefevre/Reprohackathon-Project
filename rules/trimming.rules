@@ -21,15 +21,14 @@ rule trimming:
         minlen  = config["MINLEN"]
     shell:
         """
-        {
-            echo "Trimming {input.fastq} with cutadapt..."
+        echo "Trimming {input.fastq} with cutadapt..." > {log} 2>&1
     
-            cutadapt \
-                -m {params.minlen} \
-                -q {params.quality} \
-                -o {output.trimmed_fastq} \
-                {input.fastq}
+        cutadapt \
+            -m {params.minlen} \
+            -q {params.quality} \
+            -o {output.trimmed_fastq} \
+            {input.fastq} \
+            >> {log} 2>&1
     
-            echo "Trimming complete for {wildcards.srr}"
-        } > {log} 2>&1
+        echo "Trimming complete for {wildcards.srr}" >> {log} 2>&1
         """
