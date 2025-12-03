@@ -47,7 +47,11 @@ Reproducing or adapting the analysis to a new dataset mainly requires editing co
 
 ## Execution
 
-To run the workflow, execute the provided script:
+To run the workflow, execute the following line : 
+
+`chmod +x run.sh`
+
+And then execute the provided script:
 
 `run.sh` 
 
