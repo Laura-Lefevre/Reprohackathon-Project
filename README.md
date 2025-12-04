@@ -96,7 +96,7 @@ The script positions itself in the project directory, creates the base logs/ fol
 
 ## Outputs
 
-This pipeline generates the folowwing output structure : 
+This pipeline generates the following output structure : 
 
 ├── outputs  
   ├── fastq               # Raw FASTQ files downloaded for all samples  
