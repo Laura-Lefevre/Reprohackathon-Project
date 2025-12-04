@@ -26,6 +26,28 @@ Parameters are passed from Snakemake/config rather than hard-coded in the contai
 
 Re-running the pipeline in the future reuses exactly the same software stack as in this ReproHackathon, maximising proximity to the original article’s results.
 
+#### Software versions (as used inside the Singularity containers)  
+
+- R 4.3.3
+
+- Bioconductor 3.18
+
+- DESeq2 1.42.1
+
+- EnrichmentBrowser 2.32.0
+
+- Fasterq-dump 2.11.4
+
+- SRA Toolkit 3.1.1
+
+- Cutadapt 1.11
+
+- Bowtie2 0.12.7
+
+- SAMtools 1.22.1
+
+- Subread / featureCounts 1.4.6-p3
+
 ### Rules
 
 Snakemake rules are split across multiple .rules files under `rules/` (e.g. download, trimming, mapping, counting, DESeq2, enrichment).
